@@ -1,0 +1,2972 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202402 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.omega-ritual.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2002                
+POS_TIME 2686                
+POS_VISITOR 81219               
+POS_DAY 112677              
+POS_DOMAIN 3672                
+POS_LOGIN 3907                
+POS_ROBOT 4062                
+POS_WORMS 5372                
+POS_EMAILSENDER 5503                
+POS_EMAILRECEIVER 5646                
+POS_SESSION 113574              
+POS_SIDER 113787              
+POS_FILETYPES 5781                
+POS_DOWNLOADS 6128                
+POS_OS 6360                
+POS_BROWSER 6640                
+POS_SCREENSIZE 11008               
+POS_UNKNOWNREFERER 11082               
+POS_UNKNOWNREFERERBROWSER 11821               
+POS_ORIGIN 12107               
+POS_SEREFERRALS 12260               
+POS_PAGEREFS 12532               
+POS_SEARCHWORDS 12854               
+POS_KEYWORDS 13139               
+POS_MISC 2349                
+POS_ERRORS 13321               
+POS_CLUSTER 3763                
+POS_SIDER_404 13543               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240301000829 511 135864 15003654842466
+FirstTime 20240201003127
+LastTime 20240229234850
+LastUpdate 20240301044913 511 0 510 0 0
+TotalVisits 1797                
+TotalUnique 738                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 810                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 36 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 179 513 21269834 153 240 4300865
+1 156 297 13845137 153 430 3723330
+2 149 314 20499591 133 309 3487897
+3 107 135 13137313 121 302 4423802
+4 103 136 10858170 85 191 3905226
+5 104 144 10977594 106 279 2934027
+6 137 239 15083941 162 276 5565698
+7 111 158 13318330 194 463 6598915
+8 219 523 20228320 484 646 8474090
+9 160 591 19997250 120 167 2596785
+10 185 870 29716920 666 717 2608980
+11 289 1022 40870552 573 630 6668756
+12 338 1104 34121912 137 286 5286666
+13 277 1077 31793961 136 290 7757364
+14 256 1251 31741136 171 254 6691630
+15 206 825 29611639 131 247 3900940
+16 344 1620 57046278 214 297 5243266
+17 166 490 23875436 359 593 9050203
+18 190 709 22625998 328 425 6961238
+19 244 1036 34779682 395 440 8587709
+20 240 797 31161971 324 410 5757571
+21 160 795 28298233 110 212 4077570
+22 174 562 28679901 137 186 2876079
+23 142 629 23072650 121 246 3639897
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 4636 15837 606611749
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 29
+bingbot/ 1302 12174537 20240229194917 21
+wordpress 1185 1340945 20240229234848 0
+Apache\-HttpClient/ 893 487654 20240228211900 0
+AhrefsBot/ 358 8406932 20240229234846 48
+Googlebot/ 340 4475796 20240229144419 22
+Googlebot\-Image/ 332 20223107 20240229131604 0
+AdsBot\-Google[\x20]\( 329 2709348 20240229060452 0
+Applebot/ 275 3291507 20240229233545 15
+YandexBot/ 121 2810308 20240229051153 57
+yandex 76 801071 20240224082011 0
+Dalvik/ 1 6770 20240229060453 0
+bot[\s_+:,\.\;\/\\-] 54 1992053 20240228170949 2
+python 15 567382 20240228044052 1
+CFNetwork 2 16097 20240215085453 0
+core 30 316466 20240229060453 0
+Screaming[\x20]Frog[\x20]SEO[\x20]Spider/ 6 169689 20240221112722 3
+dataprovider\.com 67 2539535 20240219123501 1
+facebookexternalhit/ 9 1147208 20240229190934 2
+curl 2 56578 20240227114520 0
+custo 8 2044315 20240228040650 0
+(firefox/)([0-9]\.|[0-1][0]\.) 3 57378 20240225130047 0
+unknown 19 7992 20240228043751 19
+netcraft 1 255552 20240205053836 0
+crawl 18 3290825 20240204140218 0
+php 2 56552 20240228192829 0
+oBot/ 2 56574 20240204043812 1
+no_user_agent 33 6109448 20240226034133 0
+DuckDuckGo\-Favicons\-Bot/ 22 692251 20240227011912 0
+link 2 1358 20240224224628 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+woff 4 43224 0 0
+webp 24 983574 0 0
+html 3941 314210194 0 0
+svg 2188 8338257 0 0
+js 3179 35820297 0 0
+gif 2 18894 0 0
+jpg 2135 148819955 0 0
+woff2 183 1251485 0 0
+css 1403 10104038 0 0
+eot 2 23040 0 0
+php 385 3229244 0 0
+Unknown 96 3576637 0 0
+png 2294 80181558 0 0
+ttf 1 11352 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/wp-content/plugins/kk-star-ratings/readme.txt 1 0 1835
+/wp-content/plugins/contact-form-7/readme.txt 1 0 2206
+/wp-content/plugins/popup-notifier-for-contact-form-7/readme.txt 1 0 994
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+macosx 345 93
+ios_iphone 2342 123
+bsdnetbsd 1 1
+macosx11 2 1
+win8.1 137 77
+winxp 9 9
+win7 181 101
+Unknown 2379 2356
+linuxandroid 5386 898
+macosx7 8 1
+macosx9 3 3
+win8 2 2
+win10 4775 842
+linux 256 118
+winlong 11 11
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 208
+chrome106.0.0.0 5 3
+chrome67.0.3396.99 1 1
+chrome36.0.1767.390 1 1
+chrome79.0.3945.130 2 2
+chrome121.0.6167.101 1 0
+firefox49.0 3 3
+chrome19.0.1084.9 1 1
+chrome83.0.4103.106 1 1
+msie11.0 1 1
+firefox50.0 1 1
+chrome65.0.3152.119 3 3
+chrome79.0.3945.88 66 66
+chrome19.0.1061.0 1 1
+firefox91.0 1 1
+opera89.0.4447.51 10 10
+safari17.3.1 371 19
+chrome60.0.3112.107 28 19
+firefox118.0 13 13
+chrome48.0.2564.109 1 1
+firefox69.0 2 2
+chrome44.0.2403.157 1 1
+chrome63.0.3239.132 2 2
+chrome74.0.3729.131 5 5
+chrome38.0.1025.166 1 1
+chrome49.0.2623.112 1 1
+firefox53.0 3 3
+chrome53.0.2785.143 3 3
+chrome87.0.4280.141 1 0
+chrome30.0.2266.636 1 1
+safari17.2 682 30
+chrome33.0.1832.730 1 1
+firefox57.0 2 2
+firefox55.0 1 1
+chrome120.0.6099.144 2 0
+chrome85.0.4183.121 1 1
+firefox74.0 1 1
+chrome47.0.2526.106 1 1
+chrome121.0.0.0 6367 983
+firefox66.0 2 2
+firefox43.0 1 1
+chrome36.0.1985.125 4 4
+chrome68.0.3440.106 5 5
+chrome95.0.4638.74 2 0
+chrome121.0.6167.164 197 22
+firefox95.0 25 25
+chrome72.0.3626.109 2 2
+opera102.0.0.0 7 7
+firefox87.0 2 2
+chrome89.0.2230.104 1 1
+firefox76.0 4 4
+opera107.0.0.0 295 49
+chrome87.0.4280.67 1 1
+chrome83.0.4103.116 1 1
+chrome66.0.3359.158 1 1
+chrome81.0.4044.138 1 1
+chrome80.0.3987.162 1 1
+firefox75.0 1 1
+chrome109.0.0.0 509 52
+firefox41.0 1 1
+chrome77.0.3865.92 40 4
+android 3 0
+safari15.4 2 2
+chrome104.0.5112.34 9 9
+chrome119.0.0.0 62 12
+chrome94.0.4606.85 23 1
+firefox111.0 39 39
+safari15.6.6 5 0
+safari16.5.1 2 2
+chrome103.0.0.0 61 61
+firefox63.0 2 2
+chrome118.0.0.0 19 19
+firefox48.0 1 1
+chrome83.0.4103.97 4 4
+firefox100.0 5 5
+netscape5.0 1 1
+chrome64.0.2201.131 1 1
+firefox78.0 2 2
+chrome70.0.3538.77 1 1
+chrome120.0.0.0 450 48
+firefox92.0 1 1
+chrome88.0.4324.150 2 2
+firefox68.0 3 3
+firefox61.0 2 2
+chrome46.0.2490.80 2 2
+chrome121.0.6167.160 55 2
+Unknown 1505 1503
+chrome117.0.5938.132 61 4
+firefox104.0 1 1
+firefox45.0 3 3
+firefox47.0 3 3
+safari9.0.2 2 1
+safari17.0.1 66 2
+chrome35.0.6585.009 1 1
+firefox79.0 2 2
+firefox64.0 1 1
+chrome65.0.3325.181 1 1
+chrome104.0.0.0 1 0
+chrome122.0.0.0 618 91
+safari16.2 74 4
+firefox46.0 1 1
+safari15.5 54 2
+chrome18.0.1025.166 1 1
+chrome47.0.2526.111 2 2
+chrome91.0.4472.114 60 15
+firefox88.0 1 1
+firefox54.0 4 4
+chrome114.0.0.0 216 69
+chrome60.0.3112.113 1 1
+safari17.1.1 30 2
+chrome114.0.5735.198 1 1
+chrome115.0.0.0 305 65
+chrome121.0.6167.143 8 0
+chrome88.0.4324.190 1 1
+opera78.5.4143.75924 4 0
+chrome64.0.3282.167 2 2
+firefox81.0 1 1
+chrome71.0.2623.112 1 1
+chrome86.0.4240.193 1 1
+chrome70.0.3538.102 2 2
+chrome5.0.375.99 7 7
+chrome120.0.6099.230 4 0
+chrome72.0.3626.121 2 2
+opera101.0.0.0 1 1
+safari17.1.2 62 2
+chrome91.0.4472.124 5 5
+mozilla 805 784
+chrome75.0.3770.143 1 1
+chrome37.0.3008.214 1 1
+firefox84.0 3 3
+edge44 2 2
+chrome121.0.6167.144 1 0
+chrome80.0.3987.132 2 2
+firefox42.0 1 1
+chrome98.0.4758.102 1 1
+chrome120.0.6099.71 2 2
+firefox94.0 2 2
+chrome64.0.3282.140 1 1
+safari16.6 312 36
+opera84.0.4316.14 1 1
+firefox114.0 22 22
+chrome91.0.4472.77 1 1
+chrome48.0.2564.116 1 1
+safari17.0 1 1
+chrome86.0.4240.198 1 1
+chrome89.0.4389.90 1 1
+chrome80.0.3987.163 2 2
+chrome17.0.963.56 8 1
+chrome60.0.3112.90 1 1
+firefox44.0 5 5
+chrome67.0.3396.87 1 1
+safari16.0 53 2
+chrome112.0.0.0 1 1
+firefox115.0 94 14
+chrome101.0.4951.61 1 1
+chrome80.0.3987.149 1 1
+chrome87.0.4280.88 413 17
+chrome121.0.6167.85 23 1
+edge17 1 1
+firefox122.0 73 10
+chrome74.0.3729.169 7 7
+firefox86.0 3 3
+chrome79.0.3945.117 1 1
+chrome105.0.0.0 11 7
+chrome103.0.5060.114 2 2
+firefox85.0 5 5
+chrome102.0.0.0 67 7
+chrome41.0.2272.101 2 2
+firefox59.0 1 1
+chrome101.0.0.0 1 1
+firefox52.0 2 2
+firefox70.0 6 6
+chrome84.0.4147.135 1 1
+chrome55.0.2883.87 1 1
+chrome73.0.3683.75 1 1
+firefox56.0 3 3
+firefox83.0 1 1
+chrome108.0.0.0 17 17
+chrome242.02.8301.120 9 9
+chrome121.0.6167.178 4 0
+galeon 1 1
+opera106.0.0.0 198 25
+chrome116.0.0.0 24 24
+chrome102.0.5005.63 1 1
+chrome104.0.5112.79 24 2
+chrome21.0.1180.83 1 1
+chrome68.0.3440.91 82 14
+firefox117.0 31 31
+chrome34.0.0836.677 1 1
+safari17.3 33 2
+chrome70.0.3538.110 2 0
+chrome113.0.0.0 6 6
+firefox40.0 1 1
+firefox82.0 1 1
+chrome32.0.1700.107 2 2
+safari 613 26
+firefox90.0 3 3
+chrome60.0.3112.101 1 1
+firefox71.0 1 1
+firefox96.0 2 2
+chrome42.0.2311.90 1 1
+chrome58.0.3029.110 3 3
+chrome34.0.1847.116 7 7
+chrome109.0.5414.120 1 1
+chrome117.0.0.0 48 48
+iphone 114 12
+firefox29.0 1 1
+firefox89.0 2 2
+opera78.0.2254.70362 83 16
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20240213095133
+Embarcadero_URI_Client/1.0 20240220130444
+ClaudeBot 20240213051844
+WhatsApp/2 20240218091039
+Mozilla/5.0_(compatible;HostTracker/2.0;_http://www.host-tracker.com/) 20240229230824
+WP_Rocket/Preload 20240229234850
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko)_Chrome/74.0.3729.131_Safari/537.36 20240224112200
+User-Agent:_SEOlyt/1.0_(SEO_analysis_tool;_https://seolyt.com) 20240224143248
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko;_compatible;_GeedoProductSearch;__http://www.geedo.com/product-search.html)_Chrome/79.0.3945.88_Safari/537.36 20240227121724
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+WhatsApp/2 20240218091039
+WP_Rocket/Preload 20240229234850
+User-Agent:_SEOlyt/1.0_(SEO_analysis_tool;_https://seolyt.com) 20240224143248
+ClaudeBot 20240213051844
+Embarcadero_URI_Client/1.0 20240220130444
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2099 2315
+From1 20 29
+From2 252 339
+From3 787 787
+From4 1478 12367
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 8
+google_com 1 10
+baidu 8 8
+www_google_com 222 286
+search 1 1
+www_google_com_ua 14 28
+bing 4 4
+www_google_com_hk 1 1
+yandexru 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://www.host-tracker.com/UptimeGraph/Graph/f02777b2-af01-47de-b3f4-cfc7ef7ceaef 774 774
+https://tooran.com.ua 9 9
+https://www.4595.com.ua 2 2
+https://inbrowserapp.com 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+https+//omega-ritual.com.ua/vedushhij-na-pohorony/ 1
+https+//omega-ritual.com.ua/ 1
+https+//omega-ritual.com.ua/uk/shtuchni-vinki/ 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+https 3
+//omega-ritual.com.ua/ 1
+//omega-ritual.com.ua/uk/shtuchni-vinki/ 1
+//omega-ritual.com.ua/vedushhij-na-pohorony/ 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 11
+409 4 11086
+403 132 51948
+404 2014 48260244
+301 403 174542
+405 4 1190
+503 29 13601
+201 1 1054
+500 286 400674
+302 98 50557
+400 2 836
+429 20 32240
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1470
+/dropdown.php 7 -
+/wp-content/themes/thestation/functions/ 1 www.google.com
+/wp-content/themes/r755/ 1 www.google.com
+/sites/all/libraries/elfinder/elfinder.html 1 -
+/wp-admin/css/colors/blue/RxRwyHLLtz.php 1 -
+/wp-content/themes/famous/ 1 www.google.com
+/passwords.txt 1 -
+/wp-content/plugins/wp-doft/noimg.php 2 http://omega-ritual.com.ua/wp-content/plugins/wp-doft/noimg.php
+/rx.php 1 -
+/wp-includes/Requests/Proxy/about.php 1 -
+/.well-known/acme-challenge/iR7SzrsOUEP.php 1 -
+/wp-admin/css/colors/light/content.php 3 -
+/xleet.php 1 -
+/wp-content/themes/exposure/functions/ 1 www.google.com
+/wp-concent/themes/freshy/ 1 www.google.com
+/wp-content/themes/typebased/functions/ 1 www.google.com
+/wp-includes/SimplePie/about.php 1 -
+/wp-admin/includes/plugins.php 2 omega-ritual.com.ua
+/wp-content/plugins/user-meta/framework/helper/ 1 www.google.com
+/wp-content/plugins/wpvivid-backuprestore/readme.txt 1 -
+/wp-admin/css/colors/coffee/profile.php 3 -
+/cgi-bin/admin.php 1 -
+/wp-content/themes/profitstheme/tools/ 1 www.google.com
+/wp-apxupx.php 1 -
+/wp_filemanager.php 1 -
+/wp-content/mu-plugins/ 1 www.google.com
+/wp-includes/PHPMailer/plugins.php 1 omega-ritual.com.ua
+/hunter.php 1 -
+/.sftp-config.json 1 -
+/wp-content/plugins/feature-slideshow/ 1 www.google.com
+/wp-content/themes/openair/scripts/ 1 www.google.com
+/wp-includes/dropdown.php 1 -
+/wp-content/themes/flashnews/scripts/ 1 www.google.com
+/wp-content/themes/mypage/scripts/ 1 www.google.com
+/wp-admin/css/colors/blue/atomlib.php 1 http://omega-ritual.com.ua/wp-admin/css/colors/blue/atomlib.php
+/images/mariju.php 1 -
+/wp-content/plugins/sliceshow-slideshow/scripts/ 1 www.google.com
+/wp-content/themes/regal/ 1 www.google.com
+/wp-content/themes/index/ 1 www.google.com
+/wp-includes/js/tinymce/themes/advanced/ 1 www.google.com
+/wp-content/plugins/auctionPlugin/ 1 www.google.com
+/wp-content/plugins/communitypress/cp-themes/cp-default/ 1 www.google.com
+/wp-content/themes/linepress/ 1 www.google.com
+/alfanew.php7 1 -
+/auto_seo.php 2 -
+/wp-content/themes/premiumnews/scripts/ 1 www.google.com
+/wp-content/plugins/igit-related-posts-with-thumb-images-after-posts/plugins/ 1 www.google.com
+/wp-content/themes/headlines/tools/ 1 www.google.com
+/wp-includes/widgets/include.php 2 -
+/cgi-bin/install_php1.php 1 -
+/cgi-bin/upfile_(2).php 1 -
+/403.php 1 -
+/wp-content/themes/greyzed/functions/efrog/lib/ 1 www.google.com
+/wp-admin/images/class.api.php 1 -
+/wp-includes/style.php 5 -
+/cloud.php 1 -
+/wp-concent/themes/ascetica/ 1 www.google.com
+/wp-admin/images/file.php 1 http://omega-ritual.com.ua/wp-admin/images/file.php
+/wp-content/themes/Polished/tools/ 1 www.google.com
+/wp-content/themes/Nova/scripts/ 1 www.google.com
+/wp-content/themes/note/ 1 www.google.com
+/wp-content/plugins/event-espresso-free/includes/functions/ 1 www.google.com
+/worm0.PhP7 1 -
+/wp-concent/themes/minimum/ 1 www.google.com
+/wp-content/themes/versatile/ 1 www.google.com
+/wp-admin/xmrlpc.php 1 -
+/wp-content/themes/estate/functions/ 1 www.google.com
+/manager/assets/modext/license.txt 1 -
+/wp-content/themes/twentyfive/include.php 1 -
+/wp-content/themes/eVid/ 1 www.google.com
+/wp-content/themes/crisp/tools/ 1 www.google.com
+/css/ 1 -
+/wp-content/themes/13Floor/ 1 www.google.com
+/wp-admin/maint/termps.php 1 -
+/wp-content/themes/calotropis/includes/ 1 www.google.com
+/wp-content/themes/mymag/scripts/ 1 www.google.com
+/wp-content/themes/aqua-blue/includes/ 1 www.google.com
+/wp-content/themes/caffeinated/functions/ 1 www.google.com
+/wp-content/themes/Apz/tools/ 1 www.google.com
+/wp-includes/js/jcrop/themes.php 1 -
+/wp-content/themes/TheSource/scripts/ 1 www.google.com
+/wp-admin/css/plugins.php 1 omega-ritual.com.ua
+/wp-content/themes/aureola/scripts/ 1 www.google.com
+/wp-includes/bookmarks.php 1 -
+/wp-content/themes/a/ 1 www.google.com
+/wp-content/themes/backstage/ 1 www.google.com
+/wp-concent/themes/inuit-types/ 1 www.google.com
+/wp-concent/themes/origin/ 1 www.google.com
+/wp-content/plugins/wordpresss3cll/includes.php 1 -
+/wp-content/themes/cityguide/functions/ 1 www.google.com
+/wp-concent/themes/further/ 1 www.google.com
+/wp-content/themes/comet/scripts/ 1 www.google.com
+/wp-content/plugins/geotag/tools/timthumb/ 1 www.google.com
+/wp-content/themes/inspire/scripts/ 1 www.google.com
+/wp-content/themes/comfy-3.0.9/ 1 www.google.com
+/wp-content/themes/TheSource/ 1 www.google.com
+/wp-content/plugins/yd-export2email/ 1 www.google.com
+/sitemap.txt 5 -
+/wp-content/plugins/backup-backup/includes/backup-heart.php 2 -
+/shx.php 1 -
+/wp-concent/themes/delicacy/ 1 www.google.com
+/wp-content/themes/bookclub/functions/ 1 www.google.com
+/bs.php 1 -
+/wp-content/themes/travel/issue.php 1 www.google.com
+/about/admin.php 1 omega-ritual.com.ua
+/img/admin.php 1 omega-ritual.com.ua
+/wp-includes/Requests/Proxy/ 1 www.google.com
+/cgi-bin/plugins.php 2 omega-ritual.com.ua
+/alfanew.php 2 -
+/wp-concent/themes/manifest/ 1 www.google.com
+/.well-known/pki-validation/2index.php 1 omega-ritual.com.ua
+/wp-content/themes/announcement/functions/ 2 www.google.com
+/wp-content/themes/canvas/ 1 www.google.com
+/wp-content/themes/introvert/ 1 www.google.com
+/module/admin.php 1 omega-ritual.com.ua
+/wp-content/themes/flatsome/readme.txt 1 -
+/wp-content/themes/suffusion/suffusion/ 1 www.google.com
+/wp-content/themes/premiere/functions/ 1 www.google.com
+/wp-content/themes/arthem-mod/scripts/ 1 www.google.com
+/wp-admin/js/404.php 1 http://omega-ritual.com.ua/wp-admin/js/404.php
+/wp-includes/widgets/plugins.php 1 omega-ritual.com.ua
+/wp-content/themes/ePhoto/ 1 www.google.com
+/wp-content/themes/newsworld/tools/ 1 www.google.com
+/wp-content/themes/Basic/tools/ 1 www.google.com
+/wp-content/themes/freeside/ 1 www.google.com
+/mah/admin.php 1 omega-ritual.com.ua
+/wp-content/themes/mymag/tools/ 1 www.google.com
+/wp-content/themes/neo_wdl/includes/extensions/ 1 www.google.com
+/wp-includes/SimplePie/Captions.php 1 -
+/images/images/admin.php 1 omega-ritual.com.ua
+/bgs.php 1 -
+/wp-content/themes/bikes/ 1 www.google.com
+/class.api.php 1 -
+/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/smoothness.php 1 -
+/wp-content/themes/mystream/scripts/ 1 www.google.com
+/wp-content/themes/backstage/functions/ 1 www.google.com
+/leafmailer2.8.php 1 -
+/wp-content/themes/info/ 1 www.google.com
+/wp-content/themes/standout/ 1 www.google.com
+/wp-admin/maint/themes.php 1 -
+/wp-content/themes/aqua-blue/scripts/ 1 www.google.com
+/about.php 13 -
+/wp-includes/css/plugins.php 1 omega-ritual.com.ua
+/wp-content/plugins/timthumb-vulnerability-scanner/ 1 www.google.com
+/wp-content/plugins/verve-meta-boxes/tools/ 1 www.google.com
+/wp-content/plugins/wp-pagenavi/ 1 www.google.com
+/.well-known/acme-challenge/install.php 1 -
+/text.php 1 -
+/wp-content/themes/openair/ 1 www.google.com
+/wp-content/themes/simplicity/functions/ 1 www.google.com
+/wp-content/themes/coda/themes/coda/ 1 www.google.com
+/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css 1 -
+/wp-content/themes/vina/ 1 www.google.com
+/wp-concent/themes/on-demand/ 1 www.google.com
+/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/rules.key 2 omega-ritual.com.ua
+/wp-content/plugins/wp-property/ 1 www.google.com
+/wp-content/themes/thejournal/scripts/ 1 www.google.com
+/.well-known/2index.php 1 omega-ritual.com.ua
+/wp-content/themes/coverht-wp/scripts/ 1 www.google.com
+/wp-content/themes/DeepFocus/ 1 www.google.com
+/wp-content/themes/shaan/ 1 www.google.com
+/wp-content/plugins/uBillboard/ 1 www.google.com
+/nf_tracking.php 4 www.google.com
+/wp-content/themes/bluemag/library/ 1 www.google.com
+/wp-admin/css/colors/light/wp-login.php 3 -
+/wp-includes/Requests/Exception/HTTP/RxRFENHTed.php 1 -
+/wp-content/themes/arthemix-bronze/scripts/ 1 www.google.com
+/wp-content/wp-login.php 1 -
+/wp-content/themes/bloggingstream/functions/ 1 www.google.com
+/wp-content/themes/Magnificent/scripts/ 1 www.google.com
+/wp-content/themes/overeasy/scripts/ 1 www.google.com
+/wp-includes/Requests/about.php 1 -
+/index.php 10 -
+/wp-concent/themes/magazine/ 1 www.google.com
+/wp-includes/ID3/about.php 1 -
+/wp-content/themes/ElegantEstate/ 1 www.google.com
+/wp-includes/certificates/plugins.php 2 omega-ritual.com.ua
+/wp-content/themes/delicate/ 1 www.google.com
+/wp-content/plugins/woocommerce-payments/readme.txt 1 -
+/wp-content/themes/thejournal/ 1 www.google.com
+/wp-content/themes/PersonalPress/scripts/ 1 www.google.com
+/wp-content/themes/snapshot/ 1 www.google.com
+/wp-content/themes/cinch/ 1 www.google.com
+/wp-content/themes/premiumnews/functions/ 1 www.google.com
+/wp-content/themes/eGamer/ 1 www.google.com
+/wp-content/plugins/lim4wp/ 1 www.google.com
+/.well-known/content.php 1 omega-ritual.com.ua
+/js/ 1 omega-ritual.com.ua
+/css/xmrlpc.php 1 -
+/wp-includes/IXR/class-IXR-update.php 1 -
+/_profiler/phpinfo 1 -
+/wp-content/themes/newsworld/ 2 www.google.com
+/wp-content/themes/Avenue/Avenue.Allrightsreserved./ 1 www.google.com
+/wp-content/themes/classifiedstheme/thumbs/wp-content/themes/classifiedstheme/thumbs/ 1 www.google.com
+/wp-includes/customize/plugins.php 2 omega-ritual.com.ua
+/bk 7 http://omega-ritual.com.ua/bk
+/wp-content/themes/magazinum/scripts/ 1 www.google.com
+/wp-admin/includes/themes.php 1 -
+/function.php 2 http://omega-ritual.com.ua/function.php
+/wp-content/themes/graduate/ 1 www.google.com
+/wp-content/plugins/lol.php 1 -
+/radio.php 2 -
+/wp-admin/maint/mariju.php 1 -
+/wp-content/themes/Modest/ 1 www.google.com
+/wp-content/themes/twittplus/scripts/ 1 www.google.com
+/wp-includes/js/tinymce/themes/advanced/skins/ 1 www.google.com
+/wp-content/themes/wp-creativix/scripts/ 1 www.google.com
+/wp-content/themes/mypolylens/sp-framework/wp-content/themes/mypolylens/sp-framework/ 1 www.google.com
+/wp-content/themes/down/ 1 www.google.com
+/wp-content/themes/Boutique/ 1 www.google.com
+/main 7 http://omega-ritual.com.ua/main
+/wp-content/plugins/wp-pagenavi/inc/ 1 www.google.com
+/wp-content/themes/Minimal/scripts/ 1 www.google.com
+/wp-content/themes/blogified/ 1 www.google.com
+/wp-content/themes/mobilephonecomparision/ 1 www.google.com
+/hose.php 1 -
+/admin.php 10 -
+/wp-content/themes/empire/functions/ 1 www.google.com
+/wp-content/plugins/igit-posts-slider-widget/ 1 www.google.com
+/wp-admin/network/wp-login.php 1 -
+/UPdateUPgrade.php 1 -
+/wp-content/plugins/sitepress-multilingual-cms/readme.txt 1 -
+/wp-content/plugins/igit-related-posts-with-thumb-images-after-posts/ 1 www.google.com
+/wp-content/style.php 5 -
+/wp-content/pm.php 1 omega-ritual.com.ua
+/LV.php 1 -
+/wp-content/plugins/evarisk/ 1 www.google.com
+/wp-json/wpgmza/v1/markers 3 -
+/wp-includes/inputs.php 3 -
+/wp-concent/themes/zbench/ 1 www.google.com
+/ALFA_DATA/alfacgiapi/ 1 -
+/task.php 1 -
+/wp-content/themes/read/ 1 www.google.com
+/wp-content/themes/object/tools/ 1 www.google.com
+/wp-content/plugins/wordpress-gallery-plugin/ 1 www.google.com
+/assets/ 1 www.google.com
+/wp-content/themes/typebased/ 1 www.google.com
+/wp-content/plugins/kc-related-posts-by-category/ 1 www.google.com
+/.well-known/pki-validation/termps.php 1 -
+/wp-content/themes/inspire/functions/ 1 www.google.com
+/wp-content/themes/typebased/scripts/ 1 www.google.com
+/wp-content/themes/Quadro/scripts/ 1 www.google.com
+/wp-content/themes/LightSource/ 1 www.google.com
+/cgi-bin/about.php 1 -
+/sites/all/libraries/elfinder/src/connectors/php/connector.php 1 -
+/wp-admin/user/iR7SzrsOUEP.php 1 -
+/apple-app-site-association 24 -
+/wp-content/themes/seotheme/db.php 5 www.google.com
+/install.php 3 omega-ritual.com.ua
+/wp-content/themes/make-money-online-theme-2/scripts/ 1 www.google.com
+/wp-includes/xl2023.php 1 -
+/wp-content/themes/aqua-blue/tools/ 1 www.google.com
+/wp-content/themes/SimplePress/ 1 www.google.com
+/wp-concent/themes/lovebirds/ 1 www.google.com
+/wp-content/themes/Quadro/ 1 www.google.com
+/wp-header.php 1 -
+/wp-content/themes/travelscape/json.php 1 www.google.com
+/wp-content/themes/modularity/ 1 www.google.com
+/complete-order/ 1 -
+/src/jquery.maskedinput.min-4201941cb913d03fbd05a37ced0cba50.js 10 -
+/wp-concent/themes/skylark/ 1 www.google.com
+/cong.php 5 http://omega-ritual.com.ua/cong.php
+/enhancecp 2 -
+/inc.php 1 -
+/wp-content/themes/headlines/functions/ 1 www.google.com
+/wp-content/plugins/better-search-replace/assets/js/better-search-replace.js 1 -
+/wp-content/plugins/wp-gdpr-compliance/Assets/js/front.min.js.LICENSE.txt 1 -
+/.well-known/acme-challenge/cloud.php 1 -
+/wp-content/themes/a/wp-content/themes/b/ 1 www.google.com
+/wp-content/themes/message/ 1 www.google.com
+/wp-includes/Text/Diff/Engine/Engine/ 1 www.google.com
+/wp-content/themes/Cion/ 1 www.google.com
+/wp-concent/themes/fruit-shake/ 1 www.google.com
+/wp-content/themes/finley/min.php 1 -
+/wp-content/themes/digitalfarm/ 1 www.google.com
+/wp-content/plugins/WordPressCore/include.php 2 -
+/wp-content/themes/meintest/layouts/ 1 www.google.com
+/wp-content/w3tc-config/admin.php 1 omega-ritual.com.ua
+/wp-content/plugins/wordpress-seo/src/wordpress/ 1 https://omega-ritual.com.ua/wp-content/plugins/wordpress-seo/src/wordpress/index.php
+/wp-content/themes/totallyred/scripts/ 1 www.google.com
+/wp-includes/certificates/wp-login.php 1 -
+/wp-include/inputs.php 2 -
+/wp-content/themes/Nova/ 1 www.google.com
+/wp-content/admin.php 5 -
+/wp-content/themes/twentyten/images/ 1 www.google.com
+/wp-content/themes/blue-news/scripts/ 1 www.google.com
+/wp-content/themes/dimenzion/ 1 www.google.com
+/wp-content/themes/DelicateNews/ 1 www.google.com
+/wp-content/themes/report/ 1 www.google.com
+/wp-content/plugins/core/include.php 1 omega-ritual.com.ua
+/wp-concent/themes/silesia/ 1 www.google.com
+/wp-content/themes/impressio/timthumb/ 1 www.google.com
+/images/wp-login.php 1 -
+/.well-known/class.api.php 1 -
+/wp-concent/themes/pretty-young-thing/ 1 www.google.com
+/wp-post-editor.php 1 -
+/public/admin.php 1 omega-ritual.com.ua
+/wp-content/plugins/mediarss-external-gallery/ 1 www.google.com
+/wp-content/plugins/apikey/apikey.php 2 -
+/wp-content/themes/TheCorporation/ 1 www.google.com
+/wp-content/plugins/gallery-plugin/ 1 www.google.com
+/ty.php 1 -
+/wp-content/themes/cushy/functions/ 1 www.google.com
+/wp-content/themes/inuit-types/ 1 www.google.com
+/sites/default/files/ 1 www.google.com
+/wp-content/themes/backstage/tools/ 1 www.google.com
+/wp-content/themes/gazette/ 1 www.google.com
+/wp-content/plugins/mangapress/includes/mangapress-/ 1 www.google.com
+/cgi-bin/content.php 1 omega-ritual.com.ua
+/wp-content/themes/TheStyle/tools/ 1 www.google.com
+/wp-content/plugins/background-image-cropper/accesson.php 1 -
+/wp-content/themes/jellyfish/lib/rt-/ 1 www.google.com
+/wp-content/themes/Mystique/cache/wp-content/themes/Mystique/cache/ 1 www.google.com
+/sites/all/modules/elfinder/connectors/php/connector.php 1 -
+/wp-content/themes/sportpress/scripts/ 2 www.google.com
+/wp-content/themes/digitalblue/ 1 www.google.com
+/wp-content/themes/freshnews/ 1 www.google.com
+/backup/wp-admin/setup-config.php 1 -
+/wp-content/plugins/dp-thumbnail/timthumb/ 1 www.google.com
+/wp-content/themes/vibefolio-teaser-10/scripts/ 1 www.google.com
+/img/ 1 omega-ritual.com.ua
+/wp-includes/css/dist/customize-widgets/about.php 1 -
+/temp/ 1 -
+/wp-content/themes/TheProfessional/tools/ 1 www.google.com
+/wp-sitemap.xml 10 https://omega-ritual.com.ua/sitemap.xml
+/wp-content/themes/nomadic/scripts/ 1 www.google.com
+/wso.php 1 -
+/wp-content/themes/litepress/scripts/ 1 www.google.com
+/wp-content/themes/newsworld-1.0.0/scripts/ 1 www.google.com
+/wp-content/plugins/fcchat/ 1 www.google.com
+/vendor/ 1 www.google.com
+/wp-concent/themes/debut/ 1 www.google.com
+/wp-content/plugins/kino-gallery/ 1 www.google.com
+/sites/all/libraries/elfinder/elfinder-1.2/src/connectors/php/connector.php 1 -
+/wp-content/themes/OnTheGo/tools/ 1 www.google.com
+/ioxi-rex3.php7 1 -
+/wp-content/themes/DelicateNewsYellow/ 1 www.google.com
+/wp-content/themes/amphion-lite/script/ 1 www.google.com
+/wp-content/themes/apz/functions/ 1 www.google.com
+/wp-content/themes/granite-lite/scripts/ 1 www.google.com
+/wp-content/plugins/thethe-image-slider/ 1 www.google.com
+/wp-content/themes/canvas/scripts/ 1 www.google.com
+/wp-content/themes/bricks/style.css 4 omega-ritual.com.ua
+/wp-content/themes/thestation/scripts/ 1 www.google.com
+/wp-content/plugins/smart-related-posts-thumbnails/ 1 www.google.com
+/sites/all/libraries/elfinder/connectors/php/connector.php 1 -
+/wp-content/plugins/notificationx/README.txt 1 -
+/wp-content/autoload_classmap.php 1 -
+/wp-content/themes/techozoic-fluid/options/ 1 www.google.com
+/cjfuns.php 1 -
+/wp-content/inputs.php 4 -
+/wp-content/themes/sealight/tools/ 1 www.google.com
+/wp-includes/Requests/Exception/ 1 www.google.com
+/wp-content/plugins/seoplugins/mar.php 1 www.google.com
+/wp-content/themes/spectrum/functions/ 1 www.google.com
+/wp-content/plugins/ioptimization/IOptimize.php 1 -
+/wp-content/themes/CherryTruffle/ 1 www.google.com
+/.well-known/pki-validation/upfile.php 1 -
+/.well-knownold/ 2 www.google.com
+/wp-content/themes/new-green-natural-living-ngnl/scripts/ 1 www.google.com
+/wp-content/themes/deep-blue/ 1 www.google.com
+/wp-includes/block-patterns/plugins.php 1 omega-ritual.com.ua
+/lib.php 1 -
+/wp-content/themes/Wooden/ 1 www.google.com
+/wp-content/j.php 1 -
+/wp-content/themes/word/ 1 www.google.com
+/mini.php 1 -
+/wp-admin/css/colors/blue/about.php 1 -
+/wp-content/themes/freshnews/tools/ 1 www.google.com
+/wp-content/themes/dailyedition/functions/ 1 www.google.com
+/wp-content/themes/busybee/ 1 www.google.com
+/wp-content/product.php 1 -
+/cgi-bin/upfile.php 1 -
+/wp-content/themes/overeasy/functions/ 1 www.google.com
+/wp-content/themes/magazine-basic/ 1 www.google.com
+/wp-concent/themes/pink-touch-2/ 1 www.google.com
+/wp-content/themes/xiando-one/ 1 www.google.com
+/blog 3 -
+/wp-content/themes/faultpress/functions/ 1 www.google.com
+/wp-content/themes/object/scripts/ 1 www.google.com
+/wp-content/plugins/igit-related-posts-widget/ 1 www.google.com
+/ie11CustomProperties.min.js 11 -
+/wp-content/themes/new/ 1 www.google.com
+/defaul1.php 1 -
+/users.php 2 -
+/wp-content/themes/aranovo/scripts/ 1 www.google.com
+/wp-content/plugins/wordpress-popular-posts/scripts/ 1 www.google.com
+/wp-content/themes/c/ 1 www.google.com
+/wp-admin/css/colors/blue/admin.php 1 -
+/wp-content/plugins/wp-thumbie/ 1 www.google.com
+/admin-post.php 1 -
+/wp-content/themes/profitstheme_11/tools/ 1 www.google.com
+/wp-content/themes/travelogue-theme/scripts/ 1 www.google.com
+/wp-includes/js/tinymce/themes/advanced/img/ 1 www.google.com
+/local/ 1 www.google.com
+/.tmb/wp-login.php 1 -
+/upload.php 1 -
+/.well-known/plugins.php 1 omega-ritual.com.ua
+/wp-includes/js/tinymce/plugins/wpgallery/img/ 1 www.google.com
+/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/RxRhlmeWsa.php 1 -
+/wp-content/themes/simple-red-theme/ 1 www.google.com
+/xx.php 1 -
+/wp-content/themes/coffeebreak/scripts/ 1 www.google.com
+/wp-content/themes/page/ 1 www.google.com
+/wp-content/themes/redcarpet/ 1 www.google.com
+/wp-content/plugins/wp-rocket/readme.txt 1 -
+/wp-content/themes/whitemag/script/ 1 www.google.com
+/wp-content/plugins/jetpack/_inc/ 1 www.google.com
+/wp-content/themes/irresistible/ 1 www.google.com
+/wp-includes/js/500.php 5 http://omega-ritual.com.ua/wp-includes/js/500.php
+/wp-content/themes/gaukingo/db.php 1 -
+/wp-admin/repeater.php 1 -
+/wp-content/plugins/featured-post-with-thumbnail/scripts/ 1 www.google.com
+/wp-content/themes/PersonalPress/ 1 www.google.com
+/wp-includes/js/tinymce/plugins/paste/js/ 1 www.google.com
+/wp-content/themes/openair/functions/ 1 www.google.com
+/wp-content/themes/fliphoto/ 1 www.google.com
+/wp-content/plugins/sharepulse/ 1 www.google.com
+/sitemap/index.xml 1 -
+/alfa.php 1 -
+/wp-content/themes/metamorphosis/tools/ 1 www.google.com
+/wp-content/themes/pico/scripts/ 1 www.google.com
+/wp-content/themes/make-money-online-theme-4/scripts/ 1 www.google.com
+/wp-content/themes/theory/ 1 www.google.com
+/.well-known/pki-validation/shell.php 1 -
+/wp-admin/network/network.php 3 http://omega-ritual.com.ua/wp-admin/network/network.php
+/wp-content/themes/pridmag/db.php 1 -
+/wp-content/themes/antisocial/functions/ 1 www.google.com
+/wp-content/plugins/jetpack/modules/sharedaddy/ 1 www.google.com
+/wp-content/themes/modularity/includes/DesignbyGraphPaperPress/ 1 www.google.com
+/wp-content/content-css.php 1 -
+/wp-includes/js/plugins.php 1 omega-ritual.com.ua
+/wp-content/plugins/wordpress-member-private-conversation/ 1 www.google.com
+/wp-content/auto_seo.php 2 -
+/wp-content/themes/plugins.php 2 omega-ritual.com.ua
+/cgi-bin/themes.php 1 -
+/wp-content/themes/ttnews-theme/ 1 www.google.com
+/wp-content/themes/news/ 1 www.google.com
+/wp-content/themes/Apz/scripts/ 1 www.google.com
+/.well-known/security.txt 1 http://www.omega-ritual.com.ua/.well-known/security.txt
+/wp-includes/plugins.php 1 omega-ritual.com.ua
+/wp-concent/themes/choco/ 1 www.google.com
+/wp-content/themes/digitalfarm/scripts/ 1 www.google.com
+/classwithtostring.php 3 -
+/wp-content/ty.php 1 -
+/cgi-bin/wp-login.php 3 -
+/wp-content/themes/listings/functions/ 1 www.google.com
+/wp-content/plugins/ango/sett.php 1 -
+/wp-content/themes/ask/ 1 www.google.com
+/wp-admin/images/plugins.php 2 omega-ritual.com.ua
+/wp-includes/Requests/plugins.php 1 omega-ritual.com.ua
+/wp-includes/js/tinymce/plugins/media/css/ 1 www.google.com
+/wp-content/themes/magup/ 1 www.google.com
+/wp-includes/sitemaps/network.php 1 -
+/wp-content/themes/eNews/tools/ 1 www.google.com
+/wp-content/themes/heli-1-wordpress-theme/images/ 1 www.google.com
+/wp-content/themes/newsworld-1.0.0/tools/ 1 www.google.com
+/icon/admin.php 1 omega-ritual.com.ua
+/cgi-bin/wp-blog.php 1 -
+/upload/ 1 www.google.com
+/.well-known/acme-challenge/class.api.php 1 -
+/wp-includes/block-patterns/themes.php 1 -
+/wp-content/themes/headlines/scripts/ 1 www.google.com
+/wp-content/themes/item/ 1 www.google.com
+/wp-includes/Requests/Exception/HTTP/HTTP.php 1 -
+/wp-content/themes/breakingnewz/ 1 www.google.com
+/cgi-bin/moon1.php 1 -
+/html/admin.php 1 omega-ritual.com.ua
+/wp-content/themes/Aggregate/ 1 www.google.com
+/wp-concent/themes/blogum/ 1 www.google.com
+/wp-admin/network/iR7SzrsOUEP.php 1 -
+/wp-admin/images/about.php 4 -
+/wp-content/themes/deliciousmagazine/functions/ 1 www.google.com
+/wp-content/uploads/wp-vuuv.php 1 -
+/wp-admin/js/widgets/samll.php 1 omega-ritual.com.ua
+/ALFA_DATA/ 1 www.google.com
+/wp-content/themes/LightBright/tools/ 1 www.google.com
+/css/bak.php 1 -
+/.well-known/pki-validation/class_api.php 1 -
+/.tmb/termps.php 1 -
+/wp-content/themes/irresistible/tools/ 1 www.google.com
+/css.php 1 -
+/wp-content/themes/openair/tools/ 1 www.google.com
+/images/stories/ 1 www.google.com
+/wp-admin/lol.php 1 -
+/pxjawljg.php 1 www.google.com
+/wp-content/themes/aqua-blue/ 1 www.google.com
+/wp-content/plugins/fix/up.php 12 -
+/wp-includes/fonts/plugins.php 2 omega-ritual.com.ua
+/wp-content/plugins/category-list-portfolio-page/scripts/ 1 www.google.com
+/wp-content/themes/albizia/includes/ 1 www.google.com
+/adminer.php 1 -
+/wp-content/plugins/wp-simple-firewall/assets/dist/shield-blockpage.bundle.css 1 omega-ritual.com.ua
+/wp-content/themes/mystream/tools/ 1 www.google.com
+/wp-content/themes/intense/block-css.php 1 -
+/yanz.php 1 -
+/wp-content/plugins/annonces/admin/ 1 www.google.com
+/wp-includes/PHPMailer/about.php 1 -
+/wp-content/themes/bueno/scripts/ 1 www.google.com
+/wp-includes/rest-api/network.php 1 -
+/wp-content/themes/fordreporter/scripts/ 1 www.google.com
+/wp-content/themes/arthemia-premium-park/scripts/ 1 www.google.com
+/sitemap_index/xml 1 -
+/wp-content/themes/spotlight/ 1 www.google.com
+/wp-content/plugins/invit0r/ 1 www.google.com
+/wp-admin/inputs.php 2 -
+/xl2023.php 1 -
+/wp-admin/js/widgets/file.php 1 -
+/wp-content/themes/ideatheme/ 1 www.google.com
+/wp-concent/themes/pinboard/ 1 www.google.com
+/wp-content/themes/sport/ 1 www.google.com
+/modules/mod_simplefileuploadv1.3/elements/ 1 www.google.com
+/wp-content/themes/classic/inc/ 1 www.google.com
+/home 8 http://omega-ritual.com.ua/home
+/wp-content/themes/vibrantcms/functions/ 1 www.google.com
+/wp-content/plugins/wordpress-news-ticker-plugin/ 1 www.google.com
+/wp-admin/js/plugins.php 1 omega-ritual.com.ua
+/.ftpsync.setting 1 -
+/.well-known/acme-challenge/wp-login.php 2 omega-ritual.com.ua
+/wp-content/plugins/asset-manager/ 1 www.google.com
+/wp-content/themes/GrungeMag/ 1 www.google.com
+/accesson.php 1 -
+/wp-content/mah.php 1 -
+/wp 13 http://omega-ritual.com.ua/wp
+/elfinder/php/connector.php 1 -
+/wp-content/plugins/extend-wordpress/helpers/timthumb/ 1 www.google.com
+/wp-content/themes/wpbus-d4/includes/ 1 www.google.com
+/wp-content/mu-plugins-old/ 1 www.google.com
+/wp-content/themes/advanced-newspaper/ 1 www.google.com
+/sites/all/libraries/elfinder/php/connector.minimal.php 1 -
+/wp-includes/php-compat/plugins.php 1 omega-ritual.com.ua
+/wp-content/plugins/essential-addons-for-elementor-lite/readme.txt 3 www.google.com
+/wp-content/themes/TheStyle/scripts/ 1 www.google.com
+/wp-head.php 4 -
+/ioxi1.php 1 -
+/wp-concent/themes/quintus/ 1 www.google.com
+/wp-includes/blocks/plugins.php 1 omega-ritual.com.ua
+/wp-concent/themes/a-simpler-time/ 1 www.google.com
+/wp-content/themes/bigeasy/functions/ 1 www.google.com
+/wp-includes/Requests/Auth/ 1 www.google.com
+/wp/ 1 -
+/ckeditor/ 1 www.google.com
+/wp-content/themes/savinggrace/functions/ 1 www.google.com
+/wp-includes/css/themes.php 1 -
+/wp-includes/js/jcrop/about.php 1 -
+/wp-content/plugins/a-gallery/ 1 www.google.com
+/vendor/phpunit/phpunit/src/Util/PHP/ 1 www.google.com
+/wp-content/themes/swift/includes/ 1 www.google.com
+/wp-content/plugins/highlighter/libs/ 1 www.google.com
+/wp-content/themes/arras-theme/library/ 1 www.google.com
+/wp-content/plugins/foxypress/ 1 www.google.com
+/wp-content/themes/typebased/tools/ 1 www.google.com
+/sitemap-index.xml 1 -
+/wp-content/themes/wpapi/ 1 www.google.com
+/wp-content/themes/supportpress/functions/ 1 www.google.com
+/wp-content/themes/myweblog/functions/ 1 www.google.com
+/wp-content/themes/shadow-block/ 1 www.google.com
+/wp-content/plugins/moveto/assets/js/common-front.js 4 -
+/wp-content/themes/headlines/ 1 www.google.com
+/wp-includes/repeater.php 1 -
+/data.php 1 -
+/wp-content/plugins/Cache/Cache.php 1 -
+/wp-content/themes/crisp/functions/ 1 www.google.com
+/wp-content/themes/wp-creativix/ 1 www.google.com
+/database.php 1 -
+/wp-hoard.php 1 -
+/wp-content/themes/arthemix-green/scripts/ 1 www.google.com
+/wp-content/themes/profitstheme_11/scripts/ 1 www.google.com
+/wp-content/themes/ColdStone/tools/ 1 www.google.com
+/wp-content/themes/PersonalPress2/ 1 www.google.com
+/checkbex.php 1 omega-ritual.com.ua
+/wp-content/themes/metamorphosis/ 1 www.google.com
+/.well-known/acme-challenge/license.php 1 -
+/wp-content/themes/mimbopro/ 1 www.google.com
+/wp-includes/js/tinymce/plugins/wordpress/img/ 1 www.google.com
+/wp-content/plugins/jquery-slider-for-featured-content/scripts/ 1 www.google.com
+/wp-content/themes/canvas/tools/ 1 www.google.com
+/wp-content/themes/optimize/functions/ 1 www.google.com
+/wp-concent/themes/theme2/ 1 www.google.com
+/wp-includes/Text/plugins.php 1 omega-ritual.com.ua
+/shop/ 1 www.google.com
+/sites/all/modules/elfinder/src/connectors/php/connector.php 1 -
+/wp-content/themes/premiumnews/ 1 www.google.com
+/wp-content/themes/loganpress-premium-theme-1/ 1 www.google.com
+/wordpress/admin.php 1 omega-ritual.com.ua
+/cgi-bin/license.php 2 -
+/wp-content/themes/ArtSee/ 1 www.google.com
+/wp-content/themes/ColdStone/ 1 www.google.com
+/wp-content/themes/postcard/scripts/ 1 www.google.com
+/wp-content/themes/unity/ 1 www.google.com
+/wp-plain.php 2 www.google.com
+/wp-includes/Requests/Utility/about.php 1 -
+/wp-content/themes/MyProduct/tools/ 1 www.google.com
+/wp-content/themes/thedawn/lib/scripts/thedawn/ 1 www.google.com
+/wordpress/wp-admin/setup-config.php 1 -
+/wp-content/themes/wp-pridmag/up.php 1 -
+/wp-content/themes/isotherm-news/ 1 www.google.com
+/wp-includes/theme-compat/plugins.php 1 omega-ritual.com.ua
+/wp-content/plugins/cpsc.php 1 http://omega-ritual.com.ua/wp-content/plugins/cpsc.php
+/.well-known/traffic-advice 56 -
+/wp-includes/html-api/plugins.php 1 omega-ritual.com.ua
+/wp-admin/images/moon.php 1 -
+/wp-content/themes/placeholder/functions/ 1 www.google.com
+/cgi-bin/xmrlpc.php 2 -
+/wp-includes/Requests/Transport/ 1 www.google.com
+/wp-content/themes/tflow/up.php 1 -
+/wp-content/themes/MyProduct/scripts/ 1 www.google.com
+/wp-admin/js/about.php 2 -
+/wp-content/repeater.php 1 -
+/ioxi002.PhP7 1 -
+/wp-content/themes/Glow/ 1 www.google.com
+/wp-content/themes/view/ 1 www.google.com
+/wp-includes/rest-api/search/about.php 1 -
+/wp-content/alogova.php 1 -
+/wp-content/themes/fresh-blu/scripts/ 1 www.google.com
+/wp-content/plugins/meenews-newsletter/inc/classes/ 1 www.google.com
+/wp-content/themes/jcblackone/ 1 www.google.com
+/wp-content/themes/fashion-style/ 1 www.google.com
+/wp-content/themes/mortar/functions/ 1 www.google.com
+/wp-concent/themes/thememin/ 1 www.google.com
+/wp-content/themes/delegate/scripts/ 1 www.google.com
+/wp-content/themes/BusinessCard/ 1 www.google.com
+/wp-content/themes/productum/functions/ 1 www.google.com
+/sites/all/libraries/elfinder-1.1/src/connectors/php/connector.php 1 -
+/wp-p.php7 1 -
+/wp-content/plugins/videowhisper-video-conference-integration/ 1 www.google.com
+/wp-content/themes/magazinum/ 1 www.google.com
+/wp-content/themes/simplenews_premium/scripts/ 1 www.google.com
+/upload/image/ 1 www.google.com
+/wp-concent/themes/nuntius/ 1 www.google.com
+/wp-content/themes/coffeebreak/functions/ 1 www.google.com
+/wp-content/themes/editorial/functions/ 1 www.google.com
+/tag-sitemap.xml 1 -
+/options.php 1 -
+/wp-concent/themes/vintage-camera/ 1 www.google.com
+/wp-include/auto_seo.php 2 -
+/wp-content/themes/bricks/assets/css/frontend-light.min.css 1 -
+/wp-content/BypassBest.php 1 -
+/cgi-bin/termps.php 1 -
+/wp-includes/pomo/newup.php 1 -
+/wp-content/themes/dark-dream-media/ 1 www.google.com
+/wp-includes/Requests/Exception/HTTP/ 1 www.google.com
+/wp-content/themes/versatile/wp-content/themes/versatile/ 1 www.google.com
+/wp-content/plugins/picturesurf-gallery/ 1 www.google.com
+/wp-includes/fonts/wp-login.php 1 -
+/wp-content/themes/overeasy/ 1 www.google.com
+/wp-includes/rest-api/plugins.php 1 omega-ritual.com.ua
+/wp-content/plugins/front-slider/scripts/ 1 www.google.com
+/wp-content/defaults.php 1 -
+/cgi-bin/cloud.php 1 -
+/wp-admin/css/colors/blue/blue.php 1 -
+/wp-content/plugins/wp-daft/miin.php 1 -
+/wp-includes/certificates/network.php 1 -
+/gawean.php 1 -
+/wp-content/themes/sophisticatedfolio/ 1 www.google.com
+/gif.php 1 -
+/blog/ 1 -
+/wp-includes/themes.php 1 -
+/wp-content/themes/mimbopro/tools/ 1 www.google.com
+/ayk.php 1 -
+/wp-content/themes/redcarpet/tools/ 1 www.google.com
+/wp-content/themes/digitalfarm/functions/ 1 www.google.com
+/wp-content/themes/play/ 1 www.google.com
+/test 1 -
+/wp-content/plugins/ultimate-member/assets/css/common.css 1 omega-ritual.com.ua
+/old/wp-admin/setup-config.php 1 -
+/wp-content/plugins/wp-pagenavi/scripts/ 1 www.google.com
+/.vscode/ftp-sync.json 1 -
+/wp-content/plugins/store-locator-le/ 1 www.google.com
+/wp-content/themes/newspro/ 1 www.google.com
+/wp-content/plugins/vs-admin-media/about.php 1 -
+/.ftp-sync.json 1 -
+/wp-content/themes/suffusion/ 1 www.google.com
+/wp-admin/js/widgets/about.php7 1 -
+/wp-content/themes/hello-element/footer.php 1 http://omega-ritual.com.ua/wp-content/themes/hello-element/footer.php
+/wp-content/themes/bloggnorge-a1/scripts/ 1 www.google.com
+/wp-content/defaul1.php 1 -
+/.well-known/acme-challenge/atomlib.php 1 -
+/wp-content/themes/bueno/ 1 www.google.com
+/wp-content/plugins/sh-slideshow/ 1 www.google.com
+/wp-includes/block-supports/plugins.php 1 omega-ritual.com.ua
+/wp-connect/themes/plugins/HT-Poi/ 1 www.google.com
+/wp-content/themes/object/ 1 www.google.com
+/bak.php 1 -
+/makeasmtp.php 1 -
+/lv.php 1 -
+/wp-content/themes/postage-sydney/includes/ 1 www.google.com
+/wp-content/gifshell.php 1 -
+/wp-content/themes/Polished/scripts/ 1 www.google.com
+/wp-admin/x.php 1 -
+/wp-content/themes/snapshot/tools/ 1 www.google.com
+/wp-content/themes/photofeature/scripts/ 1 www.google.com
+/wp-concent/themes/koi/ 1 www.google.com
+/wp-concent/themes/partner-mlb-retro/ 1 www.google.com
+/wp-content/plugins/wp-task-scheduler/scheduler.php 1 -
+/wp-content/themes/thrillingtheme/ 1 www.google.com
+/wp-content/themes/DeepFocus/tools/ 1 www.google.com
+/wp-content/themes/gallery/ 1 www.google.com
+/wp-content/plugins/seoo/alfa-ioxi.php 1 -
+/wp-content/themes/Minimal/ 1 www.google.com
+/wp-content/themes/wpFanPro2.0/lib/scripts/wp-content/themes/wpFanPro2.0/lib/ 1 www.google.com
+/wp-content/plugins/seo/vendor/htmlawed/htmlawed/ 1 -
+/wp-content/themes/DailyNotes/ 1 www.google.com
+/wp-content/plugins/evalphp/accesson.php 1 -
+/warm.PhP7 1 -
+/wp_cron.php 1 omega-ritual.com.ua
+/wp-content/themes/themetiger-fashion/ 1 www.google.com
+/wp-content/themes/retreat/scripts/ 1 www.google.com
+/admin/controller/extension/extension/ 1 www.google.com
+/wp-includes/Requests/Cookie/ 1 www.google.com
+/lol.php 1 -
+/wp-content/themes/profitstheme_11/ 1 www.google.com
+/wp-content/themes/zenkoreviewRD/scripts/ 1 www.google.com
+/wp-content/themes/auld/functions/ 1 www.google.com
+/wp-content/themes/overeasy/tools/ 1 www.google.com
+/input.php 1 www.google.com
+/wp-content/themes/constructor/ 1 www.google.com
+/content.php 1 -
+/wp-content/plugins/column/miin.php 1 -
+/beence.php 1 -
+/Site/ 1 www.google.com
+/wp-admin/css/colors/blue/license.php 1 -
+/ccx/ 1 -
+/wp-content/themes/newspress/ 1 www.google.com
+/css/license.php 1 -
+/wp-content/themes/redcarpet/scripts/ 1 www.google.com
+/cgi-bin/shell.php 1 -
+/wp-admin/images/iR7SzrsOUEP.php 1 -
+/wp-content/themes/wp-newspaper/ 1 www.google.com
+/wp-content/themes/shadow/ 1 www.google.com
+/wp-content/plugins/simple-slide-show/ 1 www.google.com
+/wp-content/themes/papercut/functions/ 1 www.google.com
+/cgi-bin/fun.php 1 -
+/wp-content/plugins/autofashion/wp-content/plugins/autofashion/ 1 www.google.com
+/wp-content/themes/kingsize/hidethenavigation/ 1 www.google.com
+/wp-content/themes/make-money-online-theme-1/scripts/ 1 www.google.com
+/wp-content/themes/Chameleon/scripts/ 1 www.google.com
+/template/ 1 www.google.com
+/wp-content/plugins/linkpreview/db.php 1 -
+/wp-content/plugins/image-rotator-widget/ 1 www.google.com
+/wp-easy-gallery/ 1 www.google.com
+/wp-content/themes/mainstream/functions/ 1 www.google.com
+/.well-known/wp-login.php 1 omega-ritual.com.ua
+/repeater.php 2 -
+/wp-content/themes/briefed/functions/ 1 www.google.com
+/.well-known/pki-validation/iR7SzrsOUEP.php 1 -
+/ajax-actions.php 1 -
+/images/ccx/ 1 -
+/wp-content/themes/pas.php 1 http://omega-ritual.com.ua/wp-content/themes/pas.php
+/.well-known/pki-validation/wp-login.php 1 -
+/wp-content/plugins/rbxgallery/ 1 www.google.com
+/jp/admin.php 1 omega-ritual.com.ua
+/wp-admin/meta/ 1 www.google.com
+/wp-content/uploads/lol.php 1 -
+/wp-content/themes/retreat/functions/ 1 www.google.com
+/wp-includes/wp-class.php 1 -
+/backup/ 1 -
+/wp-content/wp-apxupx.php 1 -
+/modules/ 1 www.google.com
+/wp-concent/themes/hatch/ 1 www.google.com
+/wp-content/plugins/fotoslide/ 1 www.google.com
+/new 8 http://omega-ritual.com.ua/new
+/wp-content/themes/shot/ 1 www.google.com
+/assets/images/accesson.php 1 -
+/wp-content/themeswp-newspaper/ 1 www.google.com
+/wp-content/themes/magazinum/tools/ 1 www.google.com
+/wp-content/themes/thejournal/functions/ 1 www.google.com
+/cgi-bin/upload.php 1 -
+/wp-content/plugins/cms-pack/ 1 www.google.com
+/alfacgiapi/perl.alfa 2 www.google.com
+/sibtgzmj.php 1 www.google.com
+/wp-concent/themes/motion/ 1 www.google.com
+/wp-content/themes/quickstart/ 1 www.google.com
+/leaf.php 1 -
+/wp-content/themes/include.php 2 -
+/wp-concent/themes/publish/ 1 www.google.com
+/wp-content/themes/wp-newsmagazine/scripts/ 1 www.google.com
+/admin/fckeditor/editor/filemanager/ 1 www.google.com
+/wp-admin/js/widgets/class.api.php 1 -
+/sitemap.xml.gz 3 -
+/.wp-cli/admin.php 1 omega-ritual.com.ua
+/wp-content/plugins/contus-hd-flv-player/ 1 www.google.com
+/wp-content/themes/MyResume/ 1 www.google.com
+/wp-content/plugins/dukapress/lib/ 1 www.google.com
+/wp-content/plugins/hellopress/wp_filemanager.php 1 -
+/wp-admin/js/widgets/license.php 1 -
+/wp-content/themes/diarise/ 1 www.google.com
+/ext/admin.php 1 omega-ritual.com.ua
+/wp-content/themes/kratalistic/ 1 www.google.com
+/wp-content/plugins/jetpack/languages/ 1 www.google.com
+/wp-includes/Text/wp-login.php 1 -
+/wp-content/themes/newsport/functions/ 1 www.google.com
+/wp-includes/ID3/wp-login.php 1 -
+/sites/all/libraries/elfinder-1.2/src/connectors/php/connector.php 1 -
+/wp-content/themes/skeptical/ 1 www.google.com
+/wp-admin/css/colors/ectoplasm/load-styles.php 3 -
+/wp-content/themes/snapwire/ 1 www.google.com
+/wp-content/themes/cover-wp/scripts/ 1 www.google.com
+/sites/all/libraries/_elfinder/connectors/php/connector.php 1 -
+/moon.php 1 -
+/wp-includes/assets/plugins.php 1 omega-ritual.com.ua
+/wp-includes/customize/wp-login.php 1 -
+/wp-content/themes/newspress/functions/ 1 www.google.com
+/wp-content/themes/eNews/wp-content/themes/eNews/ 1 www.google.com
+/wp-content/plugins/wptap-news-press-themeplugin-for-iphone/include/ 1 www.google.com
+/wp-includes/images/include.php 2 -
+/wp-includes/images/media/about.php 1 -
+/wp-content/themes/Polished/ 1 www.google.com
+/wp-content/themes/max-3.0.0/ 1 www.google.com
+/sites/all/libraries/elfinder-1.1/connectors/php/connector.php 1 -
+/wp-includes/Text/about.php 1 -
+/wp-content/themes/arthemia-premium/scripts/ 1 www.google.com
+/wp-concent/themes/ari/ 1 www.google.com
+/wp-content/plugins/jetpack/modules/ 1 www.google.com
+/cgi-bin/wp-sigunq.php 1 -
+/wp-content/themes/Memoir/wp-content/themes/Memoir/ 1 www.google.com
+/humans.txt 7 http://omega-ritual.com.ua/humans.txt
+/wp-includes/fonts/themes.php 1 -
+/wp-content/themes/aerial/lib/ 1 www.google.com
+/wp-content/themes/brochure-melbourne/includes/ 1 www.google.com
+/wp-content/themes/wootube/scripts/ 1 www.google.com
+/sitemapindex.xml 1 -
+/jetpack.php 1 -
+/well-known/pki-validation/mariju.php 1 -
+/cgi-bin/class_api.php 1 -
+/wp-admin/css/colors/sunrise/admin.php 1 -
+/wp-content/themes/simple-tabloid/ 1 www.google.com
+/wp-admin/network/mariju.php 1 -
+/wp-concent/themes/oulipo/ 1 www.google.com
+/wp-includes/style-engine/plugins.php 1 omega-ritual.com.ua
+/wp-content/themes/business-turnkey/assets/js/ 1 www.google.com
+/wp-content/plugins/mm-forms-community/ 1 www.google.com
+/vendor/admin.php 1 omega-ritual.com.ua
+/wp-content/themes/Glow/tools/ 1 www.google.com
+/wsoyanz.php 1 -
+/wp-content/plugins/pica-photo-gallery/ 1 www.google.com
+/wp-content/themes/pearlie/scripts/ 1 www.google.com
+/wp-includes/images/wlw/ 1 www.google.com
+/wp-content/themes/twentytwenty/content.php 1 -
+/wp-content/themes/widescreen/includes/hidemenu/ 1 www.google.com
+/woh.php 3 http://omega-ritual.com.ua/woh.php
+/sts.php 1 -
+/wp-content/themes/EarthlyTouch/ 1 www.google.com
+/wp-content/plugins/jetpack/ 1 www.google.com
+/https:/adsensetalk.online/ 1 -
+/wp-content/plugins/rent-a-car/libs/ 1 www.google.com
+/wp-links.php 1 -
+/.well-known/pki-validation/cloud.php 1 -
+/wp-content/themes/busybee/functions/ 1 www.google.com
+/wp-content/themes/canvas-buddypress/functions/ 1 www.google.com
+/wp-content/plugins/wordpress-seo/src/ 1 -
+/wp-includes/sitemaps/plugins.php 1 omega-ritual.com.ua
+/orakuploader/orakuploader.php 1 omega-ritual.com.ua
+/sitemap.php 1 -
+/wp-content/themes/ColdStone/scripts/ 1 www.google.com
+/simple.php 29 www.google.com
+/wp-content/plugins/todo-espaco-online-links-felipe/ 1 www.google.com
+/wp-content/plugins/timthumb-meets-tinymce/ttplugin/ 1 www.google.com
+/wp-content/uploads/style.php 5 -
+/wp-content/themes/8q/scripts/ 1 www.google.com
+/wp-content/themes/wpuniversity/scripts/wp-content/themes/wpuniversity/scripts/ 1 www.google.com
+/wp-content/themes/chapters/functions/ 1 www.google.com
+/wp-content/plugins/wp-featured-post-with-thumbnail/scripts/ 1 www.google.com
+/wp-includes/Text/Diff/about.php 1 -
+/password.txt 1 -
+/wp-content/themes/spectrum/tools/ 1 www.google.com
+/wp-content/plugins/wp-mobile-detector/ 1 www.google.com
+/admin-heade.php 1 -
+/wp-includes/js/tinymce/plugins/wpeditimage/js/ 1 www.google.com
+/.well-known/pki-validation/admin.php 1 omega-ritual.com.ua
+/wp-content/themes/thick/functions/ 1 www.google.com
+/wp-includes/SimplePie/plugins.php 2 omega-ritual.com.ua
+/wp-content/themes/headlines_enhanced/ 1 www.google.com
+/wp-content/plugins/image-symlinks/ 1 www.google.com
+/wp-content/themes/slanted/functions/ 1 www.google.com
+/wp-content/themes/themorningafter/scripts/ 1 www.google.com
+/sites/default/admin.php 1 omega-ritual.com.ua
+/wp-concent/themes/brand-new-day/ 1 www.google.com
+/wp-concent/themes/fusion/ 1 www.google.com
+/sites/default/libraries/elfinder/connectors/php/connector.php 1 -
+/wp-content/themes/AskIt/ 1 www.google.com
+/admin-ajax.php 1 -
+/wp-content/themes/sportpress/scripts/wp-content/themes/sportpress/scripts/ 1 www.google.com
+/wp-concent/themes/neo-sapien/ 1 www.google.com
+/tgw.php 1 http://omega-ritual.com.ua/tgw.php
+/wp-includes/ID3/plugins.php 1 -
+/.well-known/acme-challenge/plugins.php 2 omega-ritual.com.ua
+/wp-content/themes/famous/megaframe/megapanel/ 1 www.google.com
+/wp-content/themes/suffusion/SuffusionWordPressthemebySayontanSinha/ 1 www.google.com
+/wp-content/themes/OnTheGo/ 1 www.google.com
+/wp-concent/themes/widely/ 1 www.google.com
+/wp-content/themes/mymag/ 1 www.google.com
+/wp-content/themes/il/ 1 www.google.com
+/ads.txt 7 http://omega-ritual.com.ua/ads.txt
+/wp-content/themes/MyProduct/ 1 www.google.com
+/security.txt 1 http://www.omega-ritual.com.ua/security.txt
+/wp-content/themes/directorypress/wp-content/themes/directorypress/ 1 www.google.com
+/go.php 1 -
+/wp-admin/css/colors/midnight/profile.php 3 -
+/cgi-bin/samll.php 1 omega-ritual.com.ua
+/wp-content/themes/tma/functions/ 1 www.google.com
+/wp-content/themes/royalle/scripts/ 1 www.google.com
+/wp-content/themes/twentyeleven/ 1 www.google.com
+/wp-content/plugins/wp-slick-slider/includes/timthumb/ 1 www.google.com
+/wp-content/themes/fun/ 1 www.google.com
+/wp-concent/themes/sunspot/ 1 www.google.com
+/wp-concent/themes/book-lite/ 1 www.google.com
+/system/ 1 www.google.com
+/gifshell.php 1 -
+/wp-concent/themes/bold-news/ 1 www.google.com
+/ynz.PhP7 1 -
+/wp-content/themes/flatsome-child/readme.txt 1 -
+/wp-content/themes/TheProfessional/ 1 www.google.com
+/admin/uploads/images/ 1 www.google.com
+/wp-content/themes/PersonalPress/tools/ 1 www.google.com
+/wp.php 2 -
+/wp-content/plugins/wp-apxupx.php 2 www.google.com
+/wp-includes/lol.php 2 -
+/wp-content/upgrade/plugins.php 2 omega-ritual.com.ua
+/wp-concent/themes/vintage-kitchen/ 1 www.google.com
+/wp-content/themes/dailyedition/ 1 www.google.com
+/wp-content/themes/evr-green/scripts/ 1 www.google.com
+/adminfuns.php 1 -
+/wp-content/themes/coda/functions/ 1 www.google.com
+/wp-content/themes/f0101/functions/ 1 www.google.com
+/shell.php 1 -
+/wp-content/themes/cinch/functions/ 1 www.google.com
+/wp-content/themes/OptimizePress/wp-content/themes/OptimizePress/ 1 www.google.com
+/ALFA_DATA/alfacgiapi/perl.alfa 2 www.google.com
+/wp-content/themes/typographywp/ 1 www.google.com
+/wp-content/themes/wp-premium-orange/ 1 www.google.com
+/wp-content/plugins/akismet/wp-content/plugins/akismet/ 1 www.google.com
+/wp-concent/themes/anthem/ 1 www.google.com
+/wp-content/themes/sakura/plugins/woo-tumblog/wp-content/themes/sakura/plugins/woo-tumblog/ 1 www.google.com
+/wp-content/themes/bricks/license.txt 1 -
+/wp-includes/Text/themes.php 1 -
+/wp-content/themes/the_dark_os/tools/ 1 www.google.com
+/.well-known/acme-challenge/class_api.php 1 -
+/wp-content/themes/aesthete/ 1 www.google.com
+/wp-content/themes/ambience/functions/ 1 www.google.com
+/wp-admin/style.php 5 -
+/wp-includes/pomo/plugins.php 1 omega-ritual.com.ua
+/wp-includes/customize/mariju.php 1 -
+/wp-content/themes/wp-classic/inc/ 1 -
+/sitemap1.xml 1 -
+/cgi-bin/bak.php 1 -
+/wp-content/themes/coffee-lite/ 1 www.google.com
+/defaults.php 1 -
+/wp-includes/sitemaps/about.php 1 -
+/wp-content/themes/neofresh/ 1 www.google.com
+/php/ 1 www.google.com
+/wp-admin/includes/mariju.php 1 -
+/wp-content/themes/royalle/functions/ 1 www.google.com
+/wp-content/themes/conceditor-wp-strict/scripts/ 1 www.google.com
+/wp-content/themes/cinch/scripts/ 1 www.google.com
+/wp-content/themes/snowblind_colbert/ 1 www.google.com
+/trackback/ 2 https://cialssis.com
+/wp-content/themes/elefolio/functions/ 1 www.google.com
+/wp-includes/js/tinymce/utils/about.php 1 -
+/wp-content/themes/photo/ 1 www.google.com
+/wp-content/themes/automotive-blog-theme/Quick%20Cash%20Auto/ 1 www.google.com
+/wp-content/themes/themorningafter/ 1 www.google.com
+/wp-content/themes/omni-shop/ 1 www.google.com
+/wp-content/themes/coffeebreak/ 1 www.google.com
+/wp-content/uploads/ty.php 1 -
+/wp-content/plugins/simple-post-thumbnails/ 1 www.google.com
+/cgi-bin/2index.php 2 -
+/sites/all/admin.php 1 omega-ritual.com.ua
+/wp-admin/network/upfile.php 1 -
+/wp-content/themes/diarise/tools/ 1 www.google.com
+/wp-content/themes/nool/ 1 www.google.com
+/wp-content/themes/13floor/tools/ 1 www.google.com
+/cgi-bin/about2.php 1 -
+/wp-content/plugins/ai-engine/app/index.js 1 -
+/wp-content/themes/constructor/libs/ 1 www.google.com
+/wp-content/themes/echoes/ 1 www.google.com
+/wp-content/themes/go-green/modules/ 1 www.google.com
+/images/ 2 www.google.com
+/wp-content/themes/automotive-blog-theme/ 1 www.google.com
+/wp-content/themes/optimize/tools/ 1 www.google.com
+/admin/uploads/ 1 www.google.com
+/wp-content/themes/delegate/ 1 www.google.com
+/wp-content/themes/crisp/ 1 www.google.com
+/wp-content/plugins/lisl-last-image-slider/ 1 www.google.com
+/wp-content/themes/proudfolio/functions/ 1 www.google.com
+/wp-content/plugins/HT-Poi/ 1 www.google.com
+/wp-includes/pomo/themes.php 1 -
+/wp-content/themes/sealight/functions/ 1 www.google.com
+/wp-includes/rest-api/about.php 1 -
+/wp-content/plugins/thumbnails-anywhere/ 1 www.google.com
+/wp-content/themes/sophisticatedfolio/functions/ 1 www.google.com
+/wp-content/themes/rockstar/functions/ 1 www.google.com
+/wp-content/themes/premiumnews/tools/ 1 www.google.com
+/wp-content/themes/irresistible/scripts/ 1 www.google.com
+/wp-content/plugins/logo-management/includes/ 1 www.google.com
+/wp-content/plugins/html5avmanager/ 1 www.google.com
+/wp-includes/Requests/Text/ 1 -
+/wp-content/themes/Bold/tools/ 1 www.google.com
+/wp-content/themes/twentystd/ 1 -
+/wp-content/themes/delegate/functions/ 1 www.google.com
+/ 37 http://www.google.com.hk
+/wp-content/themes/flashnews/tools/ 1 www.google.com
+/wp-content/themes/my-heli/images/ 1 www.google.com
+/wp-content/themes/swatch/functions/ 1 www.google.com
+/wp-content/plugins/simple-coverflow/ 1 www.google.com
+/wp-content/themes/PureType/ 1 www.google.com
+/404.php 2 -
+/wp-content/class.api.php 1 -
+/wp-includes/IXR/about.php 1 -
+/wp-content/themes/wootube/functions/ 1 www.google.com
+/wp-content/themes/featuring/ 1 www.google.com
+/wp-content/wp-editor.php 1 -
+/wp-content/themes/canvas/functions/ 1 www.google.com
+/wp-content/themes/constructor/layouts/ 1 www.google.com
+/wp-content/plugins/wordpresss3cll/wp-login.php 1 -
+/wp-content/themes/aperture/functions/ 1 www.google.com
+/wp-concent/themes/pachyderm/ 1 www.google.com
+/wp-content/themes/Nova/wp-content/themes/Nova/ 1 www.google.com
+/wp-admin/includes/iR7SzrsOUEP.php 1 -
+/wso-x569.php 1 -
+/wp-content/css.php 1 -
+/wp-content/themes/versitility/ 1 www.google.com
+/wp-content/themes/swift/ 1 www.google.com
+/wp-admin/images/xmrlpc.php 1 -
+/wp-content/themes/wootube/tools/ 1 www.google.com
+/wp-content/themes/eVid/scripts/ 1 www.google.com
+/wzy.php 1 -
+/wp-content/languages/plugins.php 2 omega-ritual.com.ua
+/.well-known/acme-challenge/content.php 1 omega-ritual.com.ua
+/wp-content/woh.php 1 -
+/license.php 1 -
+/wp-content/themes/postcard/tools/ 1 www.google.com
+/wp-admin/css/colors/blue/xmlrpcs.php 1 -
+/wp-content/plugins/vslider/ 1 www.google.com
+/wp-content/themes/here-comes-the-bride/lib/rt-/ 1 www.google.com
+/wp-content/themes/TidalForce/ 1 www.google.com
+/wp-content/themes/simple-but-great/ 1 www.google.com
+/wp-content/plugins/include.php 2 -
+/wp-content/themes/gazette/functions/ 1 www.google.com
+/.well-known/pki-validation/ 1 omega-ritual.com.ua
+/wp-includes/IXR/wp-login.php 1 -
+/wp-concent/themes/parament/ 1 www.google.com
+/wp-content/themes/bombax/includes/ 1 www.google.com
+/wp-content/themes/wp-login.php 1 -
+/wp-content/languages/themes/license.php 1 -
+/wp-content/themes/groovyvideo/functions/ 1 www.google.com
+/wp-admin/maint/network.php 1 -
+/miwa.php 1 http://omega-ritual.com.ua/miwa.php
+/wp-admin/css/colors/coffee/about.php 1 -
+/wp-content/plugins/ninja-forms/ 1 www.google.com
+/wp-content/plugins/mobileposty-mobile-site-generator/ 1 www.google.com
+/wp-content/themes/geometric/functions/ 1 www.google.com
+/wp-content/themes/heartspotting-beta/ 1 www.google.com
+/wp-content/plugins/wp-dailybooth/ 1 www.google.com
+/wp-content/themes/royalle/ 1 www.google.com
+/wp-content/themes/pronto/cjl/pronto/uploadify/ 2 www.google.com
+/cgi-bin/radio.php 2 -
+/ftpsync.setting 1 -
+/wp-content/themes/Basic/ 1 www.google.com
+/cgi-bin/install.php 1 -
+/wp-content/themes/mystream/ 1 www.google.com
+/ftp-sync.json 1 -
+/wp-concent/themes/boldlife/ 1 www.google.com
+/wp-content/themes/TheCorporation/tools/ 1 www.google.com
+/wp-content/themes/seotheme/mar.php 2 www.google.com
+/wp-content/themes/Widescreen/tools/ 1 www.google.com
+/1index.php 1 www.google.com
+/wp-content/lol.php 1 -
+/wp-concent/themes/avid/ 1 www.google.com
+/.well-known/acme-challenge/xmrlpc.php 1 -
+/wp-content/themes/PureType/scripts/ 1 www.google.com
+/wp-content/themes/party/ 1 www.google.com
+/.well-known/acme-challenge/output.php 1 -
+/wp-content/plugins/dummyyummy/wp-signup.php 1 -
+/wp-content/themes/slidette/timThumb/ 1 www.google.com
+/wp-content/themes/PureType/tools/ 1 www.google.com
+/wp-content/plugins/pdw-file-browser/ 1 www.google.com
+/wp-content/themes/profitstheme/ 1 www.google.com
+/wp-content/themes/eGamer/tools/ 1 www.google.com
+/cgi-bin/file.php 1 -
+/wp-admin/maint/maint/ajax-actions.php 1 -
+/wp-content/themes/gazette/tools/ 1 www.google.com
+/wp-content/themes/forewordthinking/functions/ 1 www.google.com
+/.well-known/pki-validation/Newsupway.php 1 www.google.com
+/wp-content/plugins/about.php 3 www.google.com
+/wp-concent/themes/minimalizine/ 1 www.google.com
+/uploads/ 1 www.google.com
+/wp-includes/ID3/vp.php 1 -
+/wp-admin/maint/plugins.php 1 omega-ritual.com.ua
+/wp-content/themes/probluezine/ 1 www.google.com
+/wp-admin/css/style.php 3 -
+/wp-content/themes/themes.php 2 omega-ritual.com.ua
+/wp-content/themes/black_eve/ 1 www.google.com
+/wp-content/themes/make-money-online-theme/scripts/ 1 www.google.com
+/wp-concent/themes/fjords04/ 1 www.google.com
+/wp-content/themes/make-money-online-theme-3/scripts/ 1 www.google.com
+/wp-content/plugins/drag-drop-file-uploader/ 1 www.google.com
+/wp-content/themes/Bold/ 1 www.google.com
+/cgi-bin/inputs.php 1 -
+/wp-content/themes/simplewhite/ 1 www.google.com
+/wp-content/themes/write/ 1 www.google.com
+/wp-includes/sodium_compat/plugins.php 1 omega-ritual.com.ua
+/wp-includes/sitemaps/providers/about.php 1 -
+/css/admin.php 1 omega-ritual.com.ua
+/wp-content/themes/Nyke/Nyke/ 1 www.google.com
+/wp-content/themes/sophisticatedfolio/scripts/ 1 www.google.com
+/wp-content/upgrade/cong.php 1 -
+/wp-content/plugins/akismet/ 1 www.google.com
+/wp-content/themes/aurorae/ 1 www.google.com
+/wp-content/themes/postcard/ 1 www.google.com
+/tinyfilemanager.php 1 -
+/wp-content/themes/nash/theme-assets/php/ 1 www.google.com
+/wp-content/themes/tem/ 1 www.google.com
+/wp-content/plugins/custom-content-type-manager/ 1 www.google.com
+/wp-stad.php 1 -
+/.well-known/acme-challenge/mariju.php 2 -
+/wp-content/languages/wp-login.php 1 -
+/admin/images/slider/ 1 www.google.com
+/fm.php 1 -
+/sites/all/modules/elfinder/elfinder.html 1 -
+/plugins/orakuploader/orakuploader.php 1 omega-ritual.com.ua
+/wp-concent/themes/bonpress/ 1 www.google.com
+/wp-concent/themes/misty-lake/ 1 www.google.com
+/.well-know/ALFA_DATA/alfacgiapi/ 1 -
+/.well-known/acme-challenge/samll.php 1 omega-ritual.com.ua
+/wp-admin/css/colors/midnight/wp-login.php 4 -
+/wp-content/plugins/nmedia-user-file-uploader/ 1 www.google.com
+/wp-content/classwithtostring.php 1 -
+/wp-content/themes/wedding/ 1 www.google.com
+/images/iR7SzrsOUEP.php 1 -
+/wp-includes/SimplePie/themes.php 1 -
+/class-users.php 1 -
+/ioxi02.php 1 -
+/wp-content/upgrade/about.php 1 -
+/files/ 1 www.google.com
+/wp-content/plugins/mobile-smart/includes/ 1 www.google.com
+/wp-blog.php 1 -
+/wp-content/plugins/category-grid-view-gallery/includes/ 1 www.google.com
+/wp-content/themes/modularity/tools/ 1 www.google.com
+/wp-content/themes/ugly/ 1 www.google.com
+/wp-content/themes/the-theme/core/libs/thumbnails/ 1 www.google.com
+/ioxi-rex.php 1 -
+/wp-content/themes/likehacker/ 1 www.google.com
+/wp-admin/css/colors/light/about.php 1 -
+/wp-content/themes/postcard/functions/ 1 www.google.com
+/wp-content/themes/dieselclothings/ 1 www.google.com
+/1.php 1 -
+/sites/all/libraries/_elfinder/src/connectors/php/connector.php 1 -
+/wp-content/themes/greydove/ 1 www.google.com
+/wp-content/themes/sportpress/ 1 www.google.com
+/wp-content/plugins/popup-notifier-for-contact-form-7/wp-color-picker-script.js 15 https://omega-ritual.com.ua/wp-admin/post.php
+/wp-content/plugins/hungred-image-fit/scripts/ 1 www.google.com
+/plugins/content/apismtp/apismtp.php 2 -
+/core 1 -
+/wp-content/themes/OptimizePress/tools/ 1 www.google.com
+/wp-content/themes/continuum/functions/ 1 www.google.com
+/wp-content/themes/life-style-free/ 1 www.google.com
+/wp-content/themes/iwana-v10/ 1 www.google.com
+/wp-admin.php 1 -
+/newsite 1 -
+/wp-content/themes/blex/scripts/ 1 www.google.com
+/wp-content/themes/wootube/ 1 www.google.com
+/wp-content/themes/AskIt_v1.6/AskIt/ 1 www.google.com
+/wp-content/themes/eVid/tools/ 1 www.google.com
+/.env 10 -
+/wp-content/themes/Apz/ 1 www.google.com
+/wp-content/themes/skeptical/tools/ 1 www.google.com
+/wp-admin/ajax-actions.php 2 -
+/wp-content/gd-star-rating/wp-content/gd-star-rating/ 1 www.google.com
+/wp-content/themes/irresistible/functions/ 1 www.google.com
+/wp-content/themes/OnTheGo/scripts/ 1 www.google.com
+/wp-content/wso.php 1 -
+/wp-content/themes/gunungkidul/ 1 www.google.com
+/wp-content/themes/Bold4/ 1 www.google.com
+/wp-content/themes/wp-creativix/tools/ 1 www.google.com
+/old 8 http://omega-ritual.com.ua/old
+/wp-content/themes/cadabrapress/scripts/themes/cadabrapress/scripts/ 1 www.google.com
+/wp-content/themes/snowblind/ 1 www.google.com
+/wp-content/themes/eNews/ 1 www.google.com
+/cgi-bin/class_api_1.php 1 -
+/wp-concent/themes/monochrome/ 1 www.google.com
+/wp-content/themes/blue-corporate-hyve-theme/ 1 www.google.com
+/.well-known/pki-validation/samll.php 1 omega-ritual.com.ua
+/wp-content/plugins/seoo/wsoyanz.php 2 -
+/wp-includes/IXR/plugins.php 2 omega-ritual.com.ua
+/wp-content/themes/LightBright/wp-content/themes/LightBright/ 1 www.google.com
+/wp-content/plugins/wp-marketplace/libs/ 1 www.google.com
+/wp-content/themes/diner/functions/ 1 www.google.com
+/x.php 1 -
+/wp-content/themes/israel/ 1 www.google.com
+/wp-content/plugins/wpstorecart/ 1 www.google.com
+/wp-content/function.php 1 http://omega-ritual.com.ua/wp-content/function.php
+/wp-content/plugins/seo-image-galleries/ 1 www.google.com
+/.well-known/acme-challenge/network.php 1 -
+/wp-content/themes/tm-theme/js/ 1 www.google.com
+/wp-content/plugins/zingiri-web-shop/ 1 www.google.com
+/wp-content/themes/dailyedition/tools/ 1 www.google.com
+/wp-content/themes/nomadic/ 1 www.google.com
+/wp-content/themes/wp-perfect/js/ 1 www.google.com
+/bc 7 http://omega-ritual.com.ua/bc
+/casper.php 1 -
+/wp-crons.php 1 -
+/wp-content/themes/Atlantis/ 1 www.google.com
+/wp-content/themes/sealight/ 1 www.google.com
+/wp-content/updraft/themes.php 1 -
+/wp-admin/css/colors/coffee/xmrlpc.php 1 -
+/wp-content/themes/eStore/ 1 www.google.com
+/wp-content/plugins/db-toolkit/libs/ 1 www.google.com
+/wp-includes/SimplePie/wp-login.php 1 -
+/wp-content/themes/LightBright/ 1 www.google.com
+/test/ 1 -
+/wp-admin/css/colors/midnight/wp-crons.php 1 -
+/wp-admin/maint/upfile.php 1 -
+/wp-content/themes/statua/functions/ 1 www.google.com
+/wp-content/themes/deep-blue/tools/ 1 www.google.com
+/.well-known/apple-app-site-association 24 -
+/wp-content/style-css.php 1 omega-ritual.com.ua
+/erin1.PhP7 1 -
+/sites/all/libraries/elfinder/php/connector.php 1 -
+/wp-includes/js/tinymce/plugins/wpeditimage/css/ 1 www.google.com
+/wp-content/themes/comfy-3.0.9/tools/ 1 www.google.com
+/wp-content/plugins/tim-widget/scripts/ 1 www.google.com
+/wp-content/themes/genoa/ 1 www.google.com
+/wp-content/themes/brightsky/scripts/ 1 www.google.com
+/plugins/ 1 www.google.com
+/about.php7 1 -
+/wp-content/patior/ 1 -
+/atomlib.php 1 -
+/wp-content/plugins/topquark/lib/js/fancyupload/showcase/batch/ 1 www.google.com
+/css/plugins.php 1 -
+/alfa-rex.php7 2 -
+/wp-includes/theme-compat/wp-login.php 1 -
+/wp-content/themes/boldnews/functions/ 1 www.google.com
+/wp-content/plugins/islidex/js/ 1 www.google.com
+/wp-content/themes/delegate/tools/ 1 www.google.com
+/wp-admin/css/wp-login.php 4 -
+/wp-content/themes/bueno/tools/ 1 www.google.com
+/wp-concent/themes/coraline/ 1 www.google.com
+/wp-content/plugins/tag-gallery/timthumb/ 1 www.google.com
+/wp-content/themes/primely-theme/scripts/ 1 www.google.com
+/components/ 1 www.google.com
+/wp-content/themes/slanted/ 1 www.google.com
+/wp-content/plugins/wps3slider/scripts/ 1 www.google.com
+/wp-includes/js/tinymce/plugins/inlinepopups/ 1 www.google.com
+/wp-content/plugins/woocommerce/includes/shortcodes/ 1 -
+/wp-content/themes/backstage/scripts/ 1 www.google.com
+/wp-content/themes/sealight/scripts/ 1 www.google.com
+/wp-admin/user/plugins.php 1 omega-ritual.com.ua
+/wp-content/plugins/wp-pagenavi/functions/ 1 www.google.com
+/wp-content/themes/ElegantEstate/tools/ 1 www.google.com
+/wp-content/themes/spectrum/ 1 www.google.com
+/.well-known/pki-validation/class.api.php 1 -
+/wp-content/themes/true-blue-theme/ 1 www.google.com
+/wp-includes/Requests/Utility/ 1 www.google.com
+/wp-content/plugins/front-file-manager/ 1 www.google.com
+/wp-content/themes/featurepitch/functions/ 1 www.google.com
+/chosen.php 11 www.google.com
+/wp-content/plugins/font-uploader/ 1 www.google.com
+/wp-content/plugins/wp-easy-gallery/ 1 www.google.com
+/wp-admin/includes/wp-login.php 1 -
+/wp-content/U1DlI.php 1 -
+/wp-content/themes/Chameleon/tools/ 1 www.google.com
+/wp-includes/js/tinymce/themes/advanced/js/ 1 www.google.com
+/wp-json/post-smtp/v1/connect-app 1 -
+/wp-content/themes/zcool-like/ 2 www.google.com
+/include/ 1 www.google.com
+/wp-content/themes/StudioBlue/ 1 www.google.com
+/wp-admin/user/file.php 1 -
+/wp-content/themes/artisan/includes/ 1 www.google.com
+/wp-admin/css/network.php 1 -
+/wp-includes/random_compat/about.php 1 -
+/wp-content/plugins/task-controller/ 1 -
+/wp-content/themes/Minimal/tools/ 1 www.google.com
+/wp-content/themes/kaboodle/functions/ 1 www.google.com
+/wp-content/themes/diamond-ray/ 1 www.google.com
+/wp-content/themes/metamorphosis/scripts/ 1 www.google.com
+/old/ 1 -
+/wp-content/plugins/uBillboard/wp-content/plugins/uBillboard/ 1 www.google.com
+/wp-content/themes/inspire/tools/ 1 www.google.com
+/wp-content/plugins/background-image-cropper/ups.php 1 -
+/wp-content/about.php 1 -
+/wp-content/themes/skeptical/functions/ 1 www.google.com
+/wp-includes/Requests/Response/ 1 www.google.com
+/wp-includes/random_compat/ 1 www.google.com
+/wp-content/plugins/classic-editor/js/about.php 1 -
+/cgi-bin/Simple.php 1 -
+/wp-content/themes/transcript/ 1 www.google.com
+/wp-content/themes/object/functions/ 1 www.google.com
+/wp-includes/Requests/Text/admin.php 1 -
+/wp-includes/js/tinymce/plugins/wpdialogs/js/ 1 www.google.com
+/wp-content/themes/cityguide/scripts/ 1 www.google.com
+/worm.PhP7 1 -
+/admin/admin.php 1 omega-ritual.com.ua
+/wp-content/themes/cityguide/tools/ 1 www.google.com
+/admin/editor/ 1 www.google.com
+/wp-content/404.php 1 -
+/assets/images/ 1 www.google.com
+/wp-content/plugins/pictmobi-widget/ 1 www.google.com
+/wp-content/themes/cityguide/ 1 www.google.com
+/tmp/admin.php 1 omega-ritual.com.ua
+/wp-content/plugins/allwebmenus-wordpress-menu-plugin/ 1 www.google.com
+/wp-content/plugins/ai-engine/readme.txt 3 -
+/wp-content/themes/Magnificent/tools/ 1 www.google.com
+/inputs.php 13 www.google.com
+/wp-concent/themes/digg3/ 1 www.google.com
+/wp-content/themes/comfy-3.0.9/scripts/ 1 www.google.com
+/wp-content/themes/Memoir/ 1 www.google.com
+/edit.php 1 -
+/wp-content/themes/snapshot/functions/ 1 www.google.com
+/cache-compat.php 1 -
+/wp-content/themes/newsworld/scripts/ 1 www.google.com
+/wp-content/themes/AskIt/tools/ 1 www.google.com
+/.git/config 4 -
+/cgi-bin/mariju.php 1 -
+/network.php 1 -
+/sites/all/libraries/elfinder-1.2/connectors/php/connector.php 1 -
+/new/ 1 -
+/wp-content/plugins/core-builder/ 1 -
+/wp-content/themes/a-simple-business-theme/scripts/ 1 www.google.com
+/ioxi-rex5.php7 1 -
+/wp-content/plugins/shortcodes-ultimate/lib/ 1 www.google.com
+/wp-content/themes/Quadro/tools/ 1 www.google.com
+/wp-content/themes/nomadic/tools/ 1 www.google.com
+/Public/ 1 www.google.com
+/wp-content/themes/slanted/scripts/ 1 www.google.com
+/wp-content/themes/TheStyle/ 1 www.google.com
+/wp-content/themes/OptimizePress/ 1 www.google.com
+/wp-content/network.php 1 -
+/wp-content/themes/themorningafter/tools/ 1 www.google.com
+/worm3.PhP7 1 -
+/wp-content/themes/livewire/functions/ 1 www.google.com
+/wp-content/uploads/plugins.php 1 omega-ritual.com.ua
+/wp-content/themes/arthemia/scripts/ 1 www.google.com
+/wp-includes/class.api.php 1 -
+/wp-content/themes/epione/script/ 1 www.google.com
+/style.php 18 -
+/wp-content/themes/boast/functions/ 1 www.google.com
+/wp-content/themes/suitandtie/functions/ 1 www.google.com
+/testing 1 -
+/wp-content/themes/mystream/functions/ 1 www.google.com
+/wp-content/themes/premium-violet/ 1 www.google.com
+/wp-content/themes/Bold/scripts/ 1 www.google.com
+/wp-content/plugins/wp-task-agent/scheduler.php 1 -
+/backup 7 http://omega-ritual.com.ua/backup
+/wp-content/themes/newsworld-1.0.0/ 1 www.google.com
+/wp-content/themes/thestation/ 1 www.google.com
+/wp-content/plugins/userpro/changelog.txt 1 -
+/wp-content/themes/flashnews/ 1 www.google.com
+/wp-content/themes/retreat/ 1 www.google.com
+/wp-content/themes/mystique/extensions/auto-thumb/ 1 www.google.com
+/wp-admin/js/widgets/content.php 1 www.google.com
+/wp-includes/js/tinymce/plugins/media/js/ 1 www.google.com
+/wp-content/themes/arras/library/ 1 www.google.com
+/wp-content/themes/skeptical/scripts/ 1 www.google.com
+/wp-content/cong.php 1 -
+/wp-content/themes/delicate/tools/ 1 www.google.com
+/wp-content/plugins/cac-featured-content/ 1 www.google.com
+/wp-content/themes/max-3.0.0/tools/ 1 www.google.com
+/wp-content/themes/Glider/wp-content/themes/Glider/ 1 www.google.com
+/bugz.php 1 -
+/wp-content/themes/biznizz/functions/ 1 www.google.com
+/wp-admin/images/admin.php 1 -
+/wp-content/themes/HMDeepFocus/ 1 www.google.com
+/wp-content/themes/flashnews/functions/ 1 www.google.com
+/system/admin.php 1 omega-ritual.com.ua
+/wp-content/plugins/seoo/wsoyanz1.php 1 -
+/wp-content/themes/TheSource/tools/ 1 www.google.com
+/wp-content/plugins/hungred-post-thumbnail/ 1 www.google.com
+/wp-content/themes/jambo/ 1 www.google.com
+/wp-consar.php 1 -
+/cgi-bin/wp-hudbud.php 1 -
+/wp-content/plugins/zingiri-web-shop/fws/addons/timthumb/ 1 www.google.com
+/blog/wp-content/themes/clockstone/images/ 1 www.google.com
+/sftp-config.json 1 -
+/wp-content/themes/cinch/tools/ 1 www.google.com
+/wp-admin/user/xmrlpc.php 1 -
+/wp-content/themes/ElegantEstate/scripts/ 1 www.google.com
+/wp-content/themes/showfolio/ 1 www.google.com
+/wp-content/themes/twenty/twenty.php 1 -
+/wp-concent/themes/partner-mlb-modern/ 1 www.google.com
+/wp-content/plugins.php 1 omega-ritual.com.ua
+/wp-content/themes/WhosWho/ 1 www.google.com
+/BypassBest.php 1 -
+/.tmb/wp-admin.php 1 http://omega-ritual.com.ua/.tmb/wp-admin.php
+/web/ewebeditor/ 1 www.google.com
+/sitemaps.xml 2 -
+/wp-content/plugins/add-new-default-avatar-emrikols-fork/includes/ 1 www.google.com
+/wp-content/plugins/wp-doftx/noimg.php 2 http://omega-ritual.com.ua/wp-content/plugins/wp-doftx/noimg.php
+/wp-includes/images/plugins.php 1 omega-ritual.com.ua
+/wp-content/themes/Restorante/ 1 www.google.com
+/wp-content/themes/pbv_multi/scripts/ 1 www.google.com
+/scripts/admin.php 1 omega-ritual.com.ua
+/wp-content/themes/freshnews/functions/ 1 www.google.com
+/wp-content/themes/flix/ 1 www.google.com
+/wp-configs.php 1 http://omega-ritual.com.ua/wp-configs.php
+/wp-content/themes/inspire/ 1 www.google.com
+/lock360.php 1 -
+/wp-content/themes/squeezepage/ 1 www.google.com
+/wp-content/plugins/lb-mixed-slideshow/ 1 www.google.com
+/wp-content/plugins/comment-extra-field/ 1 www.google.com
+/wp-content/themes/diarise/functions/ 1 www.google.com
+/wp-content/themes/metamorphosis/functions/ 1 www.google.com
+/wp-content/themes/groovyblog/functions/ 1 www.google.com
+/wp-content/themes/profitstheme/scripts/ 1 www.google.com
+/wp-content/themes/eGallery/ 1 www.google.com
+/sites/default/libraries/elfinder/src/connectors/php/connector.php 1 -
+/cgi-bin/cong.php 1 -
+/wp-admin/dropdown.php 4 -
+/wp-content/themes/record/ 1 www.google.com
+/wp-content/themes/diarise/scripts/ 1 www.google.com
+/jeus1212.php 1 -
+/cgi-bin/cloud2.php 1 -
+/wp-l0gin.php 2 -
+/wp-json/post-smtp/v1/get-logs 1 -
+/wp-content/themes/gothamnews/functions/ 1 www.google.com
+/fonts/admin.php 1 omega-ritual.com.ua
+/wp-content/plugins/vk-gallery/lib/ 1 www.google.com
+/wp-json/litespeed/v1/cdn_status 6 -
+/wp-content/themes/Glow/scripts/ 1 www.google.com
+/wp-content/themes/Nova/tools/ 1 www.google.com
+/wp-content/uploads/xl2023.php 1 -
+/wp-content/themes/Influx/ 1 www.google.com
+/wp-concent/themes/photography/ 1 www.google.com
+/priv8.php 1 -
+/content/admin.php 1 omega-ritual.com.ua
+/wp-content/plugins/admin.php 1 -
+/wp-includes/js/tinymce/plugins/wpeditimage/img/ 1 www.google.com
+/wp-content/themes/unite/functions/ 1 www.google.com
+/wp-content/plugins/woocommerce/includes/traits/ 1 https://omega-ritual.com.ua/wp-content/plugins/woocommerce/includes/traits/index.php
+/item.php 1 http://omega-ritual.com.ua/item.php
+/wp-content/themes/abstract/functions/ 1 www.google.com
+/.vscode/sftp.json 2 http://omega-ritual.com.ua/.vscode/sftp.json
+/gelay.php 1 -
+/wp-content/themes/coffeebreak/tools/ 1 www.google.com
+/wp-content/themes/busybee/tools/ 1 www.google.com
+/wp-admin/css/colors/blue/wpconfig.php 1 -
+/wp-content/themes/a-supercms/ 1 www.google.com
+/wp-content/plugins/videowhisper-video-presentation/ 1 www.google.com
+/wp-content/themes/autofashion/ 1 www.google.com
+/mah.php 1 -
+/general.php 1 www.google.com
+/wp-content/themes/max-3.0.0/scripts/ 1 www.google.com
+/wp-include/admin.php 1 omega-ritual.com.ua
+/wp-content/themes/astra/assets/js/minified/ 1 -
+/cgi-bin/moon.php 2 -
+/wp-content/themes/SimplePress/tools/ 1 www.google.com
+/wp-concent/themes/mixfolio/ 1 www.google.com
+/wp-content/themes/deep-blue/scripts/ 1 www.google.com
+/.ftpconfig 1 -
+/wp-content/plugins/contus-video-galleryversion-10/ 1 www.google.com
+/wp-includes/js/tinymce/plugins/spellchecker/ 1 www.google.com
+/wp-content/plugins/yd-recent-posts-widget/timthumb/ 1 www.google.com
+/.tmb/class.api.php 1 -
+/wp-content/themes/moi-magazine/ 1 www.google.com
+/geju.php 1 -
+/wp-content/plugins/wordpress-thumbnail-slider/ 1 www.google.com
+/wp-content/themes/freshfolio/functions/ 1 www.google.com
+/cgi-bin/iR7SzrsOUEP.php 2 -
+/wp-content/themes/bueno/functions/ 1 www.google.com
+/wp-content/themes/sportpress/tools/ 1 www.google.com
+/wp-content/themes/journey/ 1 www.google.com
+/wp-content/plugins/booking/readme.txt 1 -
+/wp-content/themes/Chameleon/ 1 www.google.com
+/wp-content/themes/Magnificent/ 1 www.google.com
+/wp-content/themes/manifesto/scripts/ 1 www.google.com
+/wp-content/themes/b/ 1 www.google.com
+/wp-content/themes/blogtheme/functions/ 1 www.google.com
+/wp-content/themes/mio/ 1 www.google.com
+/category-sitemap.xml 1 -
+/gawean.PhP7 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 810
+176.114.0.75 1493 1493 48818947 20240229234850
+188.163.72.222 102 622 13026430 20240212134221
+31.172.137.113 57 119 3036074 20240220190159
+77.111.244.47 47 233 9172702 20240220162048
+46.4.185.150 46 46 1374842 20240225222812
+178.216.15.47 46 178 3724249 20240220164202
+185.94.192.242 42 115 2650439 20240216143422
+46.211.99.212 39 154 5322386 20240228152355
+178.54.16.234 36 114 5464086 20240223201326
+188.163.74.199 35 143 5284435 20240222023840
+34.72.60.14 2 2 7448 20240227082920
+35.84.184.59 1 1 56138 20240207071251
+166.1.155.55 5 5 1277734 20240224010521
+185.18.197.110 1 1 3658 20240228225357
+42.96.43.183 1 1 3658 20240214204505
+185.66.90.243 1 1 493 20240205100041
+27.115.124.101 4 98 1123442 20240215192650
+83.99.151.69 24 24 827392 20240227121344
+5.61.33.168 5 5 1277685 20240225200603
+5.75.206.245 2 2 7318 20240215061147
+194.87.45.84 5 5 1277725 20240229100816
+37.143.130.26 5 5 1277784 20240225120553
+167.172.23.19 3 3 635694 20240208193401
+188.146.14.9 0 1 47436 
+185.138.231.123 0 3 528649 
+199.45.155.50 1 3 69704 20240207071112
+34.67.199.89 1 1 3735 20240229061613
+95.164.34.101 5 5 1277743 20240228130757
+91.149.255.68 5 5 1277690 20240226160617
+89.186.159.183 2 30 682684 20240217230129
+184.94.240.88 1 1 255542 20240207102349
+88.151.192.7 4 4 1022182 20240221190429
+185.86.181.254 2 2 1240 20240202105056
+185.186.77.224 4 4 1022190 20240220120203
+5.34.183.253 7 7 1788849 20240225070551
+192.64.117.80 2 2 7440 20240227083018
+188.163.74.4 2 31 411683 20240203163114
+178.158.205.170 11 64 1573875 20240212160249
+93.170.89.216 0 1 227409 
+88.151.195.111 7 7 1788874 20240229020802
+103.86.48.218 1 1 477 20240212214838
+188.163.35.230 17 131 1839021 20240206064334
+188.190.232.238 8 54 897959 20240227061531
+128.124.196.135 5 51 792520 20240205093244
+37.73.103.118 3 51 869188 20240205135508
+176.111.177.211 0 1 47436 
+79.110.128.47 3 61 749979 20240217210736
+46.150.64.127 2 56 538206 20240219163928
+18.246.6.20 1 1 56146 20240204100540
+165.232.97.140 1 1 56149 20240215024333
+188.40.115.103 1 1 477 20240214225113
+81.173.246.13 1 1 620 20240201033740
+46.211.175.29 11 55 1003298 20240213162640
+31.144.129.26 0 1 53549 
+5.91.142.73 0 1 12671 
+45.129.96.27 5 5 1277705 20240228020643
+146.120.13.139 3 68 837863 20240207103900
+31.134.120.192 2 30 363375 20240205210042
+164.90.241.135 1 5 89306 20240224104914
+23.94.10.36 2 2 59774 20240210145233
+34.90.130.36 1 1 477 20240214211538
+185.132.36.138 2 2 954 20240214193715
+176.37.142.179 2 33 417759 20240216204552
+5.133.192.127 1 2 62938 20240228032600
+194.87.216.74 5 5 1277704 20240224140539
+194.183.167.43 0 1 204907 
+46.33.33.98 6 57 817739 20240229213612
+144.202.75.134 3 3 134135 20240229180231
+148.135.52.42 1 1 493 20240228122338
+78.154.184.162 0 1 35456 
+3.7.169.138 10 10 510923 20240225124228
+185.126.236.155 5 5 1277722 20240225080550
+223.73.39.154 2 2 89523 20240202032612
+91.149.242.103 5 5 1277665 20240225030550
+199.45.155.35 1 5 83263 20240213095123
+37.139.52.142 6 6 1533255 20240227120623
+192.31.129.29 2 2 7444 20240227083358
+46.211.78.212 0 4 204334 
+45.142.215.53 5 5 1277743 20240227210643
+72.14.201.42 1 1 56149 20240214174648
+54.208.44.132 1 1 56158 20240218081757
+109.70.108.10 4 4 224680 20240224112200
+159.192.123.2 2 2 59794 20240214114025
+185.155.99.101 5 5 1277668 20240224110538
+212.63.108.253 1 1 477 20240212123728
+35.189.186.31 10 10 511051 20240225012421
+146.120.199.40 3 44 1538558 20240219142424
+72.14.201.49 13 13 680386 20240223080623
+183.136.225.45 2 2 311682 20240220152629
+194.156.248.35 1 23 236905 20240208225728
+46.211.245.229 10 56 937603 20240207193112
+88.155.180.245 3 60 1490384 20240221174430
+87.151.180.242 0 1 127136 
+83.28.165.172 0 1 204907 
+36.238.79.195 1 1 33415 20240229051635
+185.14.29.120 5 5 1277661 20240229010802
+65.154.226.166 0 2 1471 
+70.39.151.65 1 1 477 20240212140420
+38.180.105.136 5 5 1277767 20240223150511
+52.91.130.246 1 1 56153 20240202082411
+88.155.140.54 5 42 725013 20240207122108
+46.211.155.214 0 1 9157 
+198.54.120.17 3 3 1860 20240202100915
+93.158.91.237 1 1 56148 20240213191215
+54.70.97.103 1 1 56146 20240204110748
+45.94.31.231 1 1 226 20240226025930
+146.70.195.83 2 2 84261 20240213160814
+176.98.25.50 7 67 875105 20240220100528
+2.57.121.251 2 2 511054 20240225060234
+69.163.145.146 1 1 477 20240212164758
+212.3.106.6 6 69 976129 20240217101015
+90.129.205.225 2 80 4586130 20240209220620
+199.244.88.218 1 1 56155 20240227124619
+139.59.38.44 1 1 56158 20240201041005
+83.99.151.66 1 1 56155 20240227120644
+185.246.131.254 6 6 1533352 20240227190644
+154.13.102.207 2 2 59785 20240215131530
+51.254.199.11 4 4 224596 20240227185202
+184.82.8.144 2 2 59780 20240214114017
+188.190.177.215 2 36 496698 20240208111921
+51.222.27.28 2 2 7445 20240227083632
+91.241.49.143 1 1 477 20240215115110
+54.244.212.10 2 55 531437 20240219142515
+38.152.38.227 2 2 59769 20240207050806
+138.124.10.242 4 121 1580400 20240227183342
+185.170.214.146 5 5 1277702 20240227000618
+121.122.87.104 1 1 3658 20240207200046
+185.87.149.184 6 6 1533301 20240228200752
+138.201.115.22 5 5 1277743 20240227010618
+5.45.86.124 5 5 1277663 20240227130625
+185.243.215.104 5 5 1277807 20240224070523
+78.153.130.109 2 28 263036 20240216035555
+196.240.254.144 2 2 84251 20240229023207
+45.82.13.2 6 6 1533253 20240226130614
+212.71.253.31 1 1 477 20240211232045
+27.115.124.53 4 108 1060812 20240215192509
+79.110.133.176 6 66 878373 20240201123426
+95.164.69.158 5 5 1277689 20240227140622
+91.225.4.129 0 2 427068 
+91.92.246.227 1 1 3516 20240211022022
+194.44.36.120 4 40 469905 20240205145758
+194.163.138.224 1 1 477 20240213150415
+159.203.21.146 1 1 56174 20240229023958
+45.89.54.63 5 5 1277652 20240228180750
+93.170.67.8 1 1 56263 20240219115040
+45.82.69.22 1 1 542 20240223162244
+93.171.4.27 0 2 308414 
+185.231.233.233 4 4 1022123 20240219050152
+64.95.79.154 2 2 7444 20240227083927
+178.158.203.200 8 53 851968 20240202204513
+81.19.141.59 4 4 1022191 20240219180157
+91.198.247.157 5 55 703190 20240219142003
+109.123.220.11 1 1 477 20240212111114
+45.67.34.198 5 5 1277694 20240226030603
+27.115.124.114 0 1 6783 
+176.122.121.210 5 49 780092 20240219234809
+91.207.245.214 3 47 1924297 20240207084011
+69.162.102.218 1 1 493 20240228080319
+46.211.237.64 16 120 6432424 20240222165613
+5.182.36.113 5 5 1277644 20240225000547
+157.230.107.52 1 1 56167 20240213034726
+188.163.75.147 10 63 1537054 20240212211854
+178.133.144.127 2 94 4006734 20240228002758
+93.158.70.111 1 1 56132 20240209101726
+104.248.153.75 1 1 620 20240201094411
+35.237.9.24 1 1 477 20240202001547
+217.196.161.100 0 1 53549 
+46.211.81.118 2 40 620979 20240209120849
+198.244.207.207 5 5 1277722 20240227220642
+188.163.80.195 14 94 3422214 20240227164553
+46.211.144.249 2 35 574664 20240212120640
+46.211.164.195 0 2 228340 
+45.142.212.104 4 4 1022142 20240221050210
+185.74.81.18 2 2 954 20240215214421
+81.17.123.38 1 1 199696 20240224193837
+45.61.188.92 1 1 56158 20240217185749
+94.156.69.118 0 1 84089 
+157.230.107.174 1 1 56171 20240217041959
+195.170.179.86 2 59 1020408 20240208143522
+38.180.21.29 5 5 1277704 20240225130555
+66.36.234.130 1 1 56141 20240216180523
+178.133.241.139 6 48 1293914 20240214165154
+67.222.3.106 1 1 477 20240214053831
+185.61.154.29 1 1 620 20240202105047
+185.108.129.215 5 5 1277723 20240227190641
+65.109.35.51 1 1 56132 20240220145757
+35.212.241.96 1 1 3659 20240229065714
+213.226.68.231 6 6 1533258 20240228230803
+192.95.31.35 6 6 251862 20240215021532
+194.104.136.179 5 5 1277711 20240227050622
+81.200.156.80 2 24 271858 20240211130423
+93.113.111.132 1 1 13232 20240215061050
+144.91.92.197 3 3 1431 20240215133013
+196.196.147.33 2 2 59759 20240218211929
+103.26.40.76 1 1 477 20240216172515
+37.73.197.219 2 62 2245121 20240217181437
+202.61.232.43 1 1 477 20240212180359
+141.95.81.34 7 7 1788762 20240229190824
+109.87.60.183 0 1 105389 
+37.143.131.249 5 5 1277706 20240226070605
+3.140.207.220 1 1 542 20240229170356
+186.234.80.164 1 1 493 20240228061047
+188.190.72.226 2 30 447502 20240203040303
+81.173.246.12 2 2 1240 20240202092423
+65.154.226.169 1 1 56170 20240226140536
+91.92.240.68 1 1 5599 20240218144542
+46.23.98.64 1 1 477 20240214102404
+178.254.58.82 1 1 13226 20240206005435
+88.99.195.86 3 3 766602 20240229061307
+173.249.52.101 0 3 252267 
+195.54.170.238 5 5 1277663 20240224200542
+138.197.32.162 1 1 477 20240202224919
+37.59.45.111 1 1 477 20240213052322
+45.80.158.176 1 1 226 20240202141156
+179.43.174.229 5 5 1277717 20240225230601
+80.67.10.142 5 5 280725 20240229004246
+185.65.244.152 6 6 1533232 20240228090738
+98.159.36.24 2 2 298555 20240223185828
+181.215.15.177 6 6 1533177 20240229160826
+198.55.57.24 5 5 28117 20240213113939
+31.43.51.199 4 40 1341476 20240202194352
+188.40.194.183 4 4 1022198 20240218150128
+94.131.14.203 5 5 1277722 20240225180603
+68.178.132.165 1 1 493 20240205092220
+143.198.116.44 1 1 56240 20240207030312
+37.59.53.82 1 1 255553 20240223194017
+5.61.61.132 5 5 1277685 20240225170601
+35.184.211.76 1 1 3743 20240227084320
+46.211.10.167 2 32 410966 20240213124715
+199.45.154.67 1 3 69718 20240205151754
+176.241.128.179 0 1 218504 
+95.164.44.113 4 4 1022122 20240220050201
+38.153.206.13 2 2 59761 20240214215030
+46.211.226.200 0 1 226684 
+5.182.38.20 5 5 1277748 20240226210619
+103.24.200.215 1 1 477 20240215200846
+5.181.21.221 4 4 1022146 20240226020602
+95.164.62.174 5 5 1277716 20240224080537
+15.235.163.15 3 3 10975 20240229230344
+194.104.23.133 2 62 745353 20240209122456
+79.232.55.186 1 1 3659 20240229150502
+159.65.189.146 1 1 56150 20240209024842
+158.58.187.146 2 2 1240 20240202043833
+193.186.4.51 9 9 432912 20240228145303
+68.178.164.152 1 1 3659 20240215085145
+85.128.143.135 1 1 477 20240213013411
+84.39.112.88 2 8 159042 20240224104859
+176.111.177.202 4 111 5922981 20240205112027
+178.133.172.49 14 70 1592970 20240222235750
+178.133.188.231 0 1 85332 
+46.38.249.184 2 2 57014 20240228044225
+149.102.232.103 1 1 287243 20240225014402
+46.182.86.123 0 1 204907 
+188.68.237.138 4 4 1022103 20240222200506
+107.180.121.60 1 1 493 20240205101042
+23.228.130.132 2 55 531885 20240223015408
+178.133.245.230 2 11 132404 20240222220905
+2.57.122.107 2 3 119047 20240220073800
+45.136.196.81 7 7 1788861 20240229060811
+37.57.176.87 3 38 442182 20240212085422
+45.94.31.193 1 1 226 20240220073356
+91.234.138.40 3 68 799814 20240213142302
+68.178.220.250 1 1 3712 20240227083903
+185.153.198.44 4 4 1022111 20240221150426
+46.211.127.134 28 89 2458647 20240205110048
+195.238.126.62 6 6 1533212 20240228190753
+38.180.22.172 5 5 1277693 20240229170823
+217.170.16.121 1 1 477 20240202013638
+3.236.117.65 1 1 56131 20240213051844
+185.39.204.108 5 5 1277656 20240224170540
+123.6.49.50 4 108 1060836 20240220004734
+46.211.225.167 0 1 238188 
+157.245.59.247 1 1 620 20240201094430
+176.36.225.16 0 2 497510 
+27.115.124.2 0 1 6783 
+72.14.201.48 8 8 426523 20240223200433
+97.74.206.146 2 2 7222 20240228143235
+185.143.223.76 3 3 766585 20240225220602
+203.159.90.26 1 1 226 20240213165422
+38.242.154.175 1 1 477 20240201010459
+95.169.181.88 4 4 1022137 20240223100509
+80.93.117.54 10 54 1729042 20240221195639
+80.79.121.40 5 5 1277690 20240226150618
+45.14.29.188 2 62 703455 20240221214412
+212.118.36.6 1 1 477 20240215235213
+185.243.214.220 5 5 1277700 20240226190617
+185.65.244.192 5 5 1277730 20240227230641
+91.210.248.213 2 58 736952 20240205132947
+118.69.61.37 1 1 3708 20240229153317
+192.95.30.15 7 7 316232 20240208071031
+134.122.35.151 1 1 56178 20240203032953
+149.102.232.101 3 3 585548 20240208112757
+94.156.68.85 3 3 6072 20240217031134
+37.53.78.101 4 42 357839 20240222143240
+94.131.15.198 5 5 1277676 20240225050550
+213.202.208.62 7 7 1788839 20240229120814
+176.38.0.101 5 110 4993252 20240226210906
+198.251.68.14 2 2 954 20240202041750
+46.219.210.19 2 52 505979 20240220102742
+38.180.20.32 6 6 1533232 20240228160751
+72.14.201.71 1 1 56162 20240207144314
+72.167.54.33 2 2 7444 20240227083430
+38.170.36.105 2 2 59784 20240202074404
+64.23.185.105 1 1 56165 20240221071748
+37.73.200.64 2 54 1782184 20240226214853
+23.249.172.80 2 2 59788 20240203220306
+107.189.11.82 2 2 22620 20240203175343
+199.45.155.33 1 3 69808 20240205015657
+178.133.37.38 1 21 883020 20240218115458
+62.171.179.214 4 4 14635 20240229212812
+45.159.251.171 4 4 1022166 20240227160638
+195.60.70.240 0 1 204907 
+103.116.247.51 2 2 1240 20240201233254
+176.120.74.137 5 5 1277637 20240224180541
+149.102.232.69 2 2 298520 20240207133922
+5.248.199.148 2 91 1247783 20240218152910
+104.28.192.94 0 1 102050 
+91.209.51.93 2 62 745408 20240228105526
+31.200.247.9 1 1 477 20240212203616
+68.178.196.149 2 2 7445 20240227083239
+157.230.56.231 1 1 56167 20240211030509
+146.190.216.139 1 1 56165 20240221035024
+199.45.155.34 1 4 76501 20240205141637
+185.191.178.110 2 30 682677 20240213185943
+91.149.232.57 4 4 1022147 20240222000437
+46.29.18.110 6 6 1533179 20240229030803
+188.130.178.189 6 129 3710328 20240228195951
+217.30.10.16 4 4 1022181 20240218180132
+91.92.252.211 1 1 255530 20240214193018
+51.158.124.86 11 57 992476 20240207152534
+62.76.234.191 6 6 1533354 20240228110738
+212.8.248.108 2 2 112310 20240227192618
+195.49.149.63 10 72 1068742 20240210203704
+91.149.253.229 4 4 1022162 20240222020434
+13.94.151.188 1 1 477 20240212050004
+34.212.24.157 1 1 56159 20240224105628
+165.22.19.20 1 1 3658 20240207173035
+176.120.118.21 10 61 1002408 20240227015624
+198.28.69.5 2 118 1429420 20240226140534
+193.160.68.239 29 107 2438798 20240217193937
+62.80.160.206 16 78 3188603 20240229111013
+142.93.6.179 1 1 56180 20240227031210
+107.170.138.65 2 2 467451 20240202212034
+13.215.71.4 2 2 954 20240215182420
+185.186.78.229 6 6 1533253 20240229080814
+206.189.104.79 1 1 477 20240214144950
+31.172.65.30 9 9 2034 20240227053007
+217.12.203.185 5 5 1277694 20240227100621
+46.174.67.24 7 65 2131824 20240219180209
+185.186.79.61 5 5 1277706 20240227110623
+38.152.47.240 2 2 59788 20240201030241
+165.22.119.233 1 1 477 20240212230325
+46.101.213.93 1 1 3659 20240206052250
+185.135.86.88 5 5 1277847 20240223020507
+5.133.192.168 1 2 62924 20240217095506
+193.57.42.220 0 1 53549 
+37.251.155.62 3 3 60522 20240213114543
+35.209.23.61 1 1 3659 20240229094051
+37.139.52.16 5 5 1277806 20240226040602
+37.57.176.153 3 51 1258983 20240211190554
+88.155.248.210 3 95 4040814 20240228230610
+35.208.17.77 3 3 10976 20240229080528
+46.211.116.16 18 72 2067430 20240217111014
+109.236.93.77 8 8 1807822 20240229202314
+1.164.98.34 1 1 33415 20240228082848
+176.37.131.81 17 162 4177684 20240220162615
+95.67.74.190 2 33 417741 20240202140259
+31.144.165.56 12 61 1549241 20240212225814
+31.144.204.98 2 30 387315 20240220104813
+193.34.75.20 1 1 56132 20240209193914
+193.186.4.50 8 8 403855 20240228202939
+154.47.29.232 2 2 298459 20240221231115
+193.186.4.49 8 8 385671 20240219124323
+147.78.3.223 4 4 1022227 20240218130123
+88.155.202.175 11 60 1032493 20240206115558
+117.254.35.140 1 1 56154 20240216130339
+46.211.115.244 20 28 599589 20240217115042
+85.114.208.106 2 62 2185845 20240228164159
+1.168.164.107 1 1 33529 20240220123632
+202.61.206.181 2 2 954 20240214145222
+91.204.46.217 1 1 477 20240214114318
+163.172.31.177 1 1 199 20240201083318
+73.22.155.31 0 1 43663 
+185.87.151.222 6 6 1533262 20240229050811
+31.186.23.33 13 13 568122 20240215021523
+51.75.92.133 1 1 13228 20240213113508
+31.144.177.35 0 1 150196 
+18.188.238.157 1 1 542 20240229225845
+188.163.73.130 0 1 238188 
+46.211.71.183 15 72 2529171 20240215201706
+46.150.83.28 7 52 861438 20240226163520
+154.12.225.94 7 7 316268 20240207225437
+34.220.29.110 1 1 56146 20240204110311
+46.211.247.189 0 1 226684 
+193.57.139.108 5 5 1277718 20240227170638
+46.211.97.47 3 37 671817 20240220115616
+46.98.109.153 0 1 47436 
+91.201.242.62 4 54 1922827 20240205214637
+91.194.161.91 5 5 1277730 20240227180637
+23.82.28.216 2 2 59783 20240205052959
+93.170.44.11 2 76 1284141 20240208202317
+77.247.30.222 5 119 1464477 20240222095307
+123.13.62.153 2 2 59772 20240216232705
+94.247.172.129 1 1 56156 20240211231118
+185.246.152.246 7 7 1788841 20240229200823
+46.150.86.201 9 68 2515645 20240203154249
+149.102.232.79 4 4 872748 20240209100150
+85.95.231.40 1 1 477 20240214225318
+91.234.139.67 2 43 471575 20240215192326
+92.60.179.170 2 53 714432 20240215085257
+141.0.12.156 16 83 1623803 20240223200344
+149.56.150.3 1 1 255530 20240219123440
+104.167.222.126 3 3 168464 20240224143248
+46.211.109.178 6 10 41809 20240217122121
+67.205.12.215 2 2 7448 20240227083019
+178.133.224.123 1 1 56159 20240224221138
+101.36.121.252 1 2 62978 20240202005122
+46.211.22.17 26 81 2348131 20240218093036
+196.196.53.29 2 2 41742 20240219002158
+45.95.232.4 7 7 1788930 20240228100737
+23.109.208.12 2 2 59769 20240225043131
+51.15.230.182 1 1 270 20240210222124
+188.163.114.200 0 1 204907 
+13.210.115.253 1 1 477 20240202195452
+51.15.195.113 1 16 213616 20240212112640
+78.47.232.106 1 1 477 20240215102221
+154.16.192.213 3 3 585674 20240220170107
+109.207.118.78 0 1 47436 
+78.183.79.26 0 1 218504 
+93.22.133.181 2 64 2197532 20240203231048
+91.123.191.224 0 1 47436 
+178.32.13.5 5 5 1277727 20240224100538
+123.6.49.47 2 44 593033 20240215192450
+88.154.42.178 0 1 204907 
+195.133.36.146 5 5 1277858 20240223230518
+45.139.65.246 1 1 56158 20240203162708
+185.53.46.60 5 5 1277720 20240228030725
+195.39.243.10 12 64 1011245 20240216082534
+209.127.48.53 2 2 37016 20240220210112
+54.153.97.49 1 1 255552 20240227164808
+82.223.3.76 3 3 1431 20240201225403
+62.122.202.190 2 53 489548 20240219191308
+38.180.18.28 4 4 1022154 20240224230541
+54.202.31.174 1 1 255550 20240211092915
+46.167.209.73 1 1 477 20240216062050
+104.236.201.82 1 1 56176 20240225041021
+103.176.78.41 1 1 3659 20240206094616
+46.29.234.65 5 5 1277636 20240229220825
+91.234.26.180 0 2 12145 
+128.124.140.83 6 59 1379989 20240223080643
+128.124.93.84 4 38 1496104 20240224222335
+176.36.133.18 25 94 2850404 20240203112425
+154.26.134.164 1 1 3659 20240206114937
+196.242.20.98 2 2 59794 20240207003058
+95.217.75.104 3 3 1431 20240216151255
+61.231.71.125 2 2 112330 20240221072426
+94.156.64.43 2 6 158128 20240221144259
+38.180.19.97 5 5 1277674 20240225190611
+46.133.7.216 2 13 197082 20240210215925
+139.162.196.21 1 1 477 20240212191830
+18.210.223.232 1 1 620 20240201115900
+94.131.8.135 6 6 1533277 20240224220542
+31.144.20.2 0 1 204907 
+185.181.229.131 8 8 2044263 20240229230824
+178.133.240.51 1 23 264949 20240215163528
+2.57.121.121 8 8 23632 20240207170618
+31.42.170.78 0 1 176455 
+194.58.34.114 5 5 1277701 20240228050726
+45.131.193.141 1 1 28110 20240225100439
+45.159.249.155 6 6 1533279 20240228030726
+37.212.86.154 8 72 1675991 20240203110456
+82.15.95.138 2 33 425904 20240227015759
+89.185.84.69 4 4 1022195 20240221040210
+195.10.210.164 1 1 33318 20240214181419
+91.232.21.74 1 1 56229 20240207042455
+80.94.93.190 1 1 56153 20240201235045
+195.18.30.193 3 39 691028 20240218054918
+185.107.91.202 9 9 454694 20240213051315
+91.219.30.15 6 6 1533205 20240228140749
+38.242.140.189 1 1 477 20240201063342
+46.211.75.35 3 69 4345265 20240229150344
+196.196.222.24 2 2 59763 20240210015511
+207.7.89.146 2 2 954 20240216094845
+199.45.155.48 1 3 69729 20240207014928
+5.135.4.74 5 5 1277650 20240226000601
+51.83.242.99 6 6 1533223 20240229150823
+94.247.133.45 1 1 477 20240214162802
+46.166.61.218 0 1 193744 
+91.92.251.174 5 5 7970 20240226083707
+155.133.132.66 1 1 477 20240214180305
+81.17.123.36 1 1 199815 20240222235256
+128.90.172.236 2 6 145476 20240224104859
+185.75.3.228 0 1 215978 
+143.244.190.167 1 1 3658 20240207233541
+78.25.0.70 2 25 271726 20240214150518
+108.167.132.60 2 2 7444 20240227083601
+195.49.149.31 19 84 2357726 20240221090122
+212.154.212.76 0 1 84211 
+45.61.186.115 2 2 22620 20240203114434
+185.90.61.135 4 4 1022125 20240222150457
+74.84.150.86 1 1 56146 20240205012721
+94.131.98.8 4 4 1022181 20240220060202
+185.130.54.155 4 61 1431470 20240228235536
+93.158.91.25 1 2 62927 20240211053159
+87.244.151.83 4 95 5264753 20240225111108
+38.242.222.177 1 1 56148 20240214071640
+85.215.32.8 1 1 3659 20240206042952
+65.154.226.171 2 59 709899 20240216111131
+38.153.206.169 2 2 59875 20240215115206
+46.16.62.78 1 1 3706 20240214065242
+65.154.226.170 2 2 112288 20240219211508
+185.251.38.59 5 5 1277751 20240226050609
+149.202.88.212 1 1 477 20240213221107
+46.211.122.36 0 1 226684 
+76.38.91.141 3 60 3657870 20240220021531
+176.98.70.104 0 2 86353 
+193.186.4.76 1 1 28118 20240206102110
+31.144.93.39 2 34 432440 20240202230501
+45.12.26.225 0 1 204907 
+199.45.154.65 3 9 209141 20240213053030
+169.252.4.22 2 40 330941 20240201094217
+2.57.169.163 1 1 255599 20240215175343
+168.227.98.2 1 1 1664 20240202163145
+195.54.170.231 5 5 1277715 20240227020619
+111.251.225.46 1 1 56166 20240222022652
+78.135.111.25 1 1 493 20240228093615
+123.13.62.129 2 2 59769 20240207122558
+185.38.248.67 4 4 1022111 20240221010209
+37.252.10.127 4 4 1022182 20240219070151
+31.144.185.103 4 51 506278 20240217185334
+217.147.175.179 3 59 764946 20240206122621
+51.241.204.148 1 1 1175 20240223133405
+178.133.252.221 13 77 4061804 20240226175147
+123.13.59.72 2 2 59783 20240205080655
+95.217.147.17 1 1 199 20240227182710
+5.154.181.47 5 5 1277705 20240228010643
+192.95.30.227 22 22 1099965 20240228172934
+178.158.235.45 13 68 1639784 20240225065800
+196.247.224.205 2 2 59783 20240205202817
+202.69.68.110 1 1 3705 20240209003612
+104.28.131.166 4 57 1325629 20240210174924
+193.186.4.13 1 1 34226 20240212175632
+46.150.78.228 3 115 4293604 20240222190740
+117.254.35.204 1 1 56156 20240211103729
+116.203.76.17 3 3 134164 20240228034100
+5.175.45.198 9 9 454692 20240212103916
+67.220.86.160 1 1 56155 20240228064424
+37.187.251.30 6 6 251876 20240215202138
+45.154.240.57 1 1 477 20240215150823
+80.209.252.126 1 1 477 20240215164538
+196.240.254.152 2 2 59788 20240201021959
+133.242.215.116 1 1 620 20240201194602
+212.193.2.7 5 5 1277687 20240224150539
+194.87.39.249 3 3 766636 20240213214703
+49.13.65.58 1 1 56170 20240226113327
+185.237.185.224 5 5 1277858 20240226060604
+217.196.161.207 0 1 191313 
+88.99.136.18 1 1 56127 20240218235200
+161.35.145.32 1 1 56162 20240207100207
+185.126.238.220 5 5 1277680 20240226140614
+91.149.240.232 4 4 1022166 20240219030145
+5.133.192.135 1 2 62929 20240205004303
+173.236.208.81 3 3 134164 20240228084046
+37.57.192.2 2 48 692264 20240213184504
+31.128.64.19 1 24 272009 20240222162341
+46.211.154.241 2 38 607403 20240205110715
+95.10.1.132 4 91 1824893 20240209145820
+59.42.120.132 2 2 2553 20240225222404
+31.41.68.16 0 1 101488 
+188.126.77.47 5 5 1277743 20240226170621
+37.73.209.66 2 66 2809987 20240224225647
+5.188.181.92 7 7 1788933 20240228220802
+68.178.155.122 3 3 60529 20240228052946
+38.152.9.239 2 2 59789 20240218002131
+167.86.93.242 1 1 620 20240201082500
+178.254.12.183 1 1 56131 20240215024836
+91.92.249.208 1 1 3515 20240205001135
+45.136.198.155 5 5 1277692 20240228000643
+93.170.159.240 0 2 308414 
+185.141.61.69 5 5 1277718 20240225090553
+185.74.81.29 1 1 477 20240216045223
+37.122.250.92 2 2 57014 20240227140905
+91.148.135.226 6 6 1533229 20240228150750
+173.212.222.47 2 2 7318 20240229132758
+95.215.223.238 0 1 81324 
+103.186.185.224 2 2 1240 20240202043856
+91.235.128.12 4 4 1022158 20240222070437
+188.165.203.79 1 1 477 20240214070527
+192.241.158.148 2 2 7447 20240226050044
+85.209.45.42 1 24 271806 20240214110745
+199.244.88.229 1 1 56131 20240212214308
+93.158.90.69 1 1 56158 20240218033026
+141.170.243.207 0 1 90607 
+128.124.120.104 4 81 2886453 20240216171347
+91.75.11.206 2 2 59789 20240203015913
+123.13.59.153 2 2 59783 20240206003142
+185.169.55.109 1 1 477 20240215084349
+213.16.88.71 2 2 7448 20240227083015
+64.23.216.179 1 1 56178 20240223042323
+173.249.26.81 1 1 477 20240214101031
+91.219.29.13 6 6 1533300 20240229000800
+135.125.11.160 1 1 56142 20240215122815
+91.123.155.152 2 62 1877308 20240201195357
+207.178.157.29 2 2 7443 20240229061313
+186.242.102.14 1 1 255529 20240220130444
+196.242.115.2 3 3 93119 20240228122306
+72.14.201.25 1 1 56158 20240218185202
+94.131.102.137 6 6 1533333 20240226230617
+81.181.60.54 1 1 287222 20240210054445
+183.89.92.220 2 2 89612 20240209083256
+18.236.205.253 1 1 56132 20240220105826
+103.233.193.20 2 2 7444 20240229061530
+68.178.152.158 1 1 493 20240228070757
+46.211.81.109 10 57 3134502 20240222225654
+185.231.205.54 2 2 511090 20240209154035
+185.123.101.94 4 4 1022150 20240218120121
+193.186.4.65 1 1 56159 20240207095655
+54.156.24.0 3 3 1431 20240213063710
+91.238.160.173 2 2 7317 20240229014643
+72.14.201.50 10 10 489848 20240226110800
+185.213.20.176 5 5 1277648 20240228170751
+46.211.224.28 8 62 951893 20240209142347
+185.164.176.32 4 4 1022129 20240224160540
+46.211.92.12 5 48 1579174 20240229071548
+51.178.84.29 1 1 477 20240215003430
+62.171.180.18 2 2 7451 20240226045947
+31.22.4.67 1 1 255521 20240213091448
+194.87.216.62 5 5 1277815 20240226120618
+95.164.21.37 6 6 1533203 20240228210801
+154.13.103.37 2 2 59757 20240219095933
+95.67.99.32 1 24 271744 20240212121242
+185.241.208.30 1 1 226 20240220190708
+196.245.181.206 2 2 37017 20240203061251
+91.232.158.79 22 92 2222320 20240226155718
+46.211.247.128 2 43 1390957 20240224203750
+188.26.209.112 9 56 1228886 20240207095930
+63.247.136.220 1 1 477 20240212031215
+81.0.249.63 1 1 477 20240213121047
+217.76.104.41 1 1 477 20240202153556
+186.179.61.189 2 2 59771 20240208094727
+176.37.182.212 4 61 2566924 20240227222135
+3.7.27.213 6 6 251877 20240215143842
+213.186.4.109 1 1 3658 20240206015225
+95.217.18.177 1 1 56140 20240208143058
+185.126.237.171 5 5 1277713 20240228030725
+89.209.125.153 2 51 1208551 20240223215530
+46.211.79.130 16 67 1119437 20240210002612
+173.201.181.53 2 2 7173 20240205084355
+72.14.201.51 8 8 449408 20240226173404
+45.131.193.127 1 1 56138 20240225100437
+18.218.160.111 1 1 255527 20240225222538
+27.115.124.104 0 1 6783 
+151.249.142.163 0 1 47436 
+92.40.168.253 0 1 66199 
+80.94.93.182 1 1 255510 20240222095334
+176.36.187.162 3 41 301686 20240212200625
+83.99.151.64 7 7 228963 20240227120844
+91.224.179.29 0 1 248755 
+178.18.247.116 1 1 477 20240212152837
+34.247.38.168 1 1 56153 20240202070913
+181.214.173.210 4 58 605052 20240213182533
+188.163.46.189 14 61 1018029 20240227142531
+185.213.22.202 5 5 1277705 20240229110813
+176.96.243.100 4 4 61013 20240205125724
+195.90.221.76 2 2 112305 20240225013414
+178.254.12.205 1 1 33567 20240215132224
+67.222.134.13 1 1 620 20240201194544
+37.73.36.196 2 46 395939 20240203160029
+123.13.58.191 2 2 59784 20240202085554
+46.150.64.165 3 64 1929844 20240224173524
+139.144.118.100 1 1 620 20240202064726
+95.164.84.216 6 6 1533239 20240229070814
+38.180.17.18 5 5 1277708 20240229130823
+45.12.24.183 8 43 1054558 20240219000450
+185.3.134.201 3 3 93268 20240218094859
+81.12.39.194 1 1 493 20240205092922
+37.252.5.84 5 5 1277669 20240226010602
+154.12.244.40 2 2 57014 20240227221807
+148.72.245.234 1 1 493 20240228075433
+213.202.233.34 0 1 5048 
+178.128.187.183 2 2 7317 20240214232019
+212.72.182.66 2 2 954 20240213162921
+178.133.11.151 3 8 100697 20240212003301
+27.115.124.97 0 1 6783 
+46.211.72.46 2 21 233025 20240212163002
+176.120.64.8 5 5 1277670 20240225060551
+91.221.211.11 0 1 204907 
+176.105.202.237 34 236 11586411 20240222161350
+121.148.190.228 2 2 7449 20240227083814
+34.170.186.47 1 1 3658 20240229015954
+85.10.153.168 9 9 454713 20240213051314
+193.228.128.10 5 5 1277653 20240229180823
+5.196.4.223 1 1 477 20240201050952
+193.19.255.197 1 53 2707429 20240224203921
+77.68.20.164 1 1 477 20240213040301
+103.214.20.148 1 1 56163 20240207015824
+192.241.95.33 2 2 59752 20240229202407
+94.130.164.242 1 1 477 20240202140511
+195.133.88.24 5 5 1277668 20240224130540
+31.14.238.99 6 6 1533329 20240228080738
+81.19.139.41 6 6 1533227 20240228070747
+188.40.189.172 1 1 477 20240201075436
+35.213.150.228 2 2 7454 20240202045025
+193.186.4.33 1 1 56174 20240228203120
+3.139.80.24 6 51 733309 20240223002158
+103.143.76.184 1 1 477 20240216170821
+45.136.199.251 5 5 1277692 20240227150624
+51.158.118.22 20 50 1000069 20240212123901
+202.182.74.32 1 1 56156 20240201004334
+91.228.218.86 5 5 1277702 20240227040619
+45.94.31.146 1 1 226 20240225201356
+195.191.99.48 2 60 716698 20240216234806
+46.211.95.178 2 29 278177 20240207163908
+176.111.177.63 15 63 1697612 20240208132425
+195.234.78.15 2 49 624029 20240214102724
+84.239.14.188 1 1 287155 20240206232108
+194.165.59.27 5 5 1277693 20240225210601
+23.83.90.26 2 2 37017 20240203061333
+45.132.194.52 1 1 287161 20240222105553
+89.209.29.19 1 1 8571 20240209063834
+217.29.4.81 1 1 477 20240212080525
+176.100.24.206 2 34 432344 20240205094917
+46.150.73.229 2 53 591340 20240202162422
+45.145.20.210 5 5 1277809 20240227190641
+185.237.217.11 0 1 47436 
+91.196.55.86 0 1 215978 
+177.10.89.81 3 3 134156 20240229081107
+79.143.35.166 0 1 204907 
+93.158.90.72 1 1 56140 20240222111745
+128.199.41.87 1 1 56177 20240205040420
+61.246.6.91 1 1 3658 20240214220311
+46.211.76.3 0 1 9802 
+34.223.53.133 2 2 112316 20240203142803
+37.143.129.109 6 6 1533265 20240226220618
+185.39.207.35 5 5 1277658 20240227190643
+186.234.80.129 1 1 3709 20240226050046
+169.252.4.23 7 31 1180430 20240201094313
+159.69.95.239 1 1 477 20240214131521
+217.147.193.50 1 1 477 20240215070016
+123.13.57.253 2 2 59776 20240229000531
+103.231.89.236 1 1 255590 20240205005151
+31.131.2.30 5 5 1277799 20240225150559
+109.227.113.96 2 44 310225 20240209183638
+176.9.76.162 1 1 255553 20240223034937
+46.211.19.41 0 2 126863 
+194.26.192.105 1 1 226 20240214010134
+46.175.17.2 0 5 1097625 
+162.19.3.52 5 5 1277677 20240229210824
+91.210.248.193 8 76 1724310 20240227145047
+37.60.238.244 1 1 477 20240214083626
+153.127.55.68 2 2 7446 20240229061252
+207.148.121.6 5 5 3100 20240202100938
+158.220.97.36 3 3 134164 20240228034101
+46.211.92.14 11 64 1574502 20240214162441
+138.199.59.201 2 57 623539 20240218234401
+185.155.91.133 6 78 1245478 20240227102241
+83.99.151.70 1 1 33465 20240227121634
+192.126.201.203 2 2 59769 20240207213423
+95.158.37.47 3 109 5832831 20240224105820
+95.47.251.97 0 1 204907 
+27.115.124.109 2 54 530417 20240220004956
+185.179.24.31 1 1 199 20240213103801
+83.99.151.67 2 2 67554 20240227121124
+206.237.98.46 1 1 56138 20240207062254
+193.104.208.101 4 64 769601 20240206213446
+83.99.151.68 31 31 1062285 20240227121724
+192.71.142.35 1 1 56170 20240226132226
+45.95.233.29 6 6 1533292 20240229040843
+45.83.176.197 6 6 1533264 20240229090815
+52.148.193.10 1 1 477 20240212093924
+15.188.185.202 3 32 428668 20240209124432
+178.133.92.31 2 52 1802369 20240219211119
+146.190.43.100 1 1 56165 20240219041237
+190.87.165.50 1 1 1175 20240223181739
+217.77.209.134 6 66 804219 20240215123813
+195.26.18.189 0 3 107580 
+46.150.10.83 0 1 203025 
+193.186.4.48 3 3 145943 20240229143314
+89.248.174.34 2 2 112276 20240225183859
+23.231.34.124 2 2 59789 20240225014109
+192.71.2.9 1 1 56146 20240205010329
+137.184.207.193 3 3 1860 20240202004015
+46.211.232.102 13 66 1636748 20240223103034
+46.211.248.22 2 27 281856 20240218223023
+138.68.180.18 7 7 254569 20240223044007
+72.14.201.59 1 1 56149 20240214125358
+104.28.131.168 4 51 943948 20240226153957
+95.111.252.15 2 2 5828 20240222163108
+27.115.124.48 0 1 6783 
+123.13.57.238 2 2 59789 20240224202327
+185.225.28.9 3 3 585588 20240222221327
+51.254.58.185 5 5 1277699 20240227190641
+91.134.248.235 1 1 199 20240225192600
+173.44.153.124 2 2 112293 20240225192804
+185.65.244.147 5 5 1277718 20240227200642
+13.38.65.102 1 1 56132 20240209124255
+146.19.170.75 4 4 1022166 20240220010201
+178.133.49.74 8 54 895190 20240206164359
+130.0.237.153 6 6 1533320 20240227190642
+185.247.184.11 5 5 1277730 20240226180617
+196.242.195.144 2 2 59788 20240201021944
+95.164.68.111 4 4 1022122 20240220180206
+46.211.231.102 8 106 4309869 20240219124121
+188.132.192.132 6 6 1533275 20240228120750
+128.65.22.133 15 89 3100123 20240207133154
+152.32.218.201 2 3 318490 20240228044047
+168.90.197.48 1 1 56155 20240223024344
+176.38.28.232 11 132 1867336 20240226152005
+38.180.23.135 5 5 1277704 20240225160601
+194.26.213.183 6 6 1533263 20240229140822
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20240201 131 321 13141036 73
+20240202 141 343 13541311 70
+20240203 142 500 21070761 60
+20240204 79 82 9085813 39
+20240205 180 850 28380593 71
+20240206 130 350 14476674 58
+20240207 187 579 20798626 73
+20240208 118 360 15057467 46
+20240209 147 568 20526716 58
+20240210 120 298 13302439 46
+20240211 98 176 12052476 54
+20240212 292 1164 31988720 77
+20240213 161 586 15914805 73
+20240214 132 322 12872395 70
+20240215 179 560 19334067 84
+20240216 134 464 16793958 64
+20240217 187 591 18691548 56
+20240218 145 500 17459090 65
+20240219 134 673 22953029 59
+20240220 281 1154 38022561 62
+20240221 134 364 17816209 56
+20240222 216 1036 45307053 58
+20240223 177 578 22465016 54
+20240224 113 489 25488730 56
+20240225 158 305 19482217 59
+20240226 154 775 26292919 52
+20240227 234 803 25379104 74
+20240228 183 675 29364189 65
+20240229 149 371 19552227 65
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 45
+15mn-30mn 12
+30mn-1h 47
+0s-30s 1649
+2mn-5mn 18
+5mn-15mn 19
+1h+ 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 125
+/ 1231 225832301 1074 1000
+/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff2 183 1251485 10 75
+/wp-login.php 172 774560 75 139
+/xmlrpc.php 124 63614 119 119
+/uk/truni/ 89 6954536 39 21
+/uk/pominalni-obidi/ 68 2003306 13 15
+/uk/ 67 2682250 41 17
+/ritualnyj-transport/ 66 2403827 29 10
+/groby/ 62 2171303 21 9
+/uk/poslugi-kremacii/ 60 1685474 5 4
+/pominalnye-obedy/ 51 1606909 3 7
+/uslugi-kremacii/ 52 1583994 2 13
+/wp-json/yoast/v1/statistics 2 1762 0 0
+/uk/ritualnij-agent/ 1 33588 0 0
+/wp-json/wp/v2/users 3 2577 3 0
+/uslugi-morga/ 52 1715340 2 16
+/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 1 18824 0 0
+/uk/ritualnij-transport/ 56 1673913 3 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-37.jpg.webp 2 93480 0 0
+/uk/truni/ 1 38011 0 0
+/wp-admin/ 3 109120 0 0
+/wp-admin/load-styles.php 6 609995 0 0
+/ritualnye-uslugi/ 39 994639 0 16
+/ritualnye-kresty 5 137467 2 0
+/wp-admin/load-scripts.php 4 177203 0 0
+/uk/ritualna-zala/ 52 1480520 3 3
+/uk/pominalni-obidi/ 1 33331 0 0
+/vedushhij-na-pohorony/ 28 907494 4 16
+/wp-json/wp/v2/posts 3 1626 3 3
+/wp-content/plugins/schema/assets/fonts/dashicons.woff 1 1256 0 0
+/. 42 2557510 40 1
+/uk/kontakti/ 48 1274372 5 10
+/wp-json 27 589599 0 10
+/kontakty/ 53 1380697 8 12
+/wp-admin/admin-ajax.php 52 114928 0 1
+/uk/ritualni-pamyatniki/ 39 1248159 11 7
+/uk/portret-na-pohoron/ 23 766373 3 2
+/iskusstvennye-venki/ 43 1367451 9 8
+/uk/organizator-pohoronu/ 58 1572932 5 4
+/wp-admin/post.php 7 356080 0 0
+/ritualnyj-zal/ 49 1614253 1 22
+/wp-content/plugins/sitepress-multilingual-cms/res/font/otgs-icons.woff 1 11716 0 0
+/uk/poslugi-kremacii/ 1 33649 0 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-33.jpg.webp 2 91816 0 0
+/uk/ritualni-tovari/ 34 1002926 4 3
+/venki-na-pohorony 3 105103 0 1
+/uk/nosii-truni/ 27 908858 1 2
+/uk/ritualni-poslugi/ 32 853450 6 1
+/wp-content/ 1 244 0 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-06.jpg.webp 3 181332 0 0
+/uk/perevezennya-pomerlih/ 1 33382 0 0
+/uk/ritualna-zala/ 1 32849 0 0
+/uk/urna-dlya-prahu/ 28 929758 7 2
+/uk/muzichnij-suprovid-pohoronu/ 46 1400358 2 3
+/ritualnye-tovary 1 31286 1 0
+/wp-admin/edit.php 2 75108 0 0
+/wp-json/ 2 2350 2 2
+/o-kompanii/ 40 1045038 15 3
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-22.jpg.webp 2 84340 0 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-53.jpg.webp 1 40192 0 0
+/wp-admin/customize.php 4 885727 0 0
+//wp-json/wp/v2/users/ 3 2577 0 3
+/wp-includes/blocks/ 1 564 1 0
+/ritualnye-pamyatniki/ 44 1450408 14 6
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-19.jpg.webp 3 82542 0 0
+/uk/vinok-iz-zhivih-kvitiv/ 41 1265294 3 2
+/nosilshhiki-groba/ 29 976109 3 7
+/pohoronnyj-nabor/ 34 1166516 10 14
+/groby 1 38037 0 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-25.jpg.webp 2 100776 0 0
+/uk/veduchij-na-pohoron/ 31 1004089 5 6
+/ritualnye-tovary/ 53 1349832 19 1
+/uk/medichnij-suprovid-pohoronu/ 48 1372053 3 4
+/ritualnye-kresty/ 45 1446457 17 3
+/uk/vinki-na-pohoron/ 56 2047153 9 8
+/uk/poslugi-morgu/ 53 1544043 7 1
+/wp-content/plugins/ 2 488 1 0
+/venki-na-pohorony/ 47 1544682 5 4
+/wp-json/wp/v2/ 2 40132 0 0
+/medicinskoe-soprovozhdenie-pohoron/ 44 1372803 0 8
+/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot 2 23040 0 0
+/oformlenie-dokumentov-dlya-pohoron/ 51 1644827 6 4
+/uk/medichnij-suprovid-pohoronu/ 1 32594 0 0
+/uk/vidspivuvannya-pomerlogo/ 1 33457 0 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-40.jpg.webp 2 80592 0 1
+/wp-content/plugins/index.php 4 841 3 2
+/uk/vinki-na-pohoron/ 1 34982 0 0
+/uk/oformlennya-dokumentiv-dlya-pohoronu/ 45 1338947 12 1
+/wp-content/themes/ 2 488 0 1
+/portret-na-pohorony/ 31 1037863 3 8
+/venok-iz-zhivyh-cvetov/ 41 1233019 1 18
+/uk/o-kompanii/ 32 925052 7 1
+/uk/shtuchni-vinki/ 35 1207858 14 7
+/ceny/ 40 1294447 4 8
+/dezobrabotka/ 28 943727 2 5
+/venok-iz-zhivyh-cvetov 2 68337 0 0
+/wp-content/uploads/2021/07/Group-57.png.webp 2 13248 0 0
+/uk/ritualnij-agent/ 51 1447883 1 9
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-43.jpg.webp 1 44078 0 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-46.jpg.webp 1 36248 0 0
+/uk/vidspivuvannya-pomerlogo/ 54 1475676 3 3
+/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff 1 11428 0 0
+/wp-content/index.php 4 886 3 2
+/ritualnyj-agent/ 46 1548343 2 7
+/wp-json/yoast/v1/ryte 2 1622 0 0
+/perevozka-umershih/ 46 1541546 12 9
+/uk/perevezennya-pomerlih/ 48 1404760 0 5
+/wp-admin/install.php 1 1664 1 1
+/uk/ritualni-hresti/ 54 1577692 4 3
+/wp-content/themes/index.php 1 199 0 0
+/urna-dlya-praha/ 30 996877 3 19
+/wp-json/wp/v2/widget-types 4 8076 0 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-56.jpg.webp 1 42814 0 0
+/wp-includes/blocks/index.php 1 1237 0 0
+/ritualnye-pamyatniki 1 33635 0 0
+/muzykalnoe-soprovozhdenie-pohoron/ 43 1404252 14 6
+/wp-cron.php 1 337 0 0
+/uk/pohoronnij-nabir/ 37 1197435 7 3
+/uk/dezobrobka/ 28 942402 10 2
+/otpevanie-umershego/ 57 1778164 13 8
+/organizator-pohoron/ 48 1574959 1 13
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-28.jpg.webp 2 92116 0 0
+/uk/cini/ 53 1632789 3 7
+/wp-content/themes/flatsome/assets/css/icons/fl-icons.ttf 1 11352 0 0
+/wp-admin/post-new.php 2 166865 0 0
+END_SIDER

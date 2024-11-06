@@ -1,0 +1,709 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 202109 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.omega-ritual.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1999                
+POS_TIME 2680                
+POS_VISITOR 10938               
+POS_DAY 16986               
+POS_DOMAIN 3605                
+POS_LOGIN 3839                
+POS_ROBOT 3994                
+POS_WORMS 4731                
+POS_EMAILSENDER 4862                
+POS_EMAILRECEIVER 5005                
+POS_SESSION 17847               
+POS_SIDER 18056               
+POS_FILETYPES 5140                
+POS_DOWNLOADS 5460                
+POS_OS 5532                
+POS_BROWSER 5705                
+POS_SCREENSIZE 7025                
+POS_UNKNOWNREFERER 7099                
+POS_UNKNOWNREFERERBROWSER 7375                
+POS_ORIGIN 7619                
+POS_SEREFERRALS 7763                
+POS_PAGEREFS 7940                
+POS_SEARCHWORDS 8784                
+POS_KEYWORDS 8936                
+POS_MISC 2344                
+POS_ERRORS 8995                
+POS_CLUSTER 3695                
+POS_SIDER_404 9167                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20211001000213 297 70410 8147356541550
+FirstTime 20210901041229
+LastTime 20210930234840
+LastUpdate 20211001051519 297 0 296 0 0
+TotalVisits 446                 
+TotalUnique 126                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 161                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 7 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 90 147 3395861 93 146 1493185
+1 27 62 1406198 92 142 2517232
+2 132 193 5140045 110 189 3009588
+3 76 111 2630568 100 140 1418518
+4 164 201 5314816 117 174 2828637
+5 75 75 2348780 81 92 997619
+6 43 47 1213574 84 175 2199169
+7 137 139 4173194 114 214 1859951
+8 61 70 1957773 100 127 2987239
+9 74 344 8594992 89 146 1345395
+10 98 702 17543706 73 125 1750935
+11 86 347 8832346 82 92 927497
+12 155 660 19764463 96 177 1981776
+13 231 1173 38258593 122 202 4943825
+14 123 599 16927995 103 126 2205121
+15 233 871 29886562 134 229 6663223
+16 87 286 5291169 101 198 2471709
+17 323 1167 20205438 142 225 3042166
+18 94 246 9644647 174 208 3179882
+19 53 103 2361101 119 195 2082184
+20 40 45 1005631 104 215 1898600
+21 66 174 7490218 98 129 998989
+22 57 57 1910388 77 93 886673
+23 81 313 5519397 92 132 1127385
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2606 8132 220817455
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+wordpress 946 3673774 20210930234836 0
+bot[\s_+:,\.\;\/\\-] 830 15015030 20210930235416 89
+googlebot 554 11011054 20210930235958 21
+yandex 403 7243658 20210928192419 43
+[\s_+:,\.\;\/\\-]bot 303 533395 20210930234835 4
+robot 268 6164315 20210930042552 23
+spider 39 345849 20210916060350 1
+java\/[0-9] 39 5824819 20210917024637 0
+unknown 27 11568 20210924133541 27
+no_user_agent 11 1913699 20210930153722 0
+libwww 1 228751 20210901150215 0
+facebook 10 136629 20210922134619 0
+favicon 2 9720 20210921032806 0
+checker 2 105696 20210914013650 0
+netcraft 2 457555 20210930191003 0
+nutch 1 428 20210924095005 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+css 609 4355905 0 0
+webp 29 503310 0 0
+png 1413 53608317 0 0
+woff 2 2512 0 0
+woff2 82 563303 0 0
+php 273 4954584 0 0
+html 2192 65197833 0 0
+xml 1 1372 0 0
+js 1683 17637751 0 0
+jpg 908 71101620 0 0
+Unknown 27 355510 0 0
+gif 7 53382 0 0
+svg 906 2482056 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 209 0 87308
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 11
+linuxandroid 1046
+winlong 43
+winxp 10
+winnt 3197
+linuxubuntu 5
+winvista 13
+linuxfedora 1
+linux 261
+win7 477
+macosx 1440
+Unknown 1639
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 74
+safari7.0.3 4
+msie6.0 4
+firefox57.0 1
+ibrowse 2
+chrome81.0.4044.129 2
+chrome91.0.4472.101 1
+chrome92.0.4515.131 2
+curl 1
+chrome79.0.3945.117 186
+safari14.1.1 105
+chrome42.0.2311.90 2
+chrome90.0.4430.212 61
+msie7.0 1
+firefox59.0 2
+firefox40.1 8
+chrome66.0.3359.181 6
+safari13.1.1 180
+safari7.0.5 2
+chrome72.0.3626.119 2
+firefox77.0 3
+firefox29.0 4
+chrome80.0.3987.116 1
+firefox45.0 8
+chrome93.0.4577.63 2050
+chrome92.0.4515.166 1
+chrome46.0.2490.80 3
+chrome51.0.2704.103 3
+safari7.0.6 2
+chrome35.0.1916.114 4
+firefox68.0 3
+chrome36.0.1985.143 4
+mozilla 42
+netscape5.0 4
+chrome93.0.4577.82 765
+chrome89.0.4389.116 81
+chrome84.0.4147.105 1
+safari5.1.9 2
+safari12.1.2 52
+chrome73.0.3683.90 1
+safari 127
+safari7.0 8
+safari13.1.2 100
+firefox52.0.2 1
+android 1
+firefox52.0 2
+chrome36.0.1985.125 33
+firefox24.0 6
+chrome94.0.4590.2 545
+chrome57.0.2987.108 169
+firefox31.0 16
+iphone 52
+chrome61.0.3163.100 2
+chrome26.0.1410.65 1
+chrome53.0.2785.116 74
+chrome91.0.4472.164 1
+msie9.0 64
+safari14.1.2 336
+Unknown 1638
+firefox52.0.1 1
+firefox89.0 1
+safari10.0 37
+firefox52.7.3 2
+firefox91.0 407
+chrome78.0.3904.108 2
+firefox52.7.0 1
+firefox30.0 14
+safari6.1.5 6
+chrome35.0.1916.153 12
+chrome92.0.4515.159 745
+msie10.0 4
+firefox51.0 1
+firefox52.5.0 1
+firefox51.0.1 1
+safari14.0.1 115
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+WP_Rocket/Preload 20210930234840
+Viber 20210929144015
+Iframely/1.3.1_(_https://iframely.com/docs/about) 20210902171357
+ltx71_-_(http://ltx71.com/) 20210902090537
+curl/7.61.1 20210912080733
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+WP_Rocket/Preload 20210930234840
+Viber 20210929144015
+Iframely/1.3.1_(_https://iframely.com/docs/about) 20210902171357
+ltx71_-_(http://ltx71.com/) 20210902090537
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 292 580
+From1 0 0
+From2 25 42
+From3 36 36
+From4 2253 7474
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 23 40
+search 1 1
+bing 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 26
+https://link.2gis.ru 5 5
+https://u.to 5 5
+http://baidu.com 3 3
+https://boryslav.do.am 1 1
+https://kwork.ru 1 1
+http://fotoaz.com.ua 1 1
+https://kharkov-hobby.ucoz.ua 1 1
+https://shkatulochka.kiev.ua 1 1
+http://ves.dp.ua 1 1
+http://www.freeboard.com.ua 1 1
+http://krolikovod.com.ua 1 1
+http://besedkas.com.ua 1 1
+http://turizm.ukrbb.net 1 1
+http://bigmmc.com 1 1
+https://what-is.com.ua 1 1
+http://www.bisound.com 1 1
+http://agrotrans.5nx.org 1 1
+http://interesnoe.info 1 1
+https://doa.at.ua 1 1
+https://florinka.at.ua 1 1
+http://umf.org.ua 1 1
+http://writetranslate.ukrbb.net 1 1
+http://besedka.tforums.org 1 1
+http://mmix.ukrbb.net 1 1
+http://www.dnipro-ukr.com.ua 1 1
+http://partnerusa.net 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+403 1 394
+206 2 97926
+400 4 1672
+302 5 3863
+201 1 864
+500 288 399512
+301 64 23561
+404 81 1609636
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 48
+/apple-touch-icon.png 2 -
+/vendor/.env 2 -
+/wp-content/plugins/wp-automatic/process_form.php 1 http://omega-ritual.com.ua/wp-content/plugins/wp-automatic/process_form.php
+/new-site/ 1 -
+/new/ 1 -
+/bak/ 1 -
+/2018/ 1 -
+/web/ 1 -
+/wp1/ 1 -
+/wp-content/plugins/wp-pinterest-automatic/process_form.php 1 http://omega-ritual.com.ua/wp-content/plugins/wp-pinterest-automatic/process_form.php
+/tel:+380669040707 1 -
+/wp-admin/admin-ajax.php 2 https://omega-ritual.com.ua/wp-admin/customize.php
+/site/ 1 -
+/install/ 1 -
+/blog/ 1 -
+/.env 6 -
+/tel:+380939040707 1 -
+/wp/ 1 -
+/tmp/ 1 -
+/storage/.env 2 -
+/v1/ 1 -
+/old/ 1 -
+/ads.txt 1 http://omega-ritual.com.ua/ads.txt
+/main/ 1 -
+/tel:+380689040707 1 -
+/2020/ 1 -
+/apple-touch-icon-precomposed.png 2 -
+/bk/ 1 -
+/wp-content/plugins/wp-automatic/wp-pinterest-automatic 1 http://omega-ritual.com.ua/wp-content/plugins/wp-automatic/wp-pinterest-automatic
+/tel:+380442090261 1 -
+/demo/ 1 -
+/v2/ 1 -
+/data:image/svg+xml,%3Csvg%20xmlns=http:/www.w3.org/2000/svg%20viewBox=0%200%20244%2090%3E%3C/svg%3E 1 -
+/test/ 1 -
+/wp-content/plugins/popup-notifier-for-contact-form-7/wp-color-picker-script.js 22 https://omega-ritual.com.ua/wp-admin/post.php
+/wp2/ 1 -
+/2019/ 1 -
+/backup/ 1 -
+/old-wp/ 1 -
+/tel:380442090261 1 -
+/temp/ 1 -
+/cms/ 1 -
+/dev/ 1 -
+/public/.env 2 -
+/home/ 1 -
+/ritualnyj-zal/data:image/svg+xml,%3Csvg%20xmlns=http:/www.w3.org/2000/svg%20viewBox=0%200%20244%2090%3E%3C/svg%3E 2 -
+/tel:380442092472 1 -
+/old-site/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 161
+176.114.0.75 1602 1602 48699253 20210930234840
+37.57.243.244 288 1771 28298397 20210924133542
+195.64.237.140 81 290 7321349 20210909135550
+93.75.71.8 38 287 3263987 20210901141512
+37.73.94.229 33 185 7898679 20210901184201
+91.202.111.161 31 89 2659591 20210929121452
+89.21.95.53 27 136 1986073 20210916114918
+212.90.61.0 25 83 2964966 20210914105945
+107.150.63.173 22 22 222800 20210928135012
+178.54.6.105 21 83 2517016 20210930155639
+40.77.189.188 0 1 962 
+54.87.144.117 2 4 66045 20210902171357
+81.109.128.188 0 6 366953 
+173.252.127.120 0 3 4262 
+89.223.30.95 1 1 146741 20210910224057
+88.99.195.210 1 1 30464 20210903094401
+40.77.188.92 0 1 2039 
+116.202.35.118 1 1 52871 20210903100719
+185.251.193.172 13 118 3571409 20210922194152
+94.153.16.250 3 3 78875 20210913143145
+46.211.43.89 3 61 5963854 20210901122452
+46.211.20.201 2 51 758496 20210930154501
+40.77.188.212 0 1 4160 
+185.200.117.172 1 1 1372 20210928042035
+213.239.217.87 2 2 53082 20210901135052
+15.222.33.145 1 1 423 20210912080733
+157.55.39.111 0 1 1790 
+198.204.230.84 12 12 121726 20210928031407
+40.77.188.127 0 1 80574 
+185.41.248.228 7 67 1406069 20210901091151
+116.202.33.241 1 1 52857 20210916165202
+91.221.199.72 6 111 1500896 20210917041404
+146.120.127.150 13 81 2712506 20210901211530
+188.166.174.145 1 1 44976 20210923163319
+64.246.165.200 1 1 52986 20210903001955
+92.60.178.47 0 1 11936 
+178.159.98.117 4 4 1249 20210923103603
+69.30.223.94 10 10 101428 20210928034753
+88.99.195.239 1 1 52857 20210916185533
+195.46.35.132 0 1 6417 
+144.76.22.136 1 1 52857 20210916183503
+88.155.47.20 11 122 6195021 20210922210253
+207.46.13.37 0 1 2704 
+40.77.189.26 0 1 4160 
+142.54.181.62 6 6 60855 20210928075634
+94.153.42.154 1 1 21979 20210923204909
+173.252.127.117 0 1 815 
+199.168.103.250 14 14 141977 20210928004421
+144.76.22.144 1 1 30342 20210903102255
+23.100.232.233 3 60 546116 20210925232410
+93.73.63.72 4 54 1614757 20210922140815
+194.183.167.169 11 172 3927488 20210923130442
+40.77.190.48 1 1 6830 20210927040337
+188.34.194.99 0 24 1073914 
+194.147.50.111 7 61 727636 20210912113905
+40.77.189.31 0 1 3388 
+46.211.79.176 1 1 21940 20210923154528
+46.211.79.213 1 1 21957 20210923123005
+20.109.124.185 1 1 244 20210912054103
+58.251.94.154 1 1 270 20210929234258
+185.177.190.220 8 57 894128 20210901170716
+94.130.167.240 2 2 53083 20210916175220
+176.8.143.161 10 61 1624472 20210929144015
+89.19.102.145 3 42 492267 20210905211927
+37.57.110.249 2 2 105696 20210914013518
+94.153.13.137 3 52 756581 20210910235910
+40.77.189.35 1 1 6830 20210928123334
+204.12.206.43 6 6 60860 20210928034610
+173.252.127.118 1 1 52984 20210924001942
+46.211.82.153 2 33 516831 20210908134555
+193.203.48.31 4 4 183526 20210913163255
+23.88.96.4 1 1 52863 20210925125434
+27.115.124.109 3 58 850999 20210929234814
+34.72.203.35 2 2 97843 20210922015312
+142.54.177.2 4 4 40363 20210928132122
+40.77.190.8 0 1 1316 
+40.77.188.207 1 1 6830 20210921065258
+34.221.167.251 1 1 52858 20210926070626
+173.252.127.22 0 8 137054 
+40.77.191.254 1 1 228783 20210906055613
+88.99.195.225 1 1 52865 20210924105145
+173.252.127.7 0 4 12088 
+40.77.188.65 0 1 4160 
+66.249.93.134 4 91 1947398 20210927105736
+88.99.195.196 1 1 52856 20210901132217
+40.77.188.145 0 1 962 
+40.77.202.127 1 3 8323 20210930203636
+93.72.12.159 13 69 1064972 20210905150843
+136.56.84.235 2 57 1232847 20210921023758
+95.163.107.74 3 3 439829 20210910225041
+116.202.33.240 1 1 52857 20210916171521
+198.204.230.85 4 4 40366 20210928104011
+40.77.188.100 1 1 6877 20210928174611
+13.229.148.183 0 3 92782 
+15.236.145.34 1 1 45011 20210926140021
+20.106.73.34 2 2 488 20210929115821
+94.153.60.175 2 6 170287 20210929161752
+36.99.136.131 1 1 52864 20210930035711
+192.187.114.14 10 10 101430 20210928032800
+181.1.13.207 2 2 58128 20210930230716
+46.211.20.107 6 9 553362 20210922151601
+173.252.127.10 1 13 163220 20210924001949
+107.150.60.237 16 16 161928 20210928125919
+162.55.213.89 0 70 8763746 
+74.125.208.10 7 105 2369475 20210927105737
+40.77.189.6 0 1 962 
+94.130.168.232 2 2 293344 20210923173116
+142.54.177.5 14 14 141985 20210928063720
+52.114.77.236 2 4 92964 20210901151657
+66.249.93.136 4 63 1765241 20210927105732
+173.252.127.19 0 11 154802 
+51.75.95.101 1 1 52860 20210923052342
+173.252.127.1 0 3 7886 
+64.246.161.30 1 1 52839 20210922224442
+181.214.162.50 2 50 734725 20210911102338
+40.77.190.101 0 3 6438 
+207.46.13.12 0 1 5583 
+176.8.250.21 6 64 889165 20210925103926
+94.153.14.231 6 127 6354281 20210913100057
+46.211.81.76 1 1 21974 20210924081205
+69.30.231.84 8 8 81123 20210928064138
+178.151.175.133 2 44 1376918 20210913095443
+185.170.56.250 2 50 734744 20210911102815
+40.77.189.232 0 1 1316 
+40.77.189.101 0 1 2027 
+27.115.124.70 2 56 766787 20210929234552
+116.202.35.82 1 1 52857 20210916155427
+173.252.127.15 0 4 71147 
+138.201.223.94 2 2 53083 20210916185435
+74.125.208.6 6 115 2337800 20210927105733
+40.77.190.85 1 3 18362 20210927080847
+94.153.90.50 6 116 6937524 20210922140825
+212.3.194.243 4 58 667009 20210914095003
+36.99.136.134 1 1 52868 20210930035545
+74.125.208.8 5 102 1719192 20210927105732
+18.224.190.219 1 1 52854 20210916070437
+206.189.125.43 1 1 44970 20210922091615
+107.150.63.172 1 1 52863 20210920210119
+46.8.229.37 1 1 52856 20210901134716
+173.252.127.18 0 5 60119 
+40.77.189.142 1 1 6830 20210926104338
+193.58.169.170 1 1 52857 20210916165139
+35.202.2.1 14 29 1335917 20210902085530
+193.254.217.21 18 104 1941084 20210902123702
+178.216.9.105 2 51 758509 20210920195658
+31.3.152.69 2 50 692547 20210914113112
+94.158.20.206 4 4 183469 20210915052650
+40.77.188.60 0 1 962 
+66.249.93.138 4 69 1091033 20210927105730
+157.55.39.159 0 1 2704 
+109.95.47.202 4 83 2583155 20210921111605
+195.211.139.236 4 115 6563209 20210923134913
+40.77.191.249 1 3 88366 20210927072015
+40.77.139.72 0 3 3705 
+42.236.10.125 2 56 766793 20210929234517
+88.99.144.157 2 2 53083 20210916173115
+40.77.189.113 0 2 2278 
+46.211.41.38 3 50 894165 20210929144058
+162.55.34.200 0 92 14752459 
+188.239.25.24 4 58 1731765 20210901190526
+198.204.245.85 5 5 398173 20210926235858
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20210901 172 865 25923015 17
+20210902 95 198 5194450 7
+20210903 53 91 2083421 9
+20210904 57 60 1711717 5
+20210905 75 170 3300911 7
+20210906 38 225 25952219 6
+20210907 60 60 1776066 2
+20210908 199 800 15874424 9
+20210909 65 93 2784873 7
+20210910 70 154 3701138 11
+20210911 49 145 2820977 8
+20210912 70 124 2580721 14
+20210913 79 297 11070176 15
+20210914 102 376 7473211 17
+20210915 64 67 1994759 11
+20210916 99 163 3968873 23
+20210917 244 1267 19996893 11
+20210918 8 8 230930 8
+20210919 37 56 1307056 13
+20210920 51 103 2310869 15
+20210921 64 199 5612851 16
+20210922 98 477 20689128 24
+20210923 80 297 11558750 19
+20210924 68 388 8474616 21
+20210925 71 148 3077231 14
+20210926 66 69 2315518 17
+20210927 153 474 9848416 51
+20210928 112 113 2260239 33
+20210929 110 435 9359922 20
+20210930 97 210 5564085 16
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 7
+5mn-15mn 9
+30s-2mn 25
+2mn-5mn 5
+15mn-30mn 5
+0s-30s 374
+30mn-1h 21
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 84
+/ 270 10463249 97 70
+/wp-login.php 130 1302458 50 51
+/wp-admin/admin-ajax.php 104 160124 0 1
+/o-kompanii/ 86 1948057 14 4
+/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff2 82 563303 15 30
+/ritualnyj-zal/ 80 2233254 5 28
+/uslugi-morga/ 74 2061342 1 10
+/ritualnye-tovary/ 73 1750290 4 10
+/kontakty/ 73 1795993 1 38
+/organizator-pohoron/ 73 2317318 6 19
+/wp-content/plugins/schema/assets/fonts/dashicons.woff 2 2512 0 0
+/wp-admin/load-styles.php 14 1725645 0 0
+/wp-content/uploads/2021/07/IMG-0498-224x300.jpg.webp 1 10100 0 0
+/blocks/header-phone/ 1 423 1 1
+/wp-content/uploads/2021/07/IMG-0646-198x300.jpg.webp 1 11460 0 0
+/featured_item/ 36 794579 6 0
+/wp-admin/async-upload.php 3 3040 0 0
+/wp-content/uploads/2021/07/IMG-0495-224x300.jpg.webp 1 18506 0 0
+/wp-content/uploads/2021/07/IMG-0067-225x300.png.webp 1 10392 0 0
+/wp-admin/ 4 172966 0 0
+/venki-na-pohorony/ 69 1943980 5 4
+/oformlenie-dokumentov-dlya-pohoron/ 60 1803617 6 1
+/dezobrabotka/ 59 1765010 2 1
+/wp-content/uploads/2021/07/IMG-0484-225x300.jpg.webp 1 8698 0 0
+/wp-admin/post.php 18 1196599 0 0
+/wp-content/uploads/2021/07/IMG-0648-194x300.jpg.webp 1 9940 0 0
+/wp-content/ 3 732 3 3
+/wp-content/uploads/2021/07/IMG-0644-225x300.jpg.webp 1 15622 0 0
+/perevozka-umershih/ 72 2021944 24 1
+/wp-json/wp/v2/ 4 57940 0 0
+/2021/07/05/%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82-%D0%BC%D0%B8%D1%80/ 18 475019 1 1
+/wp-content/uploads/2021/07/IMG-0499-224x300.jpg.webp 1 11116 0 0
+/medicinskoe-soprovozhdenie-pohoron/ 65 1845139 2 8
+/wp-content/uploads/2021/07/IMG-0036.png.webp 1 50274 0 0
+/wp-content/uploads/2021/07/IMG-0500-224x300.jpg.webp 1 15256 0 0
+/. 4 211428 4 4
+/ritualnyj-agent/ 68 1961277 5 8
+/wp-content/uploads/2021/07/IMG-0485-225x300.jpg.webp 1 18478 0 0
+/wp-content/uploads/2021/07/IMG-0488-225x300.jpg.webp 1 12620 0 0
+/otpevanie-umershego/ 63 1873239 2 13
+/wp-content/uploads/2021/07/IMG-0036-225x300.png.webp 1 12364 0 0
+/wp-json/wp/v2/types 8 31752 0 0
+/ritualnye-pamyatniki 1 30394 0 0
+/wp-content/uploads/2021/07/IMG-0494-224x300.jpg.webp 1 14026 0 0
+/iskusstvennye-venki/ 54 1728051 10 0
+/pominalnye-obedy/ 70 2021516 20 10
+/ritualnye-kresty/ 62 1878825 5 1
+/ritualnye-uslugi/ 55 1041072 0 7
+/venki-na-pohorony 1 30693 0 0
+/muzykalnoe-soprovozhdenie-pohoron/ 64 1831816 11 8
+/wp-admin/customize.php 3 546068 0 0
+/wp-json/wp/v2/users 1 5085 0 0
+/ritualnyj-transport/ 64 1912309 52 1
+/author/admin-omg/ 26 688078 1 5
+/wp-content/uploads/2021/07/IMG-0483-225x300.jpg.webp 1 11306 0 0
+/venok-iz-zhivyh-cvetov 1 32200 0 0
+/wp-content/uploads/2021/07/IMG-0647-197x300.jpg.webp 1 8062 0 0
+/venok-iz-zhivyh-cvetov/ 56 1783434 2 12
+/wp-content/uploads/2021/07/IMG-0493-224x300.jpg.webp 1 13498 0 0
+/wp-content/uploads/2021/07/IMG-0486-225x300.jpg.webp 1 15174 0 0
+/wp-admin/theme-editor.php 1 20650 0 0
+//wp-includes/wlwmanifest.xml 1 1372 1 1
+/nosilshhiki-groba/ 64 2381042 4 4
+/wp-content/uploads/2021/07/IMG-0497-224x300.jpg.webp 1 11692 0 0
+/groby/ 71 2295158 21 9
+/portret-na-pohorony/ 57 1724798 1 8
+/wp-content/uploads/2021/07/IMG-0651-204x300.jpg.webp 1 13078 0 0
+/wp-json/oembed/1.0/embed 1 1922 0 1
+/ceny/ 52 1450198 12 4
+/wp-content/uploads/2021/07/IMG-0501-224x300.jpg.webp 1 13552 0 0
+/wp-content/uploads/2021/07/IMG-0502-224x300.jpg.webp 1 13698 0 0
+/wp-json/wp/v2/widget-types 3 5652 0 0
+/wp-content/uploads/2021/07/IMG-0041-225x300.png.webp 1 15094 0 0
+/vedushhij-na-pohorony/ 60 1690678 2 51
+/ritualnye-pamyatniki/ 60 1799552 39 3
+/wp-content/uploads/2021/07/IMG-0037.png.webp 1 52314 0 0
+/wp-content/uploads/2021/07/IMG-0037-225x300.png.webp 1 11818 0 0
+/wp-json/contact-form-7/v1/contact-forms 7 6384 0 0
+/wp-content/uploads/2021/07/IMG-0068-225x300.png.webp 1 13536 0 0
+/wp-content/uploads/2021/07/IMG-0041.png.webp 1 64750 0 1
+/wp-content/uploads/2021/07/IMG-0487-225x300.jpg.webp 1 14368 0 0
+/uslugi-kremacii/ 67 1843298 10 13
+/pohoronnyj-nabor/ 59 1842640 1 1
+/wp-content/uploads/2021/07/IMG-0496-224x300.jpg.webp 1 12518 0 0
+END_SIDER

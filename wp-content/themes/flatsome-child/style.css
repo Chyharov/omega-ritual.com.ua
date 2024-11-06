@@ -1,0 +1,696 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+.button, button, 
+input[type='submit'], 
+input[type='reset'], 
+input[type='button'],
+.nav-uppercase>li>a,
+b, strong{
+  font-weight: normal;
+}
+.col-srv-txt b, .col-srv-txt strong{
+  font-weight: 600;
+}
+.header-top-text{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.header-top-subtext{
+  text-transform: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+}
+.header-top-text-15{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.header-block-block-1{
+  border-left: 2px solid #333;
+  padding-left: 30px;
+}
+.header-phone{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #D4B669;
+}
+.header-phone-subtext{
+  font-size: 14px;
+}
+
+#header .mass-header{
+	margin-bottom: 4px;
+    margin-top: 2px;
+}
+.mass-header .col{
+	padding: 0 7px;
+	max-width: 50px;
+    text-align: center;
+}
+.mass-header .plain{
+	display: inline-block;
+	margin: 0 5px;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+	-webkit-filter: grayscale(70%);
+    -moz-filter: grayscale(70%);
+    -ms-filter: grayscale(70%);
+    -o-filter: grayscale(700%);
+    filter: grayscale(70%);
+    filter: gray;
+}
+.mass-header .plain:hover{
+	-webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+.mass-header a.plain[href*="viber://add?number"]{
+	display: none !important;
+}
+#footer .mass-header .col{
+	max-width: 60px;
+}
+#footer .mass-header .icon-box-img{
+	width: 36px!important;
+}
+
+.order-callback{
+  border-bottom: 1px dashed #333;
+}
+.service-item{
+  position: relative;
+}
+.service-item .button{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  text-align: left;
+  margin-bottom: 0;
+}
+.box-overlay.dark.service-item .box-text{
+  text-shadow: none;
+  /* z-index: 2; */
+}
+.service-item .overlay{
+  background: none;
+}
+.service-item .box-image{
+  background: radial-gradient(84.41% 202.79% at 0% 0%, #BABABA 0%, #F9F7F7 100%);
+  transition: .3s;
+}
+.service-item.box:hover .box-image{
+  background: radial-gradient(84.41% 202.79% at 0% 0%, #797979 0%, #F9F7F7 100%);
+}
+.service-item.box .button{
+  transition: .3s;
+}
+.service-item.box:hover .button{
+  background-color: #333 !important;
+}
+
+.service-item .box-image img{
+  z-index: 1;
+}
+.service-item .box-text{
+  height: 100%;
+}
+.sect-msg-phone p{
+  margin-bottom: 20px;
+}
+.sect-msg-phone .icon-phone:before{
+  content: "";
+  background-image: url(/wp-content/uploads/2021/07/phone-call-1.svg);
+  width: 48px;
+  height: 48px;
+  display: block;
+}
+ul li.bullet-checkmark, ul li.bullet-arrow, ul li.bullet-star{
+  padding: 3px 0 3px 20px;
+  border: none;
+}
+ul li.bullet-checkmark:before, ul li.bullet-arrow:before, ul li.bullet-star:before{
+  font-size: 13px;
+  color: #333;
+  top: 7px;
+}
+
+.footer .widget-title{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #D4B669;
+}
+.widget .is-divider{
+  background-color:#D4B669;
+  height: 2px;
+  max-width: 60px;
+}
+.footer-widgets #nav_menu-3, 
+.footer-widgets #block_widget-3{
+  max-width: 25%;
+  -ms-flex-preferred-size: 25%;
+  flex-basis: 25%;
+}
+.footer-widgets #nav_menu-4{
+  max-width: 50%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+}
+.footer-widgets #nav_menu-4 ul{
+  columns: 220px;
+}
+.footer .dark ul.menu>li+li, .footer .dark .widget>ul>li+li{
+  border: none;
+}
+.footer ul.menu>li>a, 
+.footer ul.menu>li>span:first-child, 
+.footer .widget>ul>li>a, 
+.footer .widget>ul>li>span:first-child{
+  padding: 2px 0;
+}
+.copyright-footer{
+  border-top: 1px solid rgba(255,255,255,0.5);
+  padding-top: 15px;
+}
+
+.col-text-serv:before{
+  position: absolute;
+  right: 0;
+  bottom: -142px;
+  content: '';
+  height: 100%;
+  width: 240px;
+  background: url(/wp-content/uploads/2021/07/krest.svg) no-repeat;
+  z-index: -1;
+  opacity: .3;
+}
+.col-text-prod:before{
+  position: absolute;
+  right: 0;
+  bottom: -142px;
+  content: '';
+  height: 100%;
+  width: 240px;
+  background: url(/wp-content/uploads/2021/07/grobik.svg) no-repeat;
+  z-index: -1;
+  opacity: .3;
+}
+.s__text{
+  overflow: auto;
+  height: 300px;
+  padding: 10px 20px;
+  display: block;
+}
+.s__text::-webkit-scrollbar{ width: 4px; height: 4px;}
+.s__text::-webkit-scrollbar-track{  background-color: #ebebeb;}
+.s__text::-webkit-scrollbar-track-piece{ background-color: #ebebeb;}
+.s__text::-webkit-scrollbar-thumb{ height: 50px; background-color: #666; border-radius: 10px;}
+.s__text::-webkit-resizer{ background-color: #666;}
+
+.tarif-item .button:hover{
+  box-shadow: none;
+  cursor: default;
+}
+.cat-prod-item{
+  position:relative
+}
+
+.cat-prod-item a:before{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: block;
+}
+.sect-top .button{
+  padding: 0 2.2em;
+}
+.nav-dropdown-has-border .nav-dropdown{
+  border: none;
+  padding: 10% 15%;
+}
+.ux-menu-link__link{
+  padding: 0;
+}
+.has-dropdown .icon-angle-down{
+    top: 3px;
+}
+blockquote{
+	line-height: 1.3;
+}
+
+@media only screen and (max-width: 1175px){
+  .col-head-15y{
+    display: none;
+  }
+  .col-head-txt{
+    max-width: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  .header-phone{
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 975px){
+  .footer-widgets #nav_menu-3, 
+  .footer-widgets #block_widget-3,
+  .footer-widgets #nav_menu-4{
+    max-width: 33.33%;
+    -ms-flex-preferred-size: 33.33%;
+    flex-basis: 33.33%;
+  }
+  .header-phone{
+	font-size: 17px; 
+  }
+  #header .mass-header{
+    margin-bottom: 8px;
+    margin-top: 0px;
+  }
+  #header .mass-header .plain .icon-box-img{
+	width: 24px !important;
+  }
+	.mass-header a.plain[href*="viber://chat?number"]{
+		display: none !important;
+	}
+	.mass-header a.plain[href*="viber://add?number"]{
+		display: inline-block !important;
+	}
+}
+@media only screen and (max-width: 680px){
+  .footer-widgets #nav_menu-4{
+    max-width: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  .footer-widgets .row{
+    display: flex;
+    flex-flow: wrap;
+  }
+  .footer-widgets #block_widget-3{
+    order: 2;
+    max-width: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+  }
+  .footer-widgets #nav_menu-3{
+    order: 1;
+    max-width: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+  }
+  .footer-widgets #nav_menu-4{
+    order: 0;
+  }
+}
+@media only screen and (max-width: 500px){
+  .footer-widgets #nav_menu-3,
+  .footer-widgets #block_widget-3{
+    max-width: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+}
+.col-menu-left .nav-vertical>li+li{
+  border: none;
+}
+.col-menu-left .nav-outline>li>a{
+  padding: 0 1.2em;
+}
+.col-menu-left .nav>li>a{
+  font-size: .9em;
+  line-height: 2;
+}
+.page-title.dark.featured-title{
+  background-color: #333;
+}
+.col-msg-phone .icon-phone:before{
+  content: "";
+  background-image: url(/wp-content/uploads/2021/07/phone-call-32.svg);
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+.svg-container-top{
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  top: -50px;
+  left:0;
+}
+.svg-container-bottom{
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  top: -6px;
+  right: -34px;
+}
+.nav-dropdown-has-arrow li.current-dropdown.has-dropdown:after,
+.nav-dropdown-has-arrow li.current-dropdown.has-dropdown:before{
+  display: none;
+}
+li.current-dropdown>.nav-dropdown, .next-prev-thumbs li.has-dropdown:hover>.nav-dropdown, .no-js li.has-dropdown:hover>.nav-dropdown{
+  top: 47px;
+}
+.nav-dropdown-default .nav-column li>a, .nav-dropdown.nav-dropdown-default>li>a{
+  border: none;
+}
+.nav-column li>a, .nav-dropdown>li>a{
+  padding: 8px 20px;
+}
+.ux-menu-link--active .ux-menu-link__link, .ux-menu-link:hover .ux-menu-link__link{
+  color: #d4b669;
+}
+.col-menu-prod .ux-menu-link.pl-10{
+  padding-left: 32px;
+}
+.col-menu-prod .ux-menu-link.pl-10+.ux-menu-link.pl-10{
+	margin-bottom: 3px!important;
+}
+.col-menu-prod .ux-menu-link.icon-venki .ux-menu-link__link{
+	min-height: 22px;
+}
+.col-menu-prod .ux-menu-link.pl-10 .ux-menu-link__link{
+	min-height: 22px;
+}
+.row-menu-prod .ux-menu-link.flex.menu-item:before{
+  display: inline-block;
+  position: relative;
+  content: "";
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  top: -5px;
+  left: 0;
+  transition: all .4s;
+}
+.col-menu-prod .ux-menu-link.pl-10:before{ 
+  display: none !important;
+}
+.row-menu-prod .ux-menu-link.icon-grob:before{
+  background-image: url(/wp-content/uploads/2021/07/003-coffin.svg);
+}
+.row-menu-prod .ux-menu-link.icon-krest:before{
+  background-image: url(/wp-content/uploads/2021/07/002-cross.svg);
+}
+.row-menu-prod .ux-menu-link.icon-nabor:before{
+  background-image: url(/wp-content/uploads/2021/07/001-celtic-cross.svg);
+}
+.row-menu-prod .ux-menu-link.icon-pamyat:before{
+  background-image: url(/wp-content/uploads/2021/07/006-tomb.svg);
+}
+.row-menu-prod .ux-menu-link.icon-portret:before{
+  background-image: url(/wp-content/uploads/2021/07/005-man.svg);
+}
+.row-menu-prod .ux-menu-link.flex.menu-item.icon-venki:before{
+	background-image: url(/wp-content/uploads/2021/07/004-wreath.svg);
+	top: 2px;
+}
+.row-menu-prod .ux-menu-link.icon-urna:before{
+  background-image: url(/wp-content/uploads/2023/11/007-2.png);
+  background-size: contain;
+}
+#wide-nav .flex-left>.nav>li.menu-item-has-children:before{
+	content: "";
+	display: inline-block;
+	bottom: -8px;
+}
+/*#wide-nav .flex-left>.nav>li.wpml-ls-item{
+	display: none;
+}*/
+.tovar-bls .col-inner,
+.col-srv-prod .row .col .col-inner{
+	position: relative;
+}
+.tovar-bls .col-inner .img,
+.col-srv-prod .row .col .col-inner .img{
+	position: unset;
+}
+.tovar-bls .col-inner .text,
+.col-srv-prod .row .col .col-inner .text{
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.tovar-bls .col-inner:hover .text,
+.col-srv-prod .row .col .col-inner:hover .text{
+	color: #906d12;
+}
+.col-srv-prod .row .col .col-inner .img a:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: block;
+}
+#wide-nav .flex-left>.nav>li.wpml-ls-item:before{
+	left: calc(50% + 7px);
+}
+#wide-nav .flex-left>.nav>li.wpml-ls-item>a{
+	pointer-events: none;
+}
+#wide-nav .flex-left>.nav>li.wpml-ls-item>a:before,
+.mobile-sidebar>.sidebar-menu>.nav>li.wpml-ls-item>a:before{
+	content: "";
+	display: inline-block;
+	position: relative;
+	width: 20px;
+	height: 20px;
+    margin-right: 6px;
+    top: 1px;
+	left: 0;
+	opacity: 1 !important;
+	transition: all .4s;
+	background-image: url(/wp-content/uploads/2022/07/1e5a0e75e2419c45574525a5ac5aaf3b.svg);
+	background-size: contain;
+}
+#wide-nav .flex-left>.nav>li.wpml-ls-item>a img{
+	display: none;
+}
+#wide-nav .flex-left>.nav>li.wpml-ls-item>a>span{
+	position: relative;
+}
+#wide-nav .flex-left>.nav>li.wpml-ls-item>a>span:after{
+	content: "";
+	display: inline-block;
+	position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+.mobile-sidebar-levels-1 .nav-slide>li>ul.sub-menu{
+	padding-top: 0;
+}
+.mobile-sidebar-levels-1 .nav-slide .nav-slide-header{
+	background-color: #ececec;
+	padding-top: 20px;
+}
+#wide-nav .flex-left>.nav>li.wpml-ls-item ul.sub-menu{
+	min-width: 110px;
+	text-align: center;
+}
+#wide-nav .flex-left>.nav>li.wpml-ls-item ul.sub-menu img,
+#wide-nav .flex-left>.nav>li.wpml-ls-item ul.sub-menu img{
+	width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+}
+#wide-nav .flex-left>.nav>li.wpml-ls-item ul.sub-menu a:hover{
+	color: #d4b669;
+}
+.mobile-sidebar>.sidebar-menu>.nav>li.wpml-ls-item>a img,
+.mobile-sidebar>.sidebar-menu>.nav>li.wpml-ls-item ul.sub-menu .nav-slide-header img{
+	display: none;
+}
+.mobile-sidebar>.sidebar-menu>.nav>li.wpml-ls-item ul.sub-menu a{
+	font-size: 16px;
+	color: #000;
+}
+.mobile-sidebar>.sidebar-menu>.nav>li.wpml-ls-item ul.sub-menu a:hover{
+	color: #ab9254;
+}
+.mobile-sidebar>.sidebar-menu>.nav>li.wpml-ls-item ul.sub-menu img{
+	width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+	margin-right: 6px;
+}
+.mobile-sidebar>.sidebar-menu>.nav>li button.toggle i.icon-angle-right{
+	top: 1px;
+}
+.html_topbar_left .ru,
+.html_topbar_left .ua{
+	display: none;
+}
+html[lang="uk-UA"] .html_topbar_left .ua,
+html[lang="ru-RU"] .html_topbar_left .ru{
+	display: block;
+}
+.copyright-footer .ru,
+.copyright-footer .ua{
+	display: none;
+}
+html[lang="uk-UA"] .copyright-footer .ua,
+html[lang="ru-RU"] .copyright-footer .ru{
+	display: inline-block;
+}
+
+#btn-agent .icon-box-text .text p{
+	margin-bottom: 10px;
+}
+#btn-agent .col-inner .icon-box:last-child{
+	margin-bottom: 20px;
+}
+.form-callb01 h3{
+  text-align: center;
+}
+input[type='text'], 
+input[type='tel'],
+input[type='submit']{
+  border-radius: 99px;
+  text-transform: none;
+}
+.form-callb01 input{
+  padding: 0 1.3em;
+}
+.swal2-container.swal2-center>.swal2-popup{
+	border-radius: 20px;
+}
+.swal2-popup .swal2-title{
+	padding: 0 20px;
+	font-size: 16px !important;
+}
+body .swal2-popup .swal2-styled.swal2-confirm{
+	border-radius: 99px;
+	padding: 0 30px;
+	border: none;
+}
+#btn-callback, #btn-consalt, #btn-agent{
+  border-radius: 20px;
+  padding: 25px !important;
+  padding-bottom: 1px !important;
+}
+.col-srv-last_item{
+  display: none;
+}
+.sect-srvice-all .col-srv-last_item{
+  display: block;
+}
+.wpcf7 .wpcf7-not-valid-tip{
+    margin-top: -14px;
+	font-size:14px;
+}
+.popup-contact .img-inner{
+	border-radius: 10px;
+}
+@media only screen and (max-width: 1400px){
+	#btn-callback, #btn-consalt, #btn-agent{
+		max-width: 70% !important;
+  }
+}
+@media only screen and (max-width: 1100px){
+	li.html_topbar_left{
+		display: none;
+  }
+}
+@media only screen and (max-width: 980px){
+	#btn-callback, #btn-consalt, #btn-agent{
+		max-width: 95% !important;
+  }
+}
+@media only screen and (max-width: 850px){
+  .title-breadcrumbs.pb-half.pt-half{
+    padding: 0;
+  }
+  .off-canvas:not(.off-canvas-center) .nav-vertical li>a{
+    padding-left: 40px;
+    font-size: 16px;
+  }
+  .header-block-block-2 .row .col:first-child{
+    padding-bottom: 0;
+  }
+  #main-menu .sidebar-menu .header-block .row .gap-element{
+	display: none !important;
+  }
+  #main-menu .sidebar-menu .mass-header .plain .icon-box-img{
+	margin-bottom: 4px;
+  }
+  #main-menu .sidebar-menu .mass-header .plain{
+	-webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+  .flow-01, .flow-02{
+    opacity: .5;
+  }
+}
+@media only screen and (max-width: 550px){
+  .msg-phone span{
+      font-size: 24px;
+    }
+    .sect-msg-phone .icon-phone:before{
+      background-image: url(/wp-content/uploads/2021/07/phone-call-32.svg);
+      width: 32px;
+      height: 32px;
+    }
+    .sect-msg-phone p{
+      margin-bottom: 0;
+    }
+	#btn-agent .icon-box-text h3{
+		font-size: 18px;
+	}
+}
+.page-header-wrapper+.section .row>.col{
+  padding-bottom: 25px;
+}
+.msg-phone-page{
+  margin-bottom: 0;
+}
+.header-phone a:hover{
+  color: #906d12 !important;
+  transition: all .4s;
+}
